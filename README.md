@@ -11,11 +11,11 @@
 
 # Manual
 
-**<p align="center"><a href="docs/evcs/main.md">EVCS: Etevers VMware Cloud Standards</a></p>**
+**<p align="center"><a href="docs/evcs/README.md">EVCS: Etevers VMware Cloud Standards</a></p>**
 
-**<p align="center"><a href="docs/bvp/main.md">BVP: Broadcom Value Pack</a> --> <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">[ Download ]</a></p>**
+**<p align="center"><a href="docs/bvp/README.md">BVP: Broadcom Value Pack</a> --> <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">[ Download ]</a></p>**
 
-**<p align="center"><a href="docs/orb/main.md">ORB: Orbrium</a></p>**
+**<p align="center"><a href="docs/orb/README.md">ORB: Orbrium</a></p>**
 
 # Orbrium Release Notes
 
