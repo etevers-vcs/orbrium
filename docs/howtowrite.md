@@ -21,11 +21,17 @@ OK
 
 </details>
 
+<p align="center">Center Text</p>
+
+<p align="right">Right Text</p>
+
 This is external [Link to Google](https://google.com)\
 This is absolute [Link to /docs/sample/dummy.md](/docs/sample/dummy.md)\
 This is relation [Link to sample/dummy.md](sample/dummy.md)
 
-Image ![50% Link](sample/orbrium-logo.png)
+Auto sized image ![Orbrium Logo](sample/orbrium-logo.png)
+
+<p align="center">50% Center image<img src="sample/orbrium-logo.png" width="50%" /></p>
 
 - 1 Tier dot list
   - 2 Tier dot list: start from parent character
@@ -93,14 +99,4 @@ init =()=> {
 | r1d1 | r1d2 | r1d3 |
 | r2d1 | r2d2 | r2d3 |
 | r3d1 | r3d2 | r3d3 |
-
-
-
-
-
-
-
-
-
-
 
