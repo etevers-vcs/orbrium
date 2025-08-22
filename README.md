@@ -13,9 +13,9 @@
 
 **<p align="center"><a href="docs/evcs">EVCS: Etevers VMware Cloud Standards</a></p>**
 
-**<p align="center"><a href="docs/bvp">BVP: Broadcom Value Pack</a> --> <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">[ Download ]</a></p>**
+**<p align="center"><a href="docs/bvp">BVP: Broadcom Value Pack</a> -> <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">Download</a></p>**
 
-**<p align="center"><a href="docs/orb">ORB: Orbrium</a></p>**
+**<p align="center"><a href="docs/orb">ORB: Orbrium</a> -> <a href="https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368">Download</a></p>**
 
 # Orbrium Release Notes
 
