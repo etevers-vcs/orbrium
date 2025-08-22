@@ -1,7 +1,7 @@
 # Orbrium Man Page
 
-<p align="center"><img src="/images/orbrium-logo.png?raw=true" width="50%"></p>
-<p align="center"><img src="/images/orbrium-home.png?raw=true" width="75%"></p>
+<p align="center"><img src="images/orbrium-logo.png?raw=true" width="50%"></p>
+<p align="center"><img src="images/orbrium-home.png?raw=true" width="75%"></p>
 
 
 # Sales Assets
@@ -12,11 +12,11 @@
 
 # Manual
 
-**<a href="/docs/evcs.md">Etevers VMware Cloud Standards</a>**
+**<a href="docs/evcs.md">Etevers VMware Cloud Standards</a>**
 
-**<a href="/docs/bvp.md">Broadcom Value Pack</a>**
+**<a href="docs/bvp.md">Broadcom Value Pack</a>**
 
-**<a href="/docs/orbrium.md">Orbrium</a>**
+**<a href="docs/orbrium.md">Orbrium</a>**
 
 # Release Notes
 
