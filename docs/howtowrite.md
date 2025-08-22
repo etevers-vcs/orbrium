@@ -20,7 +20,7 @@ This is line 2 in MD\
 
 This is external [Link to Google](https://google.com)\
 This is absolute [Link to /](/)\
-This is relation [Link to /
+This is relation [Link to sample/dummy.md](sample/dummy.md)
 
 - 1 Tier Dot List
   - 2 Tier Dot List
