@@ -4,6 +4,10 @@
 
 # Manual
 
+**<a href="/">Etevers VMware Cloud Standards</a>**
+**<a href="/">Broadcom Value Pack</a>**
+**<a href="/">Orbrium</a>**
+
 # Release Notes
 
 ## Athena
