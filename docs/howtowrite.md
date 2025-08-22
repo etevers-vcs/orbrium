@@ -31,10 +31,7 @@ This is relation [Link to sample/dummy.md](sample/dummy.md)
 
 ![Orbrium Logo](sample/orbrium-logo.png)<p align="center">Full sized image</p>
 
-<p align="center">
-	<img src="sample/orbrium-logo.png" width="50%" /><br/>
-	50% center image
-</p>
+<p align="center"><img src="sample/orbrium-logo.png" width="50%" /><br/>50% center image</p>
 
 - 1 Tier dot list
   - 2 Tier dot list: start from parent character
