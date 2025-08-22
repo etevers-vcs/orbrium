@@ -64,7 +64,7 @@ print('hello world')
 ```
 
 ```javascript
-# Javascript code block
+// Javascript code block
 init =()=> {
 	console.log('hello world');
 }
