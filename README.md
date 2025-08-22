@@ -16,7 +16,7 @@
 
 **<p align="center"><a href="docs/bvp/main.md">BVP: Broadcom Value Pack</a></p>**
 
-**<p align="center"><a href="docs/orb/main.md">Orbrium</a></p>**
+**<p align="center"><a href="docs/orb/main.md">Orb: Orbrium</a></p>**
 
 # Release Notes
 
