@@ -18,10 +18,9 @@ This is line 1 in MD\
 This is line 2 in MD\
 `\` make multiple line
 
-This is line 1 in MD
-This is line 2 in MD
-
-Double space or double line feed make multiple line
+This is external [Link to Google](https://google.com)\
+This is absolute [Link to /](/)\
+This is relation [Link to /
 
 - 1 Tier Dot List
   - 2 Tier Dot List
@@ -38,5 +37,3 @@ Code Block Line 2
 
 > Quote Text
 
-This is Absolute [Link]()
-This is Absolute [Link]()
