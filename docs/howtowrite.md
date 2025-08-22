@@ -98,8 +98,9 @@ init =()=> {
 > Caution text
 
 | Col 1 | Col 2 | Col 3 |
-| --- | --- | --- |
+| ------------- | --- | ----- |
 | r1d1 | r1d2 | r1d3 |
-| r2d1 | r2d2 | r2d3 |
-| r3d1 | r3d2 | r3d3 |
+| r2data1 | r2d2 | r2d3 |
+| r3d1 | record3d2 | r3d3 |
+| r4d1 | r4d2 | record4data3 |
 
