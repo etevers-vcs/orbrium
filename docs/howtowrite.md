@@ -10,16 +10,11 @@
 
 General Text **Bold Text** *Italic Text* ~~Mistaken Text~~ <sub>Sub Text</sub> <sup>Sup Text</sup> <ins>Ins Text</ins>
 
-This is line 1 in MD
-This is line 2 in MD
-But display A line
-
 This is line 1 in MD\
 This is line 2 in MD\
 `\` make multiple line
 
-<details>
-<summary>Collapse</summary>
+<details><summary>Collapse</summary>
 
 **This is hidden**\
 OK
@@ -56,12 +51,20 @@ Code Block Line 1
 Code Block Line 2
 ```
 
+```bash
+# Bash code block
+PWD=$(pwd)
+echo "hello world"
+```
+
 ```python
+# Python code block
 import os
-os.system('ls')
+print('hello world')
 ```
 
 ```javascript
+# Javascript code block
 init =()=> {
 	console.log('hello world');
 }
@@ -89,6 +92,7 @@ init =()=> {
 | --- | --- | --- |
 | r1d1 | r1d2 | r1d3 |
 | r2d1 | r2d2 | r2d3 |
+| r3d1 | r3d2 | r3d3 |
 
 
 
