@@ -31,7 +31,10 @@ This is relation [Link to sample/dummy.md](sample/dummy.md)
 
 Auto sized image ![Orbrium Logo](sample/orbrium-logo.png)
 
-<p align="center">50% Center image<img src="sample/orbrium-logo.png" width="50%" /></p>
+<p align="center">
+	<img src="sample/orbrium-logo.png" width="50%" />
+	50% Center image
+</p>
 
 - 1 Tier dot list
   - 2 Tier dot list: start from parent character
