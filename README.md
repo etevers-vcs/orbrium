@@ -12,11 +12,11 @@
 
 # Manual
 
-**<p align="center"><img src="images/orbrium-logo.png?raw=true" width="50%"><a href="docs/evcs.md">Etevers VMware Cloud Standards</a></p>**
+**<p align="center"><a href="docs/evcs.md">Etevers VMware Cloud Standards</a></p>**
 
-**<p align="center"><img src="images/orbrium-logo.png?raw=true" width="50%"><a href="docs/bvp.md">Broadcom Value Pack</a></p>**
+**<p align="center"><a href="docs/bvp.md">Broadcom Value Pack</a></p>**
 
-**<p align="center"><img src="images/orbrium-logo.png?raw=true" width="50%"><a href="docs/orbrium.md">Orbrium</a></p>**
+**<p align="center"><a href="docs/orbrium.md">Orbrium</a></p>**
 
 # Release Notes
 
