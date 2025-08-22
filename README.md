@@ -22,7 +22,7 @@
 
 ## Athena
 
-### 1A <a href="https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368">[ 다운로드 ]</a>
+### 1A <a href="https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368">[ Download ]</a>
 
 - Front-End
     - 클라우드 관리자 페이지
