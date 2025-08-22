@@ -6,15 +6,15 @@
 
 # Sales Assets
 
-**<a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Salesdeck.pptx">Sales Deck</a>**
+**<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Salesdeck.pptx">Sales Deck (.pptx)</a></p>**
 
-**<a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">Tech Deck</a>**
+**<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">Tech Deck (.pptx)</a></p>**
 
 # Manual
 
-**<p align="center"><a href="docs/evcs.md">Etevers VMware Cloud Standards</a></p>**
+**<p align="center"><a href="docs/evcs.md">EVCS: Etevers VMware Cloud Standards</a></p>**
 
-**<p align="center"><a href="docs/bvp.md">Broadcom Value Pack</a></p>**
+**<p align="center"><a href="docs/bvp.md">BVP: Broadcom Value Pack</a></p>**
 
 **<p align="center"><a href="docs/orbrium.md">Orbrium</a></p>**
 
