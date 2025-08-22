@@ -25,11 +25,11 @@ This is relation [Link to sample/dummy.md](sample/dummy.md)
 Image ![50% Link](sample/orbrium-logo.png)
 
 - 1 Tier dot list
-  - 2 Tier dot list
+  - 2 Tier dot list: start from parent character
     1. 3 Tier number List 1
     2. 3 Tier number List 2
-      - 4 Tier dot list
-        - 5 Tier dot list
+       - 4 Tier dot list: start from parent character
+         - 5 Tier dot list
 
 - [ ] Todo 1
 - [x] Todo 2
