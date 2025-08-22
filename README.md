@@ -4,9 +4,9 @@
 
 # Sales Assets
 
-**<a href="/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Salesdeck.pptx">Sales Deck</a>**
+**<a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Salesdeck.pptx">Sales Deck</a>**
 
-**<a href="/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">Tech Deck</a>**
+**<a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">Tech Deck</a>**
 
 # Manual
 
