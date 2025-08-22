@@ -1,6 +1,6 @@
 # Orbrium Man Page
 
-<p align="center"><img src="/blob/main/images/orbrium-logo.png?raw=true" width="50%"></p>
+<p align="center"><img src="/images/orbrium-logo.png?raw=true" width="50%"></p>
 
 환영합니다!
 
@@ -12,11 +12,11 @@
 
 # Manual
 
-**<a href="/blob/main/docs/evcs.md">Etevers VMware Cloud Standards</a>**
+**<a href="/docs/evcs.md">Etevers VMware Cloud Standards</a>**
 
-**<a href="/blob/main/docs/bvp.md">Broadcom Value Pack</a>**
+**<a href="/docs/bvp.md">Broadcom Value Pack</a>**
 
-**<a href="/blob/main/docs/orbrium.md">Orbrium</a>**
+**<a href="/docs/orbrium.md">Orbrium</a>**
 
 # Release Notes
 
