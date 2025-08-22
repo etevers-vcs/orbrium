@@ -18,11 +18,11 @@ This is line 1 in MD\
 This is line 2 in MD\
 `\` make multiple line
 
-<detail>
+<details>
 <summary>Collapse</summary>
 **This is hidden**\
 OK
-</detail>
+</details>
 
 This is external [Link to Google](https://google.com)\
 This is absolute [Link to /docs/sample/dummy.md](/docs/sample/dummy.md)\
