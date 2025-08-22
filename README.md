@@ -13,11 +13,19 @@
 
 **<p align="center"><a href="docs/evcs/main.md">EVCS: Etevers VMware Cloud Standards</a></p>**
 
-**<p align="center"><a href="docs/bvp/main.md">BVP: Broadcom Value Pack</a> <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">[ Download ]</a></p>**
+**<p align="center"><a href="docs/bvp/main.md">BVP: Broadcom Value Pack</a> --> <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">[ Download ]</a></p>**
 
-**<p align="center"><a href="docs/orb/main.md">Orb: Orbrium</a></p>**
+**<p align="center"><a href="docs/orb/main.md">ORB: Orbrium</a></p>**
 
 # Orbrium Release Notes
+
+## Brontes
+
+- VCF5 & VCF9 지원
+- Roadmap
+  - 2025. 09: 사전 기술 검증
+  - 2025. 10: 프로젝트 개시
+  - 2025. 12: GA
 
 ## Athena
 
@@ -35,6 +43,9 @@
     - OVA 기반 자동배포
 
 ## Arthemis
+
+> [!CAUTION]
+> DEPRECATED
 
 ### 1D
 
@@ -66,18 +77,3 @@
 
 - 1A 설치과정 버그 픽스
     - Broadcom Value Pack에서 AccessKey 발급시 소문자 + 숫자조합만 가능하도록 변경
-
-### 1A
-
-> [!CAUTION]
-> DEPRECATED!!!: 버그로 인한 버전 제공 중지
-
-## Brontes
-
-- VCF5 & VCF9 지원
-
-**To be continue**
-
-
-
-
