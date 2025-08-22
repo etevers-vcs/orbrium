@@ -20,8 +20,10 @@ This is line 2 in MD\
 
 <details>
 <summary>Collapse</summary>
+
 **This is hidden**\
 OK
+
 </details>
 
 This is external [Link to Google](https://google.com)\
