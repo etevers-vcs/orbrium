@@ -18,6 +18,12 @@ This is line 1 in MD\
 This is line 2 in MD\
 `\` make multiple line
 
+<detail>
+<summary>Collapse</summary>
+**This is hidden**\
+OK
+</detail>
+
 This is external [Link to Google](https://google.com)\
 This is absolute [Link to /docs/sample/dummy.md](/docs/sample/dummy.md)\
 This is relation [Link to sample/dummy.md](sample/dummy.md)
@@ -48,7 +54,19 @@ Code Block Line 1
 Code Block Line 2
 ```
 
-> Quote Text
+```python
+import os
+os.system('ls')
+```
+
+```javascript
+init =()=> {
+	console.log('hello world');
+}
+```
+
+> Quote line 1
+> Quote line 2
 
 > [!NOTE]
 > Note text
@@ -64,3 +82,19 @@ Code Block Line 2
 
 > [!CAUTION]
 > Caution text
+
+| Col 1 | Col 2 | Col 3 |
+| --- | --- | --- |
+| r1d1 | r1d2 | r1d3 |
+| r2d1 | r2d2 | r2d3 |
+
+
+
+
+
+
+
+
+
+
+
