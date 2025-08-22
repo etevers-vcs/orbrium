@@ -10,21 +10,24 @@
 
 General Text **Bold Text** *Italic Text* ~~Mistaken Text~~ <sub>Sub Text</sub> <sup>Sup Text</sup> <ins>Ins Text</ins>
 
-This is Line 1 in MD
-This is Line 2 in MD
-But Display A Line
+This is line 1 in MD
+This is line 2 in MD
+But display A line
 
-This is Line 1 in MD\
-This is Line 2 in MD\
-`\` Make Multiple Line
+This is line 1 in MD\
+This is line 2 in MD\
+`\` make multiple line
+
+This is line 1 in MD
+This is line 2 in MD
+
+Double space or double line feed make multiple line
 
 - 1 Tier Dot List
   - 2 Tier Dot List
     - 3 Tier Dot List
       - 4 Tier Dot List
         - 5 Tier DOt List
-
-> Quote Text
 
 `Simple Code Text`
 
@@ -33,3 +36,7 @@ Code Block Line 1
 Code Block Line 2
 ```
 
+> Quote Text
+
+This is Absolute [Link]()
+This is Absolute [Link]()
