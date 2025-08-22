@@ -32,7 +32,7 @@ This is relation [Link to sample/dummy.md](sample/dummy.md)
 Auto sized image ![Orbrium Logo](sample/orbrium-logo.png)
 
 <p align="center">
-	<img src="sample/orbrium-logo.png" width="50%" />
+	<img src="sample/orbrium-logo.png" width="50%" />/
 	50% Center image
 </p>
 
