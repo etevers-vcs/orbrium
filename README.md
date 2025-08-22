@@ -3,22 +3,21 @@
 <p align="center"><img src="images/orbrium-logo.png?raw=true" width="50%"></p>
 <p align="center"><img src="images/orbrium-home.png?raw=true" width="75%"></p>
 
-
 # Sales Assets
 
-**<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Salesdeck.pptx">Sales Deck (.pptx)</a></p>**
+**<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/Etevers-VMware-Orbrium-Athena-1a-Salesdeck.pptx">Sales Deck (.pptx)</a></p>**
 
-**<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">Tech Deck (.pptx)</a></p>**
+**<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">Tech Deck (.pptx)</a></p>**
 
 # Manual
 
 **<p align="center"><a href="docs/evcs/main.md">EVCS: Etevers VMware Cloud Standards</a></p>**
 
-**<p align="center"><a href="docs/bvp/main.md">BVP: Broadcom Value Pack</a></p>**
+**<p align="center"><a href="docs/bvp/main.md">BVP: Broadcom Value Pack</a> <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">[ Download ]</a></p>**
 
 **<p align="center"><a href="docs/orb/main.md">Orb: Orbrium</a></p>**
 
-# Release Notes
+# Orbrium Release Notes
 
 ## Athena
 
