@@ -1,7 +1,7 @@
 # Orbrium Man Page
 
-<p align="center"><img src="images/orbrium-logo.png?raw=true" width="50%"></p>
-<p align="center"><img src="images/orbrium-home.png?raw=true" width="75%"></p>
+<p align="center"><img src="/docs/img/orbrium-logo.png?raw=true" width="50%"></p>
+<p align="center"><img src="/docs/img/orbrium-home.png?raw=true" width="75%"></p>
 
 # Sales Assets
 
