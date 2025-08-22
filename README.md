@@ -1,8 +1,8 @@
 # Orbrium Man Page
 
 <p align="center"><img src="/images/orbrium-logo.png?raw=true" width="50%"></p>
+<p align="center"><img src="/images/orbrium-home.png?raw=true" width="50%"></p>
 
-환영합니다!
 
 # Sales Assets
 
