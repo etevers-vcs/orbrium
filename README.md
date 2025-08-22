@@ -2,11 +2,19 @@
 
 환영합니다!
 
+# Sales Assets
+
+**<a href="/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Salesdeck.pptx">Sales Deck</a>**
+
+**<a href="/raw/refs/heads/main/files/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">Tech Deck</a>**
+
 # Manual
 
-**<a href="/">Etevers VMware Cloud Standards</a>**
-**<a href="/">Broadcom Value Pack</a>**
-**<a href="/">Orbrium</a>**
+**<a href="/blob/main/docs/evcs.md">Etevers VMware Cloud Standards</a>**
+
+**<a href="/blob/main/docs/bvp.md">Broadcom Value Pack</a>**
+
+**<a href="/blob/main/docs/orbrium.md">Orbrium</a>**
 
 # Release Notes
 
