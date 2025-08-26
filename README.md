@@ -1,4 +1,4 @@
-# 오브리움
+# 오브리움 (Orbrium)
 
 <p align="center"><strong>오브리움 메인페이지에 오신것을 환영합니다</strong></p>
 <p align="center"><img src="/docs/img/orbrium-logo.png?raw=true" width="50%"></p>
@@ -14,7 +14,7 @@
 
 ## 메뉴얼
 
-**<p align="center"><a href="docs/evcs">EVCS: Etevers VMware Cloud Standards</a></p>**
+**<p align="center"><a href="docs/evcs">EVCS: Etevers VMware Cloud Standards</a> > <a href="https://play.google.com/books/reader?id=PAFhEQAAQBAJ&pg=GBS.PP1&hl=ko">e-Book 링크</a></p>**
 
 **<p align="center"><a href="docs/bvp">BVP: Broadcom Value Pack</a> > <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">바이너리 패키지 다운로드</a></p>**
 
