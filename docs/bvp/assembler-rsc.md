@@ -29,7 +29,7 @@
 > `Domain` 필드 설정은 반드시 하여야 함. VM 배포시 Customization Spec의 주요 설정 내용으로 동작하고 IP 설정 등에 관여함
 > EVCS 아키텍처의 회사 도메인 설계에 따라 클라우드 도메인을 등록, 트랜짓에 등록된 내용을 바탕으로 VPC의 도메인 영역이 결정됨
 
-### 엣지 구성에 따른 네트워크 설정
+### 엣지 클러스터 구성에 따른 네트워크 설정
 
 **외부망 네트워크 설정 (샘플)**
 
@@ -54,6 +54,9 @@
 
 <p align="center"><img src="images/aa-rsc-09.png" width="50%" /><br/>네트워크 정보 입력</p>
 
+> [!CAUTION]
+> `Domain` 필드 설정은 반드시 하여야 함. VM 배포시 Customization Spec의 주요 설정 내용으로 동작하고 IP 설정 등에 관여함
+
 ### 트랜짓 네트워크 IP 영역 설정
 
 <p align="center"><img src="images/aa-rsc-10.png" width="50%" /><br/>Infrastructure > Resources > Networks > IP Ranges 탭 선택 후 생성</p>
@@ -63,7 +66,7 @@
 > [!NOTE]
 > 트랜짓 네트워크 선택 후, 트랜짓 네트워크의 게이트웨이 IP와 기 사용중인 IP를 제외하고 Start~End IP를 구성
 
-### 엣지 구성에 따른 네트워크 IP 영역 설정
+### 엣지 클러스터 구성에 따른 네트워크 IP 영역 설정
 
 > [!NOTE]
 > 설정되는 IP 영역은 VPC의 SNAT용 IP 또는 Access IP의 DNAT용 IP 할당을 위해 설정함
