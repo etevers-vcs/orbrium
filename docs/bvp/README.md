@@ -3,7 +3,7 @@
 ## 1. 설치 방법
 
 1. [Aria Automation 권한 설정](docs/authn.md)
-2. Cloud Assembly 설정
+2. Assember 설정
    1. [클라우드 계정 설정](docs/assembler-01.md)
    2. [클라우드 기반 자원 설정](docs/assembler-02.md)
    3. [클라우드 논리 자원 설정](docs/assembler-03.md)
