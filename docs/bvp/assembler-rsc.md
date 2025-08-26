@@ -20,13 +20,13 @@
 <p align="center"><img src="images/aa-rsc-04.png" width="50%" /><br/>Infrastructure > Resources > Networks 에서 트랜짓 네트워크 검색</p>
 
 > [!CAUTION]
-> 반드시 모든 작업은 NSX-T 계정으로 등록된 자원을 대상으로 수행 하여야 함
+> 반드시 모든 작업은 NSX-T 계정으로 등록된 자원을 대상으로 수행 하여야 함\
 > 일반적으로 CIDR 설정과 자원 상세페이지에서 게이트웨이 정보가 보이는 것이 NSX-T 계정의 자원정보임
 
 <p align="center"><img src="images/aa-rsc-05.png" width="50%" /><br/>네트워크 정보 입력</p>
 
 > [!CAUTION]
-> `Domain` 필드 설정은 반드시 하여야 함. VM 배포시 Customization Spec의 주요 설정 내용으로 동작하고 IP 설정 등에 관여함
+> `Domain` 필드 설정은 반드시 하여야 함. VM 배포시 Customization Spec의 주요 설정 내용으로 동작하고 IP 설정 등에 관여함\
 > EVCS 아키텍처의 회사 도메인 설계에 따라 클라우드 도메인을 등록, 트랜짓에 등록된 내용을 바탕으로 VPC의 도메인 영역이 결정됨
 
 ### 엣지 클러스터 구성에 따른 네트워크 설정
@@ -36,7 +36,7 @@
 <p align="center"><img src="images/aa-rsc-06.png" width="50%" /><br/>외부망 네트워크 네트워크 검색</p>
 
 > [!CAUTION]
-> 반드시 모든 작업은 NSX-T 계정으로 등록된 자원을 대상으로 수행 하여야 함
+> 반드시 모든 작업은 NSX-T 계정으로 등록된 자원을 대상으로 수행 하여야 함\
 > 일반적으로 CIDR 설정과 자원 상세페이지에서 게이트웨이 정보가 보이는 것이 NSX-T 계정의 자원정보임
 
 <p align="center"><img src="images/aa-rsc-07.png" width="50%" /><br/>네트워크 정보 입력</p>
@@ -49,7 +49,7 @@
 <p align="center"><img src="images/aa-rsc-08.png" width="50%" /><br/>내부망 네트워크 네트워크 검색</p>
 
 > [!CAUTION]
-> 반드시 모든 작업은 NSX-T 계정으로 등록된 자원을 대상으로 수행 하여야 함
+> 반드시 모든 작업은 NSX-T 계정으로 등록된 자원을 대상으로 수행 하여야 함\
 > 일반적으로 CIDR 설정과 자원 상세페이지에서 게이트웨이 정보가 보이는 것이 NSX-T 계정의 자원정보임
 
 <p align="center"><img src="images/aa-rsc-09.png" width="50%" /><br/>네트워크 정보 입력</p>
