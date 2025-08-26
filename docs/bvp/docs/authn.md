@@ -40,4 +40,4 @@
 
 <p align="center"><img src="images/aa-authn-06.png" width="50%" /><br/>로그아웃 (SIGN OUT)</p>
 
-<p align="center"><img src="images/aa-authn-07.png" width="50%" /><br/>`admin` 계정으로 로그인</p>
+<p align="center"><img src="images/aa-authn-07.png" width="50%" /><br/>admin 계정으로 로그인</p>
