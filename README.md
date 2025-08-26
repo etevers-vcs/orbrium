@@ -1,6 +1,6 @@
 # 오브리움
 
-<p align="center">오브리움 메인페이지에 오신것을 환영합니다</p>
+<p align="center"><strong>오브리움 메인페이지에 오신것을 환영합니다</strong></p>
 <p align="center"><img src="/docs/img/orbrium-logo.png?raw=true" width="50%"></p>
 <p align="center"><img src="/docs/img/orbrium-home.png?raw=true" width="75%"></p>
 
