@@ -16,8 +16,6 @@
 
 <p align="center"><img src="images/aa-ca-05.png" width="50%" /><br/>vCenter 등록 완료</p>
 
-<p align="center"><img src="images/aa-ca-05.png" width="50%" /><br/>vCenter 등록 완료</p>
-
 <p align="center"><img src="images/aa-ca-06.png" width="50%" /><br/>NSX-T 관리자 등록 선택</p>
 
 <p align="center"><img src="images/aa-ca-07.png" width="50%" /><br/>NSX-T 엔드포인트 등록</p>
