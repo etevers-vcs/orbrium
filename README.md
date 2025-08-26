@@ -1,9 +1,9 @@
-# Orbrium Main Page
+# 오브리움 메인페이지에 오신것을 환영합니다
 
 <p align="center"><img src="/docs/img/orbrium-logo.png?raw=true" width="50%"></p>
 <p align="center"><img src="/docs/img/orbrium-home.png?raw=true" width="75%"></p>
 
-# Sales Assets
+# 영업자료
 
 **<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/VCF-VUE-Orbrium-Brochure.pdf">VCF VUE(Orbrium) 브로셔 (.pdf)</a></p>**
 
@@ -11,15 +11,15 @@
 
 **<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">기술 자료 (.pptx)</a></p>**
 
-# Manual
+# 메뉴얼
 
 **<p align="center"><a href="docs/evcs">EVCS: Etevers VMware Cloud Standards</a></p>**
 
-**<p align="center"><a href="docs/bvp">BVP: Broadcom Value Pack</a> > <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">Package Download</a></p>**
+**<p align="center"><a href="docs/bvp">BVP: Broadcom Value Pack</a> > <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">바이너리 패키지 다운로드</a></p>**
 
-**<p align="center"><a href="docs/orb">ORB: Orbrium</a> > <a href="https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368">OVA Download</a></p>**
+**<p align="center"><a href="docs/orb">ORB: Orbrium</a> > <a href="https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368">OVA 이미지 다운로드</a></p>**
 
-# Orbrium Release Notes
+# 오브리움 릴리즈 노트
 
 ## Brontes
 
@@ -43,7 +43,7 @@
   - User 정보 관리 최적화
   - SingleTon 스케줄 작업 최적화
 
-### 1A > [Download](https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368)
+### 1A > [다운로드](https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368)
 
 - Front-End
   - 클라우드 관리자 페이지
