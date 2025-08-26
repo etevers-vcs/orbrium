@@ -5,6 +5,9 @@
 <p align="center"><img src="images/aa-authn-01.png" width="75%" /><br/>< 설정 관리자로 최초 로그인 ></p>
 
 > [!WARNING]
+> Configuration Admin 계정은 최초 권한 설정 이후 사용 금지
+
+> Todo
 > confadmin 으로 로그인 하는것 설명, Configuration Admin 은 자동화용 내부 계정이므로 아래 세팅 후 사용 하지 말자는 설명 필요
 
 ## 2. 인증 및 접근 관리
@@ -41,3 +44,6 @@
 <p align="center"><img src="images/aa-authn-06.png" width="75%" /><br/>< 로그아웃 (SIGN OUT) ></p>
 
 <p align="center"><img src="images/aa-authn-07.png" width="75%" /><br/>< admin 계정으로 로그인 ></p>
+
+> [!NOTE]
+> BVP 설치 및 설정과 관련된 모든 작업은 `admin` 계정을 통해 수행함
