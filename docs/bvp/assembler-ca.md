@@ -1,4 +1,4 @@
-# Cloud Assembly 설정
+# 클라우드 계정 설정
 
 <p align="center"><img src="images/aa-ca-01.png" width="50%" /><br/>Assembler 선택</p>
 
