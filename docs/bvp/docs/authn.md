@@ -2,7 +2,7 @@
 
 ## 1. 최초 로그인
 
-<p align="center"><img src="images/aa-authn-01.png" width="75%" /><br/>\< 설정 관리자로 최초 로그인 \<</p>
+<p align="center"><img src="images/aa-authn-01.png" width="75%" /><br/>< 설정 관리자로 최초 로그인 ></p>
 
 > [!WARNING]
 > confadmin 으로 로그인 하는것 설명, Configuration Admin 은 자동화용 내부 계정이므로 아래 세팅 후 사용 하지 말자는 설명 필요
