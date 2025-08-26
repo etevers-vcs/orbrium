@@ -1,1 +1,0 @@
-# Etevers VMware Cloud Standards
