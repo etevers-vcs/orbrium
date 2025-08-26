@@ -4,7 +4,7 @@
 <p align="center"><img src="/docs/img/orbrium-logo.png?raw=true" width="50%"></p>
 <p align="center"><img src="/docs/img/orbrium-home.png?raw=true" width="75%"></p>
 
-## 영업자료
+## 영업 자료
 
 **<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/VCF-VUE-Orbrium-Brochure.pdf">VCF VUE(Orbrium) 브로셔 (.pdf)</a></p>**
 
@@ -12,7 +12,7 @@
 
 **<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">기술 자료 (.pptx)</a></p>**
 
-## 메뉴얼
+## 매뉴얼
 
 **<p align="center"><a href="docs/evcs">EVCS: Etevers VMware Cloud Standards</a> > <a href="https://play.google.com/books/reader?id=PAFhEQAAQBAJ&pg=GBS.PP1&hl=ko">e-Book 링크</a></p>**
 
@@ -20,7 +20,7 @@
 
 **<p align="center"><a href="docs/orb">ORB: Orbrium</a> > <a href="https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368">OVA 이미지 다운로드</a></p>**
 
-## 오브리움 릴리즈 노트
+## 오브리움 릴리스 노트
 
 ### Brontes
 
