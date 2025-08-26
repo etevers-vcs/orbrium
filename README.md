@@ -4,7 +4,7 @@
 <p align="center"><img src="/docs/img/orbrium-logo.png?raw=true" width="50%"></p>
 <p align="center"><img src="/docs/img/orbrium-home.png?raw=true" width="75%"></p>
 
-# 영업자료
+## 영업자료
 
 **<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/VCF-VUE-Orbrium-Brochure.pdf">VCF VUE(Orbrium) 브로셔 (.pdf)</a></p>**
 
@@ -12,7 +12,7 @@
 
 **<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">기술 자료 (.pptx)</a></p>**
 
-# 메뉴얼
+## 메뉴얼
 
 **<p align="center"><a href="docs/evcs">EVCS: Etevers VMware Cloud Standards</a></p>**
 
@@ -20,9 +20,9 @@
 
 **<p align="center"><a href="docs/orb">ORB: Orbrium</a> > <a href="https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368">OVA 이미지 다운로드</a></p>**
 
-# 오브리움 릴리즈 노트
+## 오브리움 릴리즈 노트
 
-## Brontes
+### Brontes
 
 - VCF5 & VCF9 지원
 - Roadmap
@@ -30,12 +30,12 @@
   - 2025-10: 프로젝트 개시
   - 2025-12: GA
 
-## Athena
+### Athena
 
 > [!NOTE]
 > Latest Stable: 1A
 
-### 1B
+#### 1B
 
 - Front-End
   - 과금 최적화
@@ -44,7 +44,7 @@
   - User 정보 관리 최적화
   - SingleTon 스케줄 작업 최적화
 
-### 1A > [다운로드](https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368)
+#### 1A > [다운로드](https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368)
 
 - Front-End
   - 클라우드 관리자 페이지
@@ -55,12 +55,12 @@
 - Installer
   - OVA 기반 자동배포
 
-## Arthemis
+### Arthemis
 
 > [!WARNING]
 > DEPRECATED
 
-### 1D
+#### 1D
 
 - Front-End
   - 변경사항 없음
@@ -71,7 +71,7 @@
   - "truststore" 로 오인표기 되어있던 부분을 "truststores" 로 정상표기
   - truststores 디렉토리 사전생성
 
-### 1C
+#### 1C
 
 - Front-End
   - Home Network Design 일부 기능 개선
@@ -82,7 +82,7 @@
 - Installer
   - "1.upgrade.sh" 업그레이드 자동화 스크립트 추가
 
-### 1B
+#### 1B
 
 - 1A 설치과정 버그 픽스
   - Broadcom Value Pack에서 AccessKey 발급시 소문자 + 숫자조합만 가능하도록 변경
