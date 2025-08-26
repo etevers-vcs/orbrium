@@ -1,6 +1,6 @@
 # Broadcom Value Pack
 
-## 설치 방법
+## 1. 설치 방법
 
 1. [권한 설정](docs/authn.md)
 2. Cloud Assembly 설정
@@ -11,10 +11,10 @@
 4. [트랜짓 더미 VM 생성](docs/transitdummy.md)
 5. [Service Broker 설정](docs/broker.md)
 
-## 사용 방법
+## 2. 사용 방법
 
-### 관리자 설정
+### 2.1. 관리자 설정
 
-### 사용자 작업
+### 2.2. 사용자 작업
 
-## 트러블 슈팅
+## 3. 트러블 슈팅
