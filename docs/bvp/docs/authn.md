@@ -11,11 +11,11 @@
 
 ### 2.1. Admin 계정에 대한 권한 설정
 
-<p align="center"><img src="images/aa-authn-02.png" width="75%" /><br/>Identity & Access Management > Active Users 메뉴 선택</p>
+<p align="center"><img src="images/aa-authn-02.png" width="75%" /><br/>< Identity & Access Management > Active Users 메뉴 선택 ></p>
 
-<p align="center"><img src="images/aa-authn-03.png" width="75%" /><br/>Local Admin 선택</p>
+<p align="center"><img src="images/aa-authn-03.png" width="75%" /><br/>< Local Admin 선택 ></p>
 
-<p align="center"><img src="images/aa-authn-04.png" width="75%" /><br/>역할 수정</p>
+<p align="center"><img src="images/aa-authn-04.png" width="75%" /><br/>< 역할 수정 ></p>
 
 > [!NOTE]
 > `Assign Organization Role` 은 `Organization Owner` 로 선택\
@@ -27,9 +27,9 @@
 
 ### 2.2. All Users 그룹에 대한 권한 설정
 
-<p align="center"><img src="images/aa-authn-08.png" width="75%" /><br/>Identity & Access Management > Enterprise Groups 메뉴 선택</p>
+<p align="center"><img src="images/aa-authn-08.png" width="75%" /><br/>< Identity & Access Management > Enterprise Groups 메뉴 선택 ></p>
 
-<p align="center"><img src="images/aa-authn-05.png" width="75%" /><br/>All Users 권한 생성</p>
+<p align="center"><img src="images/aa-authn-05.png" width="75%" /><br/>< All Users 권한 생성 ></p>
 
 > [!NOTE]
 > `ALL USERS` 검색 후 선택\
@@ -38,6 +38,6 @@
 
 ## 3. 설정 관리자 로그아웃 후 관리자 계정으로 로그인
 
-<p align="center"><img src="images/aa-authn-06.png" width="75%" /><br/>로그아웃 (SIGN OUT)</p>
+<p align="center"><img src="images/aa-authn-06.png" width="75%" /><br/>< 로그아웃 (SIGN OUT) ></p>
 
-<p align="center"><img src="images/aa-authn-07.png" width="75%" /><br/>admin 계정으로 로그인</p>
+<p align="center"><img src="images/aa-authn-07.png" width="75%" /><br/>< admin 계정으로 로그인 ></p>
