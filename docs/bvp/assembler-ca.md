@@ -8,7 +8,7 @@
 
 <p align="center"><img src="images/aa-ca-04.png" width="50%" /><br/>vCenter 엔드포인트 등록</p>
 
-> [!INFO]
+> [!NOTE]
 > `Name` 필드에 반드시 vCenter FQDN 이름을 등록
 
 > [!CAUTION]
@@ -22,10 +22,10 @@
 
 <p align="center"><img src="images/aa-ca-07.png" width="50%" /><br/>NSX-T 엔드포인트 등록</p>
 
-> [!INFO]
+> [!NOTE]
 > `Name` 필드에 반드시 NSX-T 관리자의 LoadBalancer FQDN 또는 Master 노드 FQDN 이름을 등록
 
-> [!INFO]
+> [!NOTE]
 > `Associations` 에 등록한 vCenter 엔드포인트를 추가
 
 <p align="center"><img src="images/aa-ca-08.png" width="50%" /><br/>NSX-T 관리자 등록 완료</p>
