@@ -5,9 +5,11 @@
 
 # Sales Assets
 
-**<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/Etevers-VMware-Orbrium-Athena-1a-Salesdeck.pptx">Sales Deck (.pptx)</a></p>**
+**<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/VCF-VUE-Orbrium-Brochure.pdf">VCF VUE(Orbrium) 브로셔 (.pdf)</a></p>**
 
-**<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">Tech Deck (.pptx)</a></p>**
+**<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/Etevers-VMware-Orbrium-Athena-1a-Salesdeck.pptx">세일즈 자료 (.pptx)</a></p>**
+
+**<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">기술 자료 (.pptx)</a></p>**
 
 # Manual
 
