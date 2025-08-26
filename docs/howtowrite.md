@@ -29,9 +29,9 @@ This is external [Link to Google](https://google.com)\
 This is absolute [Link to /docs/sample/dummy.md](/docs/sample/dummy.md)\
 This is relation [Link to sample/dummy.md](sample/dummy.md)
 
-![Orbrium Logo](sample/orbrium-logo.png)<p align="center">Full sized image</p>
+![Orbrium Logo](images/orbrium-logo.png)<p align="center">Full sized image</p>
 
-<p align="center"><img src="sample/orbrium-logo.png" width="50%" /><br/>50% center image</p>
+<p align="center"><img src="images/orbrium-logo.png" width="50%" /><br/>50% center image</p>
 
 - 1 Tier dot list
   - 2 Tier dot list: start from parent character
