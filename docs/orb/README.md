@@ -4,6 +4,6 @@
 
 ## 목차
 
-1. [설치방법](install.md)
-2. [사용방법](howtouse.md)
-3. [문제해결](troubleshooting.md)
+1. [설치방법](docs/install.md)
+2. [사용방법](docs/howtouse.md)
+3. [문제해결](docs/troubleshooting.md)
