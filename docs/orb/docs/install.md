@@ -24,7 +24,7 @@
 다운로드한 최신 오브리움 OVA 파일을 vCenter를 통해 배포합니다.
 
 > [!NOTE]
-> 설치 가이드는 Athena-1a 버전의 배포 화면입니다. 버전에 따라 입력항목이 바뀔 수 있습니다.
+> 설치 가이드는 vCenter 8.0.3.00500 버전에서 Athena-1a 버전의 배포 화면입니다. 버전에 따라 화면 구성이 다를 수 있습니다.
 
 <p align="center"><img src="images/vc-01.png" width="75%" /><br/>< vCenter 화면 접속 ></p>
 
