@@ -20,6 +20,8 @@
 - Network: 2 NIC
   - Primary NIC: 서비스용 인터페이스
   - Secondary NIC: 트랜짓 네트워크 연동용 인터페이스
+- 외부 계정시스템: AD 또는 LDAP
+- DNS 서버 레코드: SSO 공간내 서비스는 모두 DNS 쿼리가 가능해야 함
 
 ### 2.2. OVA 배포
 
