@@ -96,6 +96,78 @@
 
 ## 3. 오브리움 계정 정보 연동
 
+> [!NOTE]
+> 오브리움 키클록 서비스에서 `accessKey` 및 `secretKey` 를 통한 로그인 후 수행
+
+오브리움 표준 키클록(Keycloak) 서비스를 통해 표준 OAuth2의 OpenID 인증시스템을 제공합니다.
+OpenID가 제공하기위한 기본 계정정보를 외부의 계정 시스템과 연동할 필요가 있습니다. 이 작업은 표준 키클록 서비스의 기능을 사용하여 수행합니다.
+
+> [!NOTE]
+> 고객사 환경 계정 정보 연동은 에티버스에서 공식 지원합니다.
+> 다만 무상 지원의 경우 표준 AD/LDAP 환경 또는 표준 OAuth2, SAML2.0 환경으로 제한하며, 그 이외의 고객사 고유의 계정시스템이나 SaaS형 솔루션에 대한 연동은 상황에 따라 비용이 발생하는 프로젝트로 수행하여야 합니다.
+> 전체적인 클라우드 계정 및 도메인 영역 설계에 대한 사전 아키텍처 지원은 EVCS 가이드를 참조하면 됩니다.
+> EVCS에 따른 고객사 환경 사전설계에 대한 감수 작업을 에티버스에서 수행합니다.
+
+<p align="center"><img src="images/kc-01.png" width="75%" /><br/>< 오브리움 키클록 로그인 화면 ></p>
+
+오브리움에 키클록에 접속합니다. 접속 URL은 `https://{호스트이름}.{도메인}/auth` 입니다. 사용자 이름과 암호는 BVP의 `Get Package Keys` 워크플로우 결과로 확인한 `accessKey` 와 `secretKey` 입니다.
+
+<p align="center"><img src="images/kc-02.png" width="75%" /><br/>< 키클록 초기 화면 ></p>
+
+<p align="center"><img src="images/kc-03.png" width="75%" /><br/>< 키클록 테넌트 변경 ></p>
+
+좌상단 테넌트 선택에서 Orbrium 테넌트를 선택합니다.
+
+<p align="center"><img src="images/kc-04.png" width="75%" /><br/>< 계정 시스템 연동 화면 ></p>
+
+좌하단 `User federation` 메뉴로 이동합니다.
+
+> [!NOTE]
+> 예제의 경우는 에티버스 내부의 테스트용 Microsoft Active Directory (AD) 를 연동하는 경우에 대한 샘플 예제 입니다.
+
+<p align="center"><img src="images/kc-05.png" width="75%" /><br/>< 계정 시스템 종류 결정 ></p>
+
+`LDAP` 형식을 선택합니다.
+
+<p align="center"><img src="images/kc-06.png" width="75%" /><br/>< 계정 시스템 연결 설정 ></p>
+
+계정 시스템 연결 정보를 입력합니다.
+
+- UI display name: 계정시스템에서 제공하는 도메인을 입력합니다.
+- Vendor: `Active Directory` 를 선택합니다.
+- Connection URL: AD 접속 URL을 입력합니다.
+- Connection pooling: 일반적으로 성능을 위해 `On` 상태로 둡니다.
+- Bind 설정: AD 연동을 위한 바인드 계정 정보를 입력합니다.
+
+입력후 `Test connection` 및 `Test authentication` 버튼을 통해 연결이 정상인지 확인합니다.
+
+<p align="center"><img src="images/kc-07.png" width="75%" /><br/>< 계정 시스템 쿼리 설정 ></p>
+
+계정 시스템 쿼리 정보를 입력합니다.
+
+- Edit mode: 오브리움이 계정시스템에 영향을 주지 않으려면 `READ_ONLY`를 선택하고, 오브리움을 통해 신규 계정생성 작업을 수행하려면 `WRITABLE`, 신규 계정생성은 가능하지만 계정시스템에 영향을 주지 않으려면 `UNSYNCED`를 선택합니다. 일반적으로 `READ_ONLY`로 선택합니다.
+- User DN: 사용자를 검색하는 기본 DN(Base DN)을 입력합니다.
+- Username LDAP attribute: 기본 고유 ID 값 필드를 지정합니다. 일반적인 AD의 경우 `sAMAccountName` 입니다.
+- RDN LDAP attribute: 사용자 DN에서 최종 고유 값을 판단하는 Attribute를 지정합니다. 일반적인 AD의 경우 `cn` 입니다.
+- UUID LDAP attribute: 계정시스템의 정보의 고유값을 지정하는 Attribute를 지정합니다. 일반적인 AD의 경우 `objectGUID` 입니다.
+- User object classes: 계정 정보 스키마 형식을 지정합니다. 일반적인 AD의 경우 `organizationalPerson` 입니다.
+- Search scope: 계층적 OU 및 Group 구조라면 `Subtree`를 선택합니다.
+
+동기화 설정은 상황에 따라 설정합니다. 일반적으로 `Sync Registrations`를 활성화 합니다. 최종 검토후 저장합니다.
+
+<p align="center"><img src="images/kc-08.png" width="75%" /><br/>< 계정 시스템 연동 확인 ></p>
+
+정상적인 연동 정보 등록 후 도메인을 눌러 다시한번 계정 연동설정으로 들어갑니다.
+
+<p align="center"><img src="images/kc-09.png" width="75%" /><br/>< 계정 필드 매핑 ></p>
+
+상황에 따라 표준 OAuth2 에서 제공하는 필드에 계정시스템에서 제공하는 Attribute를 연결하여 정상적인 계정 정보를 SSO로 제공 할 수 있도록 설정합니다.
+예제에서는 `full name` 필드는 필요 없고 AD 에서 제공하는 `firstName` 필드를 OpenID `givenName` 으로 제공하기 위한 추가적인 매핑을 수행하였습니다.
+
+<p align="center"><img src="images/kc-10.png" width="75%" /><br/>< 계정 정보 확인 ></p>
+
+`Users` 메뉴로 이동하여 검색 화면에 `*` 를 입력하고 검색을 실행합니다. 계정시스템에서 제공하는 사용자 정보가 정상적으로 테이블에 표시되는지 확인합니다.
+
 ## 4. 오브리움 프로바이더 & 엔드포인트 연동
 
 > [!NOTE]
