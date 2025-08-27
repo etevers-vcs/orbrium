@@ -10,6 +10,8 @@
 > [!NOTE]
 > `vCenter` 에서 관리자 계정으로 수행
 
+오브리움 OVA를 이용하여 vSphere 환경에 오브리움 VM을 설치하는 과정입니다.
+
 ### 2.1. 사전 요구사항
 
 - CPU: 8코어 이상
@@ -85,13 +87,71 @@
 
 <p align="center"><img src="images/check-docker.png" width="75%" /><br/>< 도커 컨테이너 상태 확인 ></p>
 
+`orbrium-nginx` 컨테이너가 `Healthy` 상태로 실행되고 있다면 정상 상태입니다.
+
 > [!TIP]
-> 오브리움 `root` 계정의 암호는 배포시 입력한 `오브리움 관리자 암호` 와 동일합니다.
+> 오브리움 OVA의 `root` 계정 암호는 배포시 입력한 `오브리움 관리자 암호` 와 동일합니다.
 > 오브리움 OVA의 경우 `root` 암호는 상시 변경 가능하고 서비스에 대한 영향도는 없습니다.
 
 
 ## 3. 오브리움 계정 정보 연동
 
-## 4. 오브리움 BVP 연동
+## 4. 오브리움 프로바이더 & 엔드포인트 연동
+
+> [!NOTE]
+> 오브리움에서 오브리움 관리자 계정으로 수행
+
+오브리움에 VMware SSO 환경을 연동하고 클라우드 자원 관리 서비스를 연동하는 작업을 수행합니다.
+
+<p align="center"><img src="images/orb-adm-01.png" width="75%" /><br/>< 오브리움 초기 화면 ></p>
+
+오브리움에 접속합니다. 접속 URL은 `https://{호스트이름}.{도메인}` 입니다. `로그인 페이지로 이동` 버튼을 눌러 로그인창으로 이동합니다.
+
+<p align="center"><img src="images/orb-adm-02.png" width="75%" /><br/>< 오브리움 로그인 창 ></p>
+
+OVA 배포시 설정한 오브리움 관리자 계정 및 암호를 이용하여 로그인을 합니다.
+
+<p align="center"><img src="images/orb-adm-03.png" width="75%" /><br/>< 관리자 프로바이더 화면 ></p>
+
+<p align="center"><img src="images/orb-adm-04.png" width="75%" /><br/>< 프로바이더 등록 ></p>
+
+VMware SSO 프로바이더를 연동합니다. 플랫폼 유형에 따라 정해진 값을 입력합니다.
+
+- VCF5 유형
+  - 이름: 자유롭게 구분 가능한 이름을 사용합니다.
+  - 호스트 이름: VIDM의 FQDN을 입력합니다. VIDM 서비스가 외부 노출용 FQDN과 시스템용 FQDN이 분리되어 구성되어 있다면, 외부 노출용 FQDN을 입력합니다.
+  - 디렉토리 도메인: VIDM에 설정한 디렉토리 도메인을 입력합니다. VIDM에 디렉토리를 설정하지 않았다면, 입력한 디렉토리 도메인으로 JIT(Just In Time) 디렉토리가 VIDM에 생성됩니다.
+  - Access Key: VIDM에서 생성한 오브리움 SSO 클라이언트 ID를 입력합니다.
+  - Secret Key: VIDM에서 생성한 오브리움 SSO 클라이언트의 공유 압호를 입력합니다.
+- VCF9 유형: 준비중
+
+<p align="center"><img src="images/orb-adm-05.png" width="75%" /><br/>< 프로바이더 확인 ></p>
+
+정상적으로 등록이 완료되면 상태가 `ON` 으로 표시됩니다.
+
+<p align="center"><img src="images/orb-adm-06.png" width="75%" /><br/>< 관리자 엔드포인트 화면 ></p>
+
+<p align="center"><img src="images/orb-adm-07.png" width="75%" /><br/>< 엔드포인트 등록 ></p>
+
+- VCF5
+  - Aria Automation 유형
+    - 프로바이더: SSO로 연결된 프로바이더를 선택합니다.
+    - 이름: 입력한 이름으로 리전 이름이 결정됩니다. 입력하지 않는다면 Aria Automation의 브랜딩 이름이 자동으로 설정됩니다.
+    - 호스트이름: Aria Automation의 FQDN을 입력합니다.
+    - 관리자 프로젝트: BVP 설치시 생성한 관리자 프로젝트 이름을 입력합니다. 기본 설정은 `admin` 입니다.
+    - 프라임 프로젝트: BVP 설치시 생성한 프라임 프로젝트 이름을 입력합니다. 기본 설정은 `project` 입니다.
+    - 사용자 이름: Aria Automation의 Organization Owner 및 모든 서비스의 관리자 권한을 가진 계정을 입력합니다. 일반적으로 `admin` 입니다.
+    - 비밀번호: 사용자의 암호를 입력합니다.
+
+<p align="center"><img src="images/orb-adm-08.png" width="75%" /><br/>< 엔드포인트 확인 ></p>
+
+<p align="center"><img src="images/orb-adm-09.png" width="75%" /><br/>< 계정 연동 확인 ></p>
+
+계정 시스템에 등록된 사용자를 검색하여 정상적으로 조회 되는지 확인합니다. 만약 모든 프로젝트에 대한 접근 권한을 주고 싶다면 `+등록하기` 버튼을 눌러 해당 계정을 클라우드 관리자로 등록 할 수 있습니다.
+
+<p align="center"><img src="images/orb-adm-10.png" width="75%" /><br/>< 로그 아웃 ></p>
+
+> [!NOTE]
+> 오브리움 관리자의 로그아웃은 좌하단 `설정 버튼(Cog)` > `개인 설정` > `로그아웃` 으로 합니다.
 
 ## 5. 오브리움 시작
