@@ -109,7 +109,8 @@
 
 <p align="center"><img src="images/orb-adm-02.png" width="75%" /><br/>< 오브리움 로그인 창 ></p>
 
-OVA 배포시 설정한 오브리움 관리자 계정 및 암호를 이용하여 로그인을 합니다.
+> [!NOTE]
+> OVA 배포시 설정한 오브리움 관리자 계정 및 암호를 이용하여 로그인을 합니다.
 
 <p align="center"><img src="images/orb-adm-03.png" width="75%" /><br/>< 관리자 프로바이더 화면 ></p>
 
@@ -123,7 +124,7 @@ VMware SSO 프로바이더를 연동합니다. 플랫폼 유형에 따라 정해
   - 디렉토리 도메인: VIDM에 설정한 디렉토리 도메인을 입력합니다. VIDM에 디렉토리를 설정하지 않았다면, 입력한 디렉토리 도메인으로 JIT(Just In Time) 디렉토리가 VIDM에 생성됩니다.
   - Access Key: VIDM에서 생성한 오브리움 SSO 클라이언트 ID를 입력합니다.
   - Secret Key: VIDM에서 생성한 오브리움 SSO 클라이언트의 공유 압호를 입력합니다.
-- VCF9 유형: 준비중
+- VCF9 유형: 준비중...
 
 <p align="center"><img src="images/orb-adm-05.png" width="75%" /><br/>< 프로바이더 확인 ></p>
 
@@ -142,6 +143,7 @@ VMware SSO 프로바이더를 연동합니다. 플랫폼 유형에 따라 정해
     - 프라임 프로젝트: BVP 설치시 생성한 프라임 프로젝트 이름을 입력합니다. 기본 설정은 `project` 입니다.
     - 사용자 이름: Aria Automation의 Organization Owner 및 모든 서비스의 관리자 권한을 가진 계정을 입력합니다. 일반적으로 `admin` 입니다.
     - 비밀번호: 사용자의 암호를 입력합니다.
+- VCF9: 준비중...
 
 <p align="center"><img src="images/orb-adm-08.png" width="75%" /><br/>< 엔드포인트 확인 ></p>
 
@@ -151,7 +153,7 @@ VMware SSO 프로바이더를 연동합니다. 플랫폼 유형에 따라 정해
 
 <p align="center"><img src="images/orb-adm-10.png" width="75%" /><br/>< 로그 아웃 ></p>
 
-> [!NOTE]
+> [!TIP]
 > 오브리움 관리자의 로그아웃은 좌하단 `설정 버튼(Cog)` > `개인 설정` > `로그아웃` 으로 합니다.
 
 ## 5. 오브리움 시작
