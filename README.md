@@ -16,11 +16,11 @@
 
 <p align="center"><img src="docs/images/vue.png?raw=true" width="75%"></p>
 
-**<p align="center"><a href="docs/evcs">EVCS: Etevers VMware Cloud Standards</a> > <a href="https://play.google.com/books/reader?id=PAFhEQAAQBAJ&pg=GBS.PP1&hl=ko">e-Book 링크</a></p>**
+**<p align="center"><a href="docs/orb">ORB: Orbrium</a> > <a href="https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368">OVA 이미지 다운로드</a></p>**
 
 **<p align="center"><a href="docs/bvp">BVP: Broadcom Value Pack</a> > <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">바이너리 패키지 다운로드</a></p>**
 
-**<p align="center"><a href="docs/orb">ORB: Orbrium</a> > <a href="https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368">OVA 이미지 다운로드</a></p>**
+**<p align="center"><a href="docs/evcs">EVCS: Etevers VMware Cloud Standards</a> > <a href="https://play.google.com/books/reader?id=PAFhEQAAQBAJ&pg=GBS.PP1&hl=ko">e-Book 링크</a></p>**
 
 ## 오브리움 릴리즈 노트
 
