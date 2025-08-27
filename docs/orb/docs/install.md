@@ -2,8 +2,8 @@
 
 ## 1. 사전 VMware 서비스 준비
 
-- [VCF5 환경 사전 준비](vcf5.md)
-- VCF9 환경 사전 준비: To Be
+- [VCF5 환경 설정](vcf5.md)
+- VCF9 환경 설정: To Be
 
 ## 2. 오브리움 배포
 
