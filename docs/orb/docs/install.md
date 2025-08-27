@@ -14,12 +14,17 @@
 
 ### 2.1. 사전 요구사항
 
+**오브리움 VM**
+
 - CPU: 8코어 이상
 - MEM: 32GByte 이상
 - Disk: 500GByte 이상
 - Network: 2 NIC
   - Primary NIC: 서비스용 인터페이스
   - Secondary NIC: 트랜짓 네트워크 연동용 인터페이스
+
+**외부 시스템**
+
 - 외부 계정시스템: AD 또는 LDAP
 - DNS 서버 레코드: SSO 공간내 서비스는 모두 DNS 쿼리가 가능해야 함
 
