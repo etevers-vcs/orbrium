@@ -1,6 +1,6 @@
 # Orbrium
 
-<p align="center"><img src="/docs/img/orbrium-logo.png" width="50%" /></p>
+<p align="center"><img src="/docs/images/orbrium-logo.png" width="50%" /></p>
 
 ## 목차
 
