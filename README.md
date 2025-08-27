@@ -1,8 +1,8 @@
 # 오브리움 (Orbrium)
 
 <p align="center"><strong>오브리움 메인페이지에 오신것을 환영합니다</strong></p>
-<p align="center"><img src="/docs/images/orbrium-logo.png?raw=true" width="50%"></p>
-<p align="center"><img src="/docs/images/orbrium-home.png?raw=true" width="75%"></p>
+<p align="center"><img src="docs/images/orbrium-logo.png?raw=true" width="50%"></p>
+<p align="center"><img src="docs/images/orbrium-home.png?raw=true" width="75%"></p>
 
 ## 영업자료
 
@@ -13,6 +13,8 @@
 **<p align="center"><a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/pptx/Etevers-VMware-Orbrium-Athena-1a-Techdeck.pptx">기술 자료 (.pptx)</a></p>**
 
 ## 메뉴얼
+
+<p align="center"><img src="docs/images/vue.png?raw=true" width="75%"></p>
 
 **<p align="center"><a href="docs/evcs">EVCS: Etevers VMware Cloud Standards</a> > <a href="https://play.google.com/books/reader?id=PAFhEQAAQBAJ&pg=GBS.PP1&hl=ko">e-Book 링크</a></p>**
 
