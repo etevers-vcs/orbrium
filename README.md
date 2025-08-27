@@ -22,6 +22,9 @@
 
 **<p align="center"><a href="docs/evcs">EVCS: Etevers VMware Cloud Standards</a> > <a href="https://play.google.com/books/reader?id=PAFhEQAAQBAJ&pg=GBS.PP1&hl=ko">e-Book 링크</a></p>**
 
+> [!TIP]
+> 설정 과정은 `EVCS` > `BVP` > `ORB` 순서로 수행합니다.
+
 ## 오브리움 릴리즈 노트
 
 ### Brontes
