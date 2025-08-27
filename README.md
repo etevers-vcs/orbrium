@@ -14,10 +14,7 @@
 
 ## 메뉴얼
 
-
 ![Orbrium Logo](docs/images/vue.png)
-
-<p align="center"><img src="docs/images/vue.png?raw=true" width="75%"></p>
 
 **<p align="center"><a href="docs/orb">ORB: Orbrium</a> > <a href="https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368">OVA 이미지 다운로드</a></p>**
 
