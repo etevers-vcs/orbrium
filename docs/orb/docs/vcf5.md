@@ -24,6 +24,9 @@
 > [!CAUTION]
 > `accessKey` 와 `secretKey` 를 절대 유출하지 마세요.
 
+> [!WARNING]
+> `accessKey` 와 `secretKey` 변경은 사전 설계작업을 통해 에티버스와 함께 결정합니다. key를 구성하는 요건에 대한 사전 검증이 필요합니다.
+
 ## 2. 계정 정보 연동
 
 > [!NOTE]
