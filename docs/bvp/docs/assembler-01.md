@@ -8,7 +8,7 @@ Aria Automation 에서 사용할 vCenter, NSX 등록 및 Aria Operation 연동�
 
 <p align="center"><img src="images/aa-ca-02.png" width="75%" /><br/>< Infrastructure > Cloud Accounts 메뉴 선택 ></p>
   
-### 1. vCenter 연동
+## 1. vCenter 연동
 `ADD CLOUD ACCOUNT` 를 선택하고 `Cloud Account Types` 중 `vCenter Server` 를 선택합니다.
 
 <p align="center"><img src="images/aa-ca-03.png" width="75%" /><br/>< vCenter 등록 선택 ></p>
@@ -23,7 +23,7 @@ Aria Automation 에서 사용할 vCenter, NSX 등록 및 Aria Operation 연동�
 
 <p align="center"><img src="images/aa-ca-05.png" width="75%" /><br/>< vCenter 등록 완료 ></p>
   
-### 2. NSX 연동
+## 2. NSX 연동
 `ADD CLOUD ACCOUNT` 를 선택하고 `Cloud Account Types` 중 `NSX-T Manager` 를 선택합니다.
 
 <p align="center"><img src="images/aa-ca-06.png" width="75%" /><br/>< NSX-T 관리자 등록 선택 ></p>
@@ -38,7 +38,7 @@ Aria Automation 에서 사용할 vCenter, NSX 등록 및 Aria Operation 연동�
 
 <p align="center"><img src="images/aa-ca-08.png" width="75%" /><br/>< NSX-T 관리자 등록 완료 ></p>
   
-### 3. Aria Operations 연동
+## 3. Aria Operations 연동
 `Infrastructure` > `Connections` > `Integrations` > `ADD INTEGRATIONS` 를 선택하고 `Integrations Types` 중 `VMware Aria Operations` 를 선택합니다.
 
 <p align="center"><img src="images/aa-ca-09.png" width="75%" /><br/>< Infrastructure > Integration 메뉴 선택 ></p>
