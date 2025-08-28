@@ -9,6 +9,13 @@ Aria Automation 에서 사용할 vCenter, NSX 등록 및 Aria Operation 연동�
 <p align="center"><img src="images/aa-ca-02.png" width="75%" /><br/>< Infrastructure > Cloud Accounts 메뉴 선택 ></p>
   
 ## 1. vCenter 연동
+VMware Aria Automation 클라우드 템플릿을 배포하려는 계정 지역에 대한 기본 vCenter 클라우드 계정을 추가합니다.
+> [!BEFORE YOU BEGIN]
+> 필요한 서비스 계정 자격 증명이 있고 포트 443에서 HTTPS 액세스를 사용하도록 설정했는지 확인합니다. 
+> 클라우드 관리자 사용자 역할이 있는지 확인합니다. 
+> 원격 vSphere 에이전트에서 사용할 클라우드 계정을 생성하는 경우(프록시를 통해 모든 트래픽 전달 옵션을 사용하여 가능) 대상 원격 vCenter 서버에 VMware Aria Automation 확장성(vREx) 프록시를 배포하고 구성했는지 확인합니다.
+> 클라우드 계정 지원을 위해 포트와 프로토콜을 올바르게 구성했는지 확인합니다.
+
 `ADD CLOUD ACCOUNT` 를 선택하고 `Cloud Account Types` 중 `vCenter Server` 를 선택합니다.
 
 <p align="center"><img src="images/aa-ca-03.png" width="75%" /><br/>< vCenter 등록 선택 ></p>
