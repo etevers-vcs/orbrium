@@ -8,7 +8,7 @@ Aria Automation 에서 사용할 vCenter, NSX 등록 및 Aria Operation 연동�
 
 <p align="center"><img src="images/aa-ca-02.png" width="75%" /><br/>< Infrastructure > Cloud Accounts 메뉴 선택 ></p>
   
-### vCenter
+### 1. vCenter 연동
 
 <p align="center"><img src="images/aa-ca-03.png" width="75%" /><br/>< vCenter 등록 선택 ></p>
 
@@ -22,7 +22,7 @@ Aria Automation 에서 사용할 vCenter, NSX 등록 및 Aria Operation 연동�
 
 <p align="center"><img src="images/aa-ca-05.png" width="75%" /><br/>< vCenter 등록 완료 ></p>
   
-### NSX
+### 2. NSX 연동
 
 <p align="center"><img src="images/aa-ca-06.png" width="75%" /><br/>< NSX-T 관리자 등록 선택 ></p>
 
@@ -36,7 +36,7 @@ Aria Automation 에서 사용할 vCenter, NSX 등록 및 Aria Operation 연동�
 
 <p align="center"><img src="images/aa-ca-08.png" width="75%" /><br/>< NSX-T 관리자 등록 완료 ></p>
   
-### Aria Operations
+### 3. Aria Operations 연동
 
 <p align="center"><img src="images/aa-ca-09.png" width="75%" /><br/>< Infrastructure > Integration 메뉴 선택 ></p>
 
