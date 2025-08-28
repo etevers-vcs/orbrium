@@ -31,6 +31,12 @@ VMware Aria Automation 클라우드 템플릿을 배포하려는 계정 지역�
 <p align="center"><img src="images/aa-ca-05.png" width="75%" /><br/>< vCenter 등록 완료 ></p>
   
 ## 2. NSX 연동
+네트워크 및 보안을 위해 NSX-T 클라우드 계정을 생성하고 하나 이상의 vCenter 클라우드 계정에 연결할 수 있습니다.
+> [!CAUTION]
+> 필요한 서비스 계정 자격 증명이 있고 포트 443에서 HTTPS 액세스를 사용하도록 설정했는지 확인합니다. 
+> 클라우드 관리자 사용자 역할이 있는지 확인합니다.
+> 이 NSX 클라우드 계정에서 사용할 vCenter 클라우드 계정이 있는지 확인합니다.
+
 `ADD CLOUD ACCOUNT` 를 선택하고 `Cloud Account Types` 중 `NSX-T Manager` 를 선택합니다.
 
 <p align="center"><img src="images/aa-ca-06.png" width="75%" /><br/>< NSX-T 관리자 등록 선택 ></p>
@@ -46,6 +52,8 @@ VMware Aria Automation 클라우드 템플릿을 배포하려는 계정 지역�
 <p align="center"><img src="images/aa-ca-08.png" width="75%" /><br/>< NSX-T 관리자 등록 완료 ></p>
   
 ## 3. Aria Operations 연동
+VMware Aria Automation은 VMware Aria Operations를 사용하여 고급 워크로드 배치를 수행하고, 배포 상태 및 가상 시스템 메트릭을 제공하고, 가격 책정을 표시할 수 있습니다.
+
 `Infrastructure` > `Connections` > `Integrations` > `ADD INTEGRATIONS` 를 선택하고 `Integrations Types` 중 `VMware Aria Operations` 를 선택합니다.
 
 <p align="center"><img src="images/aa-ca-09.png" width="75%" /><br/>< Infrastructure > Integration 메뉴 선택 ></p>
