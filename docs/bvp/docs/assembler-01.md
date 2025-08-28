@@ -1,6 +1,6 @@
 # 클라우드 계정 설정
 
-<p align="center"><img src="images/aa-ca-01.png" width="75%" /><br/>Assembler 선택</p>
+<p align="center"><img src="images/aa-ca-01.png" width="75%" /><br/><Assembler 선택></p>
 
 <p align="center"><img src="images/aa-ca-02.png" width="75%" /><br/>Infrastructure > Cloud Accounts 메뉴 선택</p>
 
