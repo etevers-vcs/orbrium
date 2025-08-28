@@ -1,4 +1,8 @@
 # 클라우드 계정 설정
+> [!NOTE]
+> `Aria Automation` 에서 `admin/System Domain` 계정으로 수행
+
+Aria Automation 에서 사용할 vCenter 등록을 위한 작업을 수행합니다.
 
 <p align="center"><img src="images/aa-ca-01.png" width="75%" /><br/>< Assembler 선택 ></p>
 
