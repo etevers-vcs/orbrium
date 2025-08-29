@@ -6,7 +6,7 @@ Aria Automation 에서 사용할 vCenter, NSX 등록 및 Aria Operation 연동�
 
 <p align="center"><img src="images/aa-ca-01.png" width="75%" /><br/>< Assembler 선택 ></p>
 
-<p align="center"><img src="images/aa-ca-02.png" width="75%" /><br/>< Infrastructure > Cloud Accounts 메뉴 선택 ></p>
+<p align="center"><img src="images/aa-ca-02.png" width="75%" /><br/>< Infrastructure > `Cloud Accounts` 메뉴 선택 ></p>
   
 ## 1. vCenter 연동
 VMware Aria Automation 클라우드 템플릿을 배포하려는 계정 지역에 대한 기본 vCenter 클라우드 계정을 추가합니다.
