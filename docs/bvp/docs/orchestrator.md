@@ -17,16 +17,18 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 
 ### Broadcom Value Pack 패키지 설치
 
-#### 1. 패키지 파일 IMPORT
 
-<p align="center"><img src="images/aa-o-03.png" width="75%" /><br/>< Assets > Packages 목록 ></p>
+#### 1. 패키지 파일 가져오기
 
-Broadcom Value Pack 을 위한 패키지파일 IMPORT
-<p align="center"><img src="images/aa-o-04.png" width="75%" /><br/>< Assets > Packages > IMPORT ></p>
+`Assets` > `Packages` > `IMPORT` 선택하여 다운받아놓은 패키지 파일을 가져옵니다.\
+([BVP: Broadcom Value Pack > 바이너리 패키지 다운로드](https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package))
+<p align="center"><img src="images/aa-o-03.png" width="75%" /><br/>< Assets > 패키지 목록 확인 ></p>
+
+<p align="center"><img src="images/aa-o-04.png" width="75%" /><br/>< 패키지 가져오기 ></p>
 
 <p align="center"><img src="images/aa-o-05.png" width="75%" /><br/>< 패키지 파일 상세 내용 확인 ></p>
 
-<p align="center"><img src="images/aa-o-06.png" width="75%" /><br/>< 패키지 파일 IMPORT ></p>
+<p align="center"><img src="images/aa-o-06.png" width="75%" /><br/>< 패키지 파일 IMPORT 선택 ></p>
 
 #### 2. 패키지 파일 설치
 
