@@ -15,9 +15,9 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
   
 <p align="center"><img src="images/aa-o-02.png" width="75%" /><br/>< Orchestrator 메인 화면 ></p>
 
-## Broadcom Value Pack 패키지 설치
+### Broadcom Value Pack 패키지 설치
 
-### 패키지 파일 IMPORT
+#### 1. 패키지 파일 IMPORT
 
 <p align="center"><img src="images/aa-o-03.png" width="75%" /><br/>TEXT</p>
 
@@ -27,7 +27,7 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 
 <p align="center"><img src="images/aa-o-06.png" width="75%" /><br/>TEXT</p>
 
-### 패키지 파일 설치
+#### 2. 패키지 파일 설치
 
 <p align="center"><img src="images/aa-o-07.png" width="75%" /><br/>TEXT</p>
 
@@ -37,7 +37,7 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 
 <p align="center"><img src="images/aa-o-10.png" width="75%" /><br/>TEXT</p>
 
-### vCenter 정보 등록
+#### 3. vCenter 정보 등록
 
 <p align="center"><img src="images/aa-o-11.png" width="75%" /><br/>TEXT</p>
 
@@ -47,7 +47,7 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 
 <p align="center"><img src="images/aa-o-14.png" width="75%" /><br/>TEXT</p>
 
-### Endpoint 설정 암호 변경
+#### 4. Endpoint 설정 암호 변경
 
 <p align="center"><img src="images/aa-o-15.png" width="75%" /><br/>TEXT</p>
 
@@ -61,5 +61,6 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 
 <p align="center"><img src="images/aa-o-20.png" width="75%" /><br/>TEXT</p>
 
-### 카탈로그 아이콘 파일 확인
-Service Broker 설정 중 카탈로그들의 아이콘 설정 부분 참조 [카탈로그 컨텐츠 아이콘 수정](https://github.com/etevers-vcs/orbrium/blob/main/docs/bvp/docs/broker.md#%EC%B9%B4%ED%83%88%EB%A1%9C%EA%B7%B8-%EC%BB%A8%ED%85%90%EC%B8%A0-%EC%95%84%EC%9D%B4%EC%BD%98-%EC%88%98%EC%A0%95)<p align="center"><img src="images/aa-o-21.png" width="75%" /><br/>< 카탈로그 아이콘 파일 확인 ></p>
+#### 5. 카탈로그 아이콘 파일 확인
+Service Broker 설정 중 카탈로그들의 아이콘 설정 부분 참조 ([카탈로그 컨텐츠 아이콘 수정](/docs/bvp/docs/broker.md))
+<p align="center"><img src="images/aa-o-21.png" width="75%" /><br/>< 카탈로그 아이콘 파일 확인 ></p>
