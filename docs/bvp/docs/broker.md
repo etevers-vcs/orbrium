@@ -41,11 +41,20 @@ Automation Service Broker에서 카탈로그의 컨텐츠를 나타내는 아이
 
 <p align="center"><img src="images/aa-sb-08.png" width="75%" /><br/>< 모든 카탈로그 아이콘 설정 완료 ></p>
 
-<p align="center"><img src="images/aa-sb-09.png" width="75%" /><br/>TEXT</p>
+##  카탈로그 항목 배포 예
+Broadcom Value Pack 에서 제공하는 카탈로그 항목들의 배포 예는 아래와 같습니다.
 
-<p align="center"><img src="images/aa-sb-10.png" width="75%" /><br/>TEXT</p>
+### 1. 프로젝트 배포
 
-<p align="center"><img src="images/aa-sb-11.png" width="75%" /><br/>TEXT</p>
+<p align="center"><img src="images/aa-sb-09.png" width="75%" /><br/>< 카탈로그: Project ></p>
+
+<p align="center"><img src="images/aa-sb-10.png" width="75%" /><br/>< Basic Settings 입력 예 ></p>
+
+<p align="center"><img src="images/aa-sb-11.png" width="75%" /><br/>< User Settings 입력 예 ></p>
+
+<p align="center"><img src="images/aa-sb-26.png" width="75%" /><br/>< Approval Settings 입력 예 ></p>
+
+<p align="center"><img src="images/aa-sb-27.png" width="75%" /><br/>< Zone Restrictions 입력 예 ></p>
 
 <p align="center"><img src="images/aa-sb-12.png" width="75%" /><br/>TEXT</p>
 
