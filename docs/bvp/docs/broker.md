@@ -25,6 +25,7 @@ Automation Service Broker에서는 카탈로그의 컨텐츠를 나타내는 아
 <br/>
 `Orchestrator` > `Assets` > `Resources` > `BVP` > `Files` 아래의 Orbrium Icon 파일을 Export 하여 다운로드하고 파일의 압축을 푼다.
 <br/>
+  
 <p align="center"><img src="images/aa-sb-24.png" width="75%" /><br/>< Orbrium Icon 파일 선택 ></p>
 
 <p align="center"><img src="images/aa-sb-25.png" width="75%" /><br/>< OrbriumIcons.zip 파일 Export 실행 ></p>
