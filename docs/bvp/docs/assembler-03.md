@@ -1,16 +1,19 @@
 # 클라우드 논리 자원 설정
 
-<p align="center"><img src="images/aa-ca-01.png" width="75%" /><br/>Assembler 선택</p>
+<p align="center"><img src="images/aa-ca-01.png" width="75%" /><br/>< Assembler 선택 ></p>
 
 ## 클라우드 영역 설정
-Automation Assembler 클라우드 영역은 클라우드 계정 유형(예: AWS 또는 vSphere)에만 해당하는 계산 리소스 섹션입니다.
-클라우드 영역은 지역에 따라 달라지며 프로젝트에 할당해야 합니다. 클라우드 영역과 프로젝트 간에는 다대다 관계가 있습니다. Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하여 가장 널리 사용되는 공용 클라우드에 대한 배포를 지원합니다. 
-추가적인 배치 컨트롤로는 배치 정책 옵션, 기능 태그 및 계산 태그가 포함됩니다.
-프로젝트에 최대 3000개의 클라우드 영역을 추가할 수 있습니다. 그러나 클라우드 템플릿 배포에 포함될 수 있는 최대 클라우드 영역 수는 100개를 초과할 수 없습니다. 배포 단계에서 클라우드 영역은 할당된 제약 조건 태그 또는 클라우드 계정을 기준으로 필터링됩니다. 적용 가능한 클라우드 영역이 100개 넘게 남아 있으면 배포가 실패합니다.
+Automation Assembler 클라우드 영역은 클라우드 계정 유형(예: AWS 또는 vSphere)에만 해당하는 계산 리소스 섹션입니다.<br/>
+클라우드 영역은 지역에 따라 달라지며 프로젝트에 할당해야 합니다. 클라우드 영역과 프로젝트 간에는 다대다 관계가 있습니다. <br/>
+Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하여 가장 널리 사용되는 공용 클라우드에 대한 배포를 지원합니다. <br/>
+추가적인 배치 컨트롤로는 배치 정책 옵션, 기능 태그 및 계산 태그가 포함됩니다.<br/>
+프로젝트에 최대 3000개의 클라우드 영역을 추가할 수 있습니다. 그러나 클라우드 템플릿 배포에 포함될 수 있는 최대 클라우드 영역 수는 100개를 초과할 수 없습니다. <br/>
+배포 단계에서 클라우드 영역은 할당된 제약 조건 태그 또는 클라우드 계정을 기준으로 필터링됩니다. <br/>
+적용 가능한 클라우드 영역이 100개 넘게 남아 있으면 배포가 실패합니다.<br/>
 
-<p align="center"><img src="images/aa-cf-01.png" width="75%" /><br/>Infrastructure > Configure > Cloud Zones 메뉴 선택</p>
+<p align="center"><img src="images/aa-cf-01.png" width="75%" /><br/>Infrastructure > Configure >< Cloud Zones 메뉴 선택 ></p>
 
-<p align="center"><img src="images/aa-cf-02.png" width="75%" /><br/>클라우드 영역 설정</p>
+<p align="center"><img src="images/aa-cf-02.png" width="75%" /><br/>< 클라우드 영역 설정 ></p>
 
 > [!NOTE]
 > `Description`에 BVP에서 표시할 사용자 친화적인 이름을 입력
@@ -20,6 +23,13 @@ Automation Assembler 클라우드 영역은 클라우드 계정 유형(예: AWS 
 
 > [!NOTE]
 > `Capability tags`에 `compute:` 로 시작하는 고유 태그 입력
+
+> [!NOTE]
+> VMware Aria Automation 8.3 릴리스부터는 클라우드 영역이 계산 리소스를 더 이상 공유할 수 없습니다.
+> 공유 계산 리소스를 사용하는 레거시 클라우드 영역은 계속 지원되지만 현재 표준을 준수하도록 업데이트하라는 메시지가 사용자에게 표시됩니다.
+> 클라우드 계정 생성 중 자동 생성된 클라우드 영역은 데이터 수집 후 기본 계산 리소스와 연결됩니다.
+
+이 클라우드 영역에 워크로드를 프로비저닝하는 데 사용할 수 있는 계산 리소스(예: AWS 가용성 영역 및 vCenter 클러스터)를 보고 관리할 수 있습니다.
 
 <p align="center"><img src="images/aa-cf-03.png" width="75%" /><br/>할당 클라우드 자원 설정</p>
 
