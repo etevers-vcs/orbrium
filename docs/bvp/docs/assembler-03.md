@@ -138,62 +138,63 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 > [!NOTE]
 > `Capability tags` 에 `storage:` 로 시작하는 고유 태그 입력
 
-<p align="center"><img src="images/aa-cf-16.png" width="75%" /><br/>데이터스토어 추가</p>
+<p align="center"><img src="images/aa-cf-16.png" width="75%" /><br/>< 데이터스토어 추가 ></p>
 
 > [!NOTE]
 > `Manually select datastores/clusters` 선택 후 Datastore 추가
 
-<p align="center"><img src="images/aa-cf-17.png" width="75%" /><br/>스토리지 프로파일 확인</p>
+<p align="center"><img src="images/aa-cf-17.png" width="75%" /><br/>< 스토리지 프로파일 확인 ></p>
 
 ## 플레이버 (기준 배포 스펙) 설정
-버전 매핑은 자연어 이름 지정 방법을 사용하여 VMware Aria Automation에서 특정 클라우드 계정/지역에 대해 대상 배포 크기 집합을 그룹화합니다.\
-버전 매핑을 사용하면 계정 지역 전체에서 유사한 버전 크기를 포함하는 이름이 지정된 매핑을 생성할 수 있습니다. 예를 들어 standard_small이라는 버전 맵에는 프로젝트의 사용 가능한 계정/지역 전체 또는 일부에 사용할 수 있는 유사한 버전 크기(예: CPU 1개, 2GB RAM)가 포함될 수 있습니다. 클라우드 템플릿을 구축할 때는 필요에 맞는 사용 가능한 버전을 선택합니다.\
-배포 의도에 따라 프로젝트에 대한 버전 매핑을 구성합니다.\
-클라우드 템플릿 생성을 간소화하기 위해, 새 클라우드 계정을 추가할 때 사전 구성 옵션을 선택할 수 있습니다. \사전 구성 옵션을 선택하면 지정된 지역에 대해 조직에서 가장 널리 사용되는 버전 매핑 및 이미지 매핑이 선택됩니다.\
-vSphere 리소스가 포함된 클라우드 템플릿의 이미지 매핑과 관련하여, vSphere 클라우드 영역에 대해 정의된 버전 매핑이 없으면 클라우드 템플릿에서 vSphere 관련 설정을 사용하여 무제한 메모리 및 CPU를 구성할 수 있습니다. \
-vSphere 클라우드 영역에 대해 정의된 버전 매핑이 있으면 버전 매핑은 클라우드 템플릿에서 vSphere 관련 구성에 대한 제한으로 작동합니다.\
-버전 매핑에서 소켓당 최대 vCPU 수를 지정할 수 있습니다. 이 규격은 계산 할당 중에 그리고 배포를 프로비저닝할 때 VMware Aria Automation 클라우드 템플릿의 coreCount 속성을 해결합니다.
+플레이버 설정은 자연어 이름 지정 방법을 사용하여 VMware Aria Automation에서 특정 클라우드 계정/지역에 대해 대상 배포 크기 집합을 그룹화합니다.\
+플레이버 설정을 사용하면 계정 지역 전체에서 유사한 플레이버 크기를 포함하는 이름이 지정된 설정을 생성할 수 있습니다. 예를 들어 standard_small이라는 플레이버 맵에는 프로젝트의 사용 가능한 계정/지역 전체 또는 일부에 사용할 수 있는 유사한 버전 크기(예: CPU 1개, 2GB RAM)가 포함될 수 있습니다. 클라우드 템플릿을 구축할 때는 필요에 맞는 사용 가능한 플레이버를 선택합니다.\
+배포 의도에 따라 프로젝트에 대한 플레이버 설정을 구성합니다.\
+클라우드 템플릿 생성을 간소화하기 위해, 새 클라우드 계정을 추가할 때 사전 구성 옵션을 선택할 수 있습니다. \사전 구성 옵션을 선택하면 지정된 지역에 대해 조직에서 가장 널리 사용되는 플레이버 설정 및 이미지 설정이 선택됩니다.\
+vSphere 리소스가 포함된 클라우드 템플릿의 이미지 매핑과 관련하여, vSphere 클라우드 영역에 대해 정의된 플레이버 설정이 없으면 클라우드 템플릿에서 vSphere 관련 설정을 사용하여 무제한 메모리 및 CPU를 구성할 수 있습니다. \
+vSphere 클라우드 영역에 대해 정의된 플레이버 설정이 있으면 플레이버 설정은 클라우드 템플릿에서 vSphere 관련 구성에 대한 제한으로 작동합니다.\
+플레이버 설정에서 소켓당 최대 vCPU 수를 지정할 수 있습니다. 이 규격은 계산 할당 중에 그리고 배포를 프로비저닝할 때 VMware Aria Automation 클라우드 템플릿의 coreCount 속성을 해결합니다.
 
-<p align="center"><img src="images/aa-cf-18.png" width="75%" /><br/>Infrastructure > Configure > Flavor Mappings 메뉴 선택</p>
+<p align="center"><img src="images/aa-cf-18.png" width="75%" /><br/>< Infrastructure > Configure > Flavor Mappings 메뉴 선택 ></p>
 
 **`small` 크기 생성 (샘플)**
 
-<p align="center"><img src="images/aa-cf-19.png" width="75%" /><br/>small 크기 [1Core 2GRam]</p>
+<p align="center"><img src="images/aa-cf-19.png" width="75%" /><br/>< small 크기 [1Core 2GRam] ></p>
 
 **`medium` 크기 생성 (샘플)**
 
-<p align="center"><img src="images/aa-cf-20.png" width="75%" /><br/>medium 크기 [2Core 4GRam]</p>
+<p align="center"><img src="images/aa-cf-20.png" width="75%" /><br/>< medium 크기 [2Core 4GRam] ></p>
 
 **`large` 크기 생성 (샘플)**
 
-<p align="center"><img src="images/aa-cf-21.png" width="75%" /><br/>large 크기 [2Core 8GRam]</p>
+<p align="center"><img src="images/aa-cf-21.png" width="75%" /><br/>< large 크기 [2Core 8GRam] ></p>
 
 **`xlarge` 크기 생성 (샘플)**
 
-<p align="center"><img src="images/aa-cf-22.png" width="75%" /><br/>xlarge 크기 [4Core 16GRam]</p>
+<p align="center"><img src="images/aa-cf-22.png" width="75%" /><br/>< xlarge 크기 [4Core 16GRam] ></p>
 
-<p align="center"><img src="images/aa-cf-23.png" width="75%" /><br/>플레이버 확인</p>
+<p align="center"><img src="images/aa-cf-23.png" width="75%" /><br/>< 플레이버 확인 ></p>
 
 ## 이미지 설정
 
-<p align="center"><img src="images/aa-cf-24.png" width="75%" /><br/>Infrastructure > Configure > Image Mappings 메뉴 선택</p>
+<p align="center"><img src="images/aa-cf-24.png" width="75%" /><br/>< Infrastructure > Configure > Image Mappings 메뉴 선택 ></p>
 
 **Ubuntu 24.04 (샘플)**
 
-<p align="center"><img src="images/aa-cf-25.png" width="75%" /><br/>ubuntu24</p>
+<p align="center"><img src="images/aa-cf-25.png" width="75%" /><br/>< ubuntu24 ></p>
 
-<p align="center"><img src="images/aa-cf-26.png" width="75%" /><br/>이미지 설정 확인</p>
+<p align="center"><img src="images/aa-cf-26.png" width="75%" /><br/>< 이미지 설정 확인 ></p>
 
 ## 기본 커스텀 이름 규칙
+사용자 지정 명명 템플릿을 사용하여 배포된 리소스의 시스템 명명을 사용자가 정의한 명명 규칙으로 재정의할 수 있습니다. 이름 지정은 배포 시 적용됩니다.
 
-<p align="center"><img src="images/aa-cf-27.png" width="75%" /><br/>Infrastructure > Configure > Custom Names 메뉴 선택</p>
+<p align="center"><img src="images/aa-cf-27.png" width="75%" /><br/>< Infrastructure > Configure > Custom Names 메뉴 선택 ></p>
 
 > [!NOTE]
 > 최초 설정시에는 `Enroll` 버튼을 눌러 활성화 함
 
-<p align="center"><img src="images/aa-cf-28.png" width="75%" /><br/>기본 이름 규칙 설정</p>
+<p align="center"><img src="images/aa-cf-28.png" width="75%" /><br/>< 기본 이름 규칙 설정 ></p>
 
 > [!NOTE]
 > 모든 `Template Format`은 `${resource.name}` 으로 지정
 
-<p align="center"><img src="images/aa-cf-29.png" width="75%" /><br/>기본 이름 규칙 확인</p>
+<p align="center"><img src="images/aa-cf-29.png" width="75%" /><br/>< 기본 이름 규칙 확인 ></p>
