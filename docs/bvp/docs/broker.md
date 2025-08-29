@@ -13,24 +13,31 @@ Automation Service Broker에서는 카탈로그의 컨텐츠를 나타내는 아
 > [!IMPORTANT]
 > Virtual Machine 에서 사용할 OS 이미지의 Root Password 값을 지정한다.
 
-<p align="center"><img src="images/aa-sb-03.png" width="75%" /><br/>< form 내용 중 _ㅡmetadata_hidden 탭 필드 중 Root Password 선택 후 정의된 Value 값 수정 ></p>
+<p align="center"><img src="images/aa-sb-03.png" width="75%" /><br/>< form 내용 중 _ㅡmetadata_hidden 탭 필드 중 Root Password 선택 후 필드 속성 중 Value 값 수정 ></p>
 
 > [!IMPORTANT]
 > `Admin Username` 은 `orbadmin`을 디폴트값으로 지정한다.\
 > `Admin Password` 는 `Admin Username` 으로 로그인시 사용할 임의의 값을 지정한다.
 
-<p align="center"><img src="images/aa-sb-04.png" width="75%" /><br/>< form 내용 중 _ㅡmetadata_hidden 탭 필드 중 Admin Password 선택 후 정의된 Value 값 수정 ></p>
+<p align="center"><img src="images/aa-sb-04.png" width="75%" /><br/>< form 내용 중 _ㅡmetadata_hidden 탭 필드 중 Admin Password 선택 후 필드 속성 중 Value 값 수정 ></p>
 
 <p align="center"><img src="images/aa-sb-05.png" width="75%" /><br/>< Broadcom Value Pack 제공 전체 카탈로그 목록 ></p>
 
-`Orchestrator` > `Assets` > `Resources` > `BVP` > `Files` 아래의 Orbrium Icon 파일을 Export 하여 다운로드하고 파일의 압축을 푼다.\
+## 카탈로그 컨텐츠 아이콘 수정
+Automation Service Broker에서 카탈로그의 컨텐츠를 나타내는 아이콘을 사용자 지정하고, 카탈로그 항목에 대해 배포된 인스턴스 수를 제한하고, 가져온 템플릿에 대한 요청 양식을 사용자 지정할 수 있습니다. \
+요청 양식을 사용자 지정할 때 카탈로그 항목을 요청하는 사용자가 값을 제공할 수 있도록 입력 매개 변수를 디자인할 수도 있습니다. 사용자 지정 옵션이 양식에 표시되는 방법을 사용자 지정할 수 있습니다.\
+
+`Orchestrator` > `Assets` > `Resources` > `BVP` > `Files` 아래의 Orbrium Icon 파일을 Export 하여 다운로드하고 파일의 압축을 푼다.
+
 <p align="center"><img src="images/aa-sb-24.png" width="75%" /><br/>< Orbrium Icon 파일 선택 ></p>
 
 <p align="center"><img src="images/aa-sb-25.png" width="75%" /><br/>< OrbriumIcons.zip 파일 Export 실행 ></p>
-  
-<p align="center"><img src="images/aa-sb-06.png" width="75%" /><br/>TEXT</p>
 
-<p align="center"><img src="images/aa-sb-07.png" width="75%" /><br/>TEXT</p>
+카탈로그들의 아이콘 수정을 위한 작업으로 각 카탈로그 선택 후 `Configure Item` 메뉴를 선택한 후 수정 화면에서 `CHANGE ICON` 을 선택하여 다운로드한 아이콘 중 선택한 카탈로그와 같은 이름의 아이콘으로 선택 후 저장한다.
+
+<p align="center"><img src="images/aa-sb-06.png" width="75%" /><br/>< 카탈로그 선택 후 Configure Item 선택 </p>
+
+<p align="center"><img src="images/aa-sb-07.png" width="75%" /><br/>< Configure Item 수정 </p>
 
 <p align="center"><img src="images/aa-sb-08.png" width="75%" /><br/>TEXT</p>
 
