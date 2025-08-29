@@ -32,7 +32,7 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 
 #### 2. 패키지 파일 설치
 
-`Library` > `Workflows` > `BVP` > `Package` > `Install Value Pack` 을 실행시켜 오브리움을 위한 요소들을 설치합니다.
+`Library` > `Workflows` > `BVP` > `Package` > `Install Value Pack` 을 실행시켜 패키지에 포함된 요소들을 설치합니다.
 
 <p align="center"><img src="images/aa-o-07.png" width="75%" /><br/>< Workflows 목록 확인 ></p>
 
@@ -52,8 +52,7 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 
 <p align="center"><img src="images/aa-o-12.png" width="75%" /><br/>< vCenter 속성 정보 입력 ></p>
 
-<p align="center"><img src="images/aa-o-13.png" width="75%" /><br/>< vCenter 접속 정보 입력 ></p>
-  
+<p align="center"><img src="images/aa-o-13.png" width="75%" /><br/>< vCenter 접속 정보 입력 ></p> 
 > [!NOTE]
 > `Username` 은 `administrator@vsphere.local` 으로 입력
   
