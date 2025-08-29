@@ -2,7 +2,7 @@
 
 <p align="center"><img src="images/aa-ca-01.png" width="75%" /><br/>< Assembler 선택 ></p>
 
-## 컴퓨팅 설정
+## 1. 컴퓨팅 설정
 
 <p align="center"><img src="images/aa-rsc-01.png" width="75%" /><br/>< Infrastructure > Resources > Compute 메뉴 선택 ></p>
 
@@ -17,7 +17,7 @@
 
 <p align="center"><img src="images/aa-rsc-03.png" width="75%" /><br/>< 컴퓨팅 설정 확인 ></p>
 
-## 네트워크 설정
+## 2. 네트워크 설정
 
 ### 트랜짓 네트워크 설정
 
