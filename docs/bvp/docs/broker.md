@@ -10,7 +10,14 @@ Automation Service Broker에서는 카탈로그의 컨텐츠를 나타내는 아
 
 <p align="center"><img src="images/aa-sb-02.png" width="75%" /><br/>< Content & Policies > Content > Virtual Machine 의 Customize form 선택 ></p>
 
+> [!IMPORTANT]
+> Virtual Machine 에서 사용할 OS 이미지의 Root Password 값을 지정한다.
+
 <p align="center"><img src="images/aa-sb-03.png" width="75%" /><br/>< form 내용 중 _ㅡmetadata_hidden 탭 필드 중 Root Password 선택 후 정의된 Value 값 수정 ></p>
+
+> [!IMPORTANT]
+> `Admin Username` 은 `orbadmin`을 디폴트값으로 지정한다.
+> `Admin Password` 는 `Admin Username` 으로 로그인시 사용할 임의의 값을 지정한다.
 
 <p align="center"><img src="images/aa-sb-04.png" width="75%" /><br/>< form 내용 중 _ㅡmetadata_hidden 탭 필드 중 Admin Password 선택 후 정의된 Value 값 수정 ></p>
 
