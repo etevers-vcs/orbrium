@@ -13,6 +13,5 @@
 
 
 
-> [!NOTE]
-> 설치 가이드 > [다운로드](https://github.com/etevers-vcs/orbrium/blob/main/files/pptx/Broadcom_Value_Pack_Installation_Guide_V1.0.pptx)\
-> 테스트 시나리오 > [다운로드](https://github.com/etevers-vcs/orbrium/blob/main/files/pptx/Broadcom_Value_Pack_Test_Scenario_V1.0.pptx)
+- 설치 가이드 > [다운로드](https://github.com/etevers-vcs/orbrium/blob/main/files/pptx/Broadcom_Value_Pack_Installation_Guide_V1.0.pptx)\
+- 테스트 시나리오 > [다운로드](https://github.com/etevers-vcs/orbrium/blob/main/files/pptx/Broadcom_Value_Pack_Test_Scenario_V1.0.pptx)
