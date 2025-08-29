@@ -23,7 +23,7 @@ Automation Service Broker에서는 카탈로그의 컨텐츠를 나타내는 아
 
 <p align="center"><img src="images/aa-sb-05.png" width="75%" /><br/>< Broadcom Value Pack 제공 전체 카탈로그 목록 ></p>
 <br/>
-`Orchestrator` > `Assets` > `Resources` > `BVP` > `Files` 아래의 Orbrium Icon 파일을 Export 하여 다운로드하고 파일의 압축을 푼다.
+`Orchestrator` > `Assets` > `Resources` > `BVP` > `Files` 아래의 Orbrium Icon 파일을 Export 하여 다운로드하고 파일의 압축을 푼다.\
 
 <p align="center"><img src="images/aa-sb-24.png" width="75%" /><br/>< Orbrium Icon 파일 선택 ></p>
 
