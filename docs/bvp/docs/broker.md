@@ -5,11 +5,14 @@ VMware Aria Automation Service Broker는 카탈로그 항목을 요청하고 관
 
 <p align="center"><img src="images/aa-sb-01.png" width="75%" /><br/>< Service Broker 선택 ></p>
 
-<p align="center"><img src="images/aa-sb-02.png" width="75%" /><br/>TEXT</p>
+Automation Service Broker에서는 카탈로그의 컨텐츠를 나타내는 아이콘을 사용자 지정하고, 가져온 템플릿에 대한 요청 양식을 사용자 지정할 수 있습니다. \
+요청 양식을 사용자 지정할 때 카탈로그 항목을 요청하는 사용자가 값을 제공할 수 있도록 입력 매개 변수를 디자인할 수도 있습니다. 사용자 지정 옵션이 양식에 표시되는 방법을 사용자 지정할 수 있습니다.
 
-<p align="center"><img src="images/aa-sb-03.png" width="75%" /><br/>TEXT</p>
+<p align="center"><img src="images/aa-sb-02.png" width="75%" /><br/>< Content & Policies > Content > Virtual Machine 의 Customize form 선택 </p>
 
-<p align="center"><img src="images/aa-sb-04.png" width="75%" /><br/>TEXT</p>
+<p align="center"><img src="images/aa-sb-03.png" width="75%" /><br/>< form 내용 중 _ㅡmetadata_hidden 탭 필드 중 Root Password 선택 후 정의된 Value 값 수정 ></p>
+
+<p align="center"><img src="images/aa-sb-04.png" width="75%" /><br/>< form 내용 중 _ㅡmetadata_hidden 탭 필드 중 Admin Password 선택 후 정의된 Value 값 수정 ></p>
 
 <p align="center"><img src="images/aa-sb-05.png" width="75%" /><br/>TEXT</p>
 
