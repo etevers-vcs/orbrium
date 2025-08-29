@@ -86,4 +86,6 @@ Broadcom Value Pack 에서 제공하는 카탈로그 항목들의 배포 예는 
 
 <p align="center"><img src="images/aa-sb-22.png" width="75%" /><br/>< Network Settings 입력 예 ></p>
 
-<p align="center"><img src="images/aa-sb-23.png" width="75%" /><br/>< Storage Settings 입력 예 ></p>
+<p align="center"><img src="images/aa-sb-28.png" width="75%" /><br/>< Storage Settings 입력 예 ></p>
+  
+<p align="center"><img src="images/aa-sb-23.png" width="75%" /><br/>< Virtual Machine 배포 확인 ></p>
