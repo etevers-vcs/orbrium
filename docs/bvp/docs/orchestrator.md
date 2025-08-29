@@ -39,6 +39,7 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 <p align="center"><img src="images/aa-o-08.png" width="75%" /><br/>< Install Value Pack 실행 ></p>
 
 <p align="center"><img src="images/aa-o-09.png" width="75%" /><br/>< 설치할 패키지 정보 입력 ></p>
+  
 > [!NOTE]
 > `Username` 은 `admin` 으로 입력\
 > `Admin Project` / `Prime Project` 은 `admin` / `project`으로 입력
@@ -53,6 +54,7 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 <p align="center"><img src="images/aa-o-12.png" width="75%" /><br/>< vCenter 속성 정보 입력 ></p>
 
 <p align="center"><img src="images/aa-o-13.png" width="75%" /><br/>< vCenter 접속 정보 입력 ></p> 
+  
 > [!NOTE]
 > `Username` 은 `administrator@vsphere.local` 으로 입력
   
