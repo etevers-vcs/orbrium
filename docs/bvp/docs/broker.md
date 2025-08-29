@@ -21,7 +21,7 @@ Automation Service Broker에서는 카탈로그의 컨텐츠를 나타내는 아
 
 <p align="center"><img src="images/aa-sb-04.png" width="75%" /><br/>< form 내용 중 _ㅡmetadata_hidden 탭 필드 중 Admin Password 선택 후 정의된 Value 값 수정 ></p>
 
-<p align="center"><img src="images/aa-sb-05.png" width="75%" /><br/>TEXT</p>
+<p align="center"><img src="images/aa-sb-05.png" width="75%" /><br/>< Broadcom Value Pack 제공 Catalog List ></p>
 
 <p align="center"><img src="images/aa-sb-06.png" width="75%" /><br/>TEXT</p>
 
