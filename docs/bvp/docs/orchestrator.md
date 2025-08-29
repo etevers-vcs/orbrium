@@ -20,8 +20,8 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 
 #### 1. 패키지 파일 가져오기
 
-`Assets` > `Packages` > `IMPORT` 선택하여 다운받아놓은 패키지 파일을 가져옵니다.\
-([BVP: Broadcom Value Pack > 바이너리 패키지 다운로드](https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package))
+`Assets` > `Packages` > `IMPORT` 선택하여 다운받아놓은 패키지 파일을 가져옵니다.([BVP: Broadcom Value Pack > 바이너리 패키지 다운로드](https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package))
+
 <p align="center"><img src="images/aa-o-03.png" width="75%" /><br/>< Assets > 패키지 목록 확인 ></p>
 
 <p align="center"><img src="images/aa-o-04.png" width="75%" /><br/>< 패키지 가져오기 ></p>
@@ -32,13 +32,15 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 
 #### 2. 패키지 파일 설치
 
-<p align="center"><img src="images/aa-o-07.png" width="75%" /><br/>TEXT</p>
+`Library` > `Workflows` > `BVP` > `Package` > `Install Value Pack` 을 실행시켜 오브리움을 위한 요소들을 설치합니다.
 
-<p align="center"><img src="images/aa-o-08.png" width="75%" /><br/>TEXT</p>
+<p align="center"><img src="images/aa-o-07.png" width="75%" /><br/>< Workflows 목록 확인 ></p>
 
-<p align="center"><img src="images/aa-o-09.png" width="75%" /><br/>TEXT</p>
+<p align="center"><img src="images/aa-o-08.png" width="75%" /><br/>< Install Value Pack 실행 ></p>
 
-<p align="center"><img src="images/aa-o-10.png" width="75%" /><br/>TEXT</p>
+<p align="center"><img src="images/aa-o-09.png" width="75%" /><br/>< 설치할 패키지 정보 입력 ></p>
+
+<p align="center"><img src="images/aa-o-10.png" width="75%" /><br/>< Install Value Pack 실행 결과 확인 ></p>
 
 #### 3. vCenter 정보 등록
 
