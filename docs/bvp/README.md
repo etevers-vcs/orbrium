@@ -1,6 +1,6 @@
 # Broadcom Value Pack
 
-## 1. 설치 방법
+## 설치 방법
 
 1. [Aria Automation 권한 설정](docs/authn.md)
 2. Assember 설정
@@ -10,31 +10,3 @@
 3. [Orchestrator 설정](docs/orchestrator.md)
 4. [트랜짓 더미 VM 생성](docs/transitdummy.md)
 5. [Service Broker 설정](docs/broker.md)
-
-## 2. 사용 방법
-
-### 2.1. 관리자 설정
-
-> Todo
-> - [ ] 카탈로그 폼에서 설정하는 내용
-> - [ ] 네트워크 설계 및 동작 (with VPC or without VPC)
-> - [ ] 외부 추가 연동 ALB/DSM/ETC
-
-### 2.2. 사용자 작업
-
-> Todo
-> - [ ] 배포 순서 및 생명 주기 관리 방법
-> - [ ] 자원 종류
-> - [ ] 자원별 작업(액션) 종류
-
-## 3. 트러블 슈팅
-
-### 3.1. 작업 호출 흐름
-
-> Todo
-> 각 배포본 생성수정삭제시 일어나는 내부 작업 흐름 도식화
-
-### 3.2. 이상 징후 종류
-
-> Todo
-> 뭐가 있을까요
