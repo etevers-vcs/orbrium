@@ -11,7 +11,7 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 배포 단계에서 클라우드 영역은 할당된 제약 조건 태그 또는 클라우드 계정을 기준으로 필터링됩니다. \
 적용 가능한 클라우드 영역이 100개 넘게 남아 있으면 배포가 실패합니다.
 
-<p align="center"><img src="images/aa-cf-01.png" width="75%" /><br/>Infrastructure > Configure >< Cloud Zones 메뉴 선택 ></p>
+<p align="center"><img src="images/aa-cf-01.png" width="75%" /><br/>< Infrastructure > Configure >< Cloud Zones 메뉴 선택 ></p>
 
 <p align="center"><img src="images/aa-cf-02.png" width="75%" /><br/>< 클라우드 영역 설정 ></p>
 
@@ -42,6 +42,15 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 네트워크 프로파일은 VMware Aria Automation의 특정 지역 또는 데이터 센터의 클라우드 계정에서 사용할 수 있는 네트워크 설정 및 네트워크 그룹을 정의합니다.\
 일반적으로 네트워크 프로파일은 예를 들어 기존 네트워크에 아웃바운드 액세스만 있는 소규모 테스트 환경이나 일련의 보안 정책이 필요한 대규모의 로드 밸런싱된 운영 환경과 같은 대상 배포 환경을 지원하기 위해 정의합니다. \
 네트워크 프로파일을 워크로드별 네트워크 특성의 모음으로 생각할 수 있습니다.
+
+### 네트워크 프로파일의 내용
+네트워크 프로파일에는 다음 설정을 포함하여 VMware Aria Automation의 명명된 클라우드 계정 유형 및 지역에 대한 특정 정보가 포함되어 있습니다.\
+- 네트워크 프로파일에 대한 명명된 클라우드 계정/지역 및 선택적 기능 태그.
+- 명명된 기존 네트워크 및 해당 설정.
+- 네트워크 프로파일의 주문형 네트워크 및 기타 측면을 정의하는 네트워크 정책.
+- 기존 로드 밸런서가 선택적으로 포함됩니다.
+- 기존 보안 그룹이 선택적으로 포함됩니다.
+네트워크 프로파일을 기반으로 네트워크 IP 관리 기능을 결정합니다.
 
 <p align="center"><img src="images/aa-cf-05.png" width="75%" /><br/>< Infrastructure > Configure > Network Profiles 메뉴 선택 ></p>
 
