@@ -61,18 +61,31 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 <p align="center"><img src="images/aa-o-14.png" width="75%" /><br/>< Add a vCenter Server instance 실행 결과 확인 ></p>
 
 #### 4. Endpoint 설정 암호 변경
+Workflow에서 사용할 vCenter, NSX Endpoint 의 암호를 설정합니다.
 
-<p align="center"><img src="images/aa-o-15.png" width="75%" /><br/>TEXT</p>
+`Assets` > `Configurations` > `BVP` > `Endpoint` > `vcsa-az2` > `data` 안의 암호를 재설정합니다.
 
-<p align="center"><img src="images/aa-o-16.png" width="75%" /><br/>TEXT</p>
+<p align="center"><img src="images/aa-o-15.png" width="75%" /><br/>< vCenter 접속을 위한 data 확인 ></p>
 
-<p align="center"><img src="images/aa-o-17.png" width="75%" /><br/>TEXT</p>
+> [!NOTE]
+> `hostname` 이 접속할 vCenter 의 FQDN 과 같은지 확인
+> `username` 은 `administrator@vsphere.local` 으로 입력
 
-<p align="center"><img src="images/aa-o-18.png" width="75%" /><br/>TEXT</p>
+<p align="center"><img src="images/aa-o-16.png" width="75%" /><br/>< vCenter 접속을 사용자 입력 ></p>
 
-<p align="center"><img src="images/aa-o-19.png" width="75%" /><br/>TEXT</p>
+<p align="center"><img src="images/aa-o-17.png" width="75%" /><br/>< vCenter 접속을 위한 암호 입력 ></p>
 
-<p align="center"><img src="images/aa-o-20.png" width="75%" /><br/>TEXT</p>
+`Assets` > `Configurations` > `BVP` > `Endpoint` > `nsx-az2` > `data` 안의 암호를 재설정합니다.
+
+<p align="center"><img src="images/aa-o-18.png" width="75%" /><br/>< NSX 접속을 위한 data 확인 ></p>
+
+> [!NOTE]
+> `hostname` 이 접속할 NSX 의 FQDN 과 같은지 확인
+> `username` 은 `admin` 으로 입력
+
+<p align="center"><img src="images/aa-o-19.png" width="75%" /><br/>< NSX 접속을 사용자 입력 ></p>
+
+<p align="center"><img src="images/aa-o-20.png" width="75%" /><br/>< NSX 접속을 위한 암호 입력 ></p>
 
 #### 5. 카탈로그 아이콘 파일 확인
 카탈로그 목록에서 표시될 카탈로그의 아이콘을 위한 이미지 파일을 확인합니다. ([Service Broker 설정 중 카탈로그 컨텐츠 아이콘 수정 부분 참조](/docs/bvp/docs/broker.md))
