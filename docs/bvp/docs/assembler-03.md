@@ -2,7 +2,7 @@
 
 <p align="center"><img src="images/aa-ca-01.png" width="75%" /><br/>< Assembler 선택 ></p>
 
-## 클라우드 영역 설정
+## 1. 클라우드 영역 설정
 Automation Assembler 클라우드 영역은 클라우드 계정 유형(예: AWS 또는 vSphere)에만 해당하는 계산 리소스 섹션입니다.\
 클라우드 영역은 지역에 따라 달라지며 프로젝트에 할당해야 합니다. 클라우드 영역과 프로젝트 간에는 다대다 관계가 있습니다. \
 Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하여 가장 널리 사용되는 공용 클라우드에 대한 배포를 지원합니다. \
@@ -38,7 +38,7 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 
 <p align="center"><img src="images/aa-cf-04.png" width="75%" /><br/>< 클라우드 영역 생성 완료 ></p>
 
-## 네트워크 프로필 설정
+## 2. 네트워크 프로필 설정
 네트워크 프로파일은 VMware Aria Automation의 특정 지역 또는 데이터 센터의 클라우드 계정에서 사용할 수 있는 네트워크 설정 및 네트워크 그룹을 정의합니다.\
 일반적으로 네트워크 프로파일은 예를 들어 기존 네트워크에 아웃바운드 액세스만 있는 소규모 테스트 환경이나 일련의 보안 정책이 필요한 대규모의 로드 밸런싱된 운영 환경과 같은 대상 배포 환경을 지원하기 위해 정의합니다. \
 네트워크 프로파일을 워크로드별 네트워크 특성의 모음으로 생각할 수 있습니다.
@@ -121,7 +121,7 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 
 <p align="center"><img src="images/aa-cf-13.png" width="75%" /><br/>< 외부망 VPC 사전 네트워크 확인 ></p>
 
-## 스토리지 프로파일 설정
+## 3. 스토리지 프로파일 설정
 스토리지 프로파일은 클라우드별 지역에 구성됩니다. \
 클라우드 계정 하나에 여러 지역이 포함될 수 있으며, 각 지역에 스토리지 프로파일이 여러 개 포함될 수 있습니다.\
 스토리지 프로파일에서 기능 태그를 사용하고 클라우드 템플릿에 있는 가상 시스템 속성의 스토리지 섹션에서 해당 태그를 소프트 제약 조건으로 설정할 수 있습니다. \
@@ -145,7 +145,7 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 
 <p align="center"><img src="images/aa-cf-17.png" width="75%" /><br/>< 스토리지 프로파일 확인 ></p>
 
-## 플레이버 (기준 배포 스펙) 설정
+## 4. 플레이버 (기준 배포 스펙) 설정
 플레이버 설정은 자연어 이름 지정 방법을 사용하여 VMware Aria Automation에서 특정 클라우드 계정/지역에 대해 대상 배포 크기 집합을 그룹화합니다.\
 플레이버 설정을 사용하면 계정 지역 전체에서 유사한 플레이버 크기를 포함하는 이름이 지정된 설정을 생성할 수 있습니다. 예를 들어 standard_small이라는 플레이버 맵에는 프로젝트의 사용 가능한 계정/지역 전체 또는 일부에 사용할 수 있는 유사한 버전 크기(예: CPU 1개, 2GB RAM)가 포함될 수 있습니다. 클라우드 템플릿을 구축할 때는 필요에 맞는 사용 가능한 플레이버를 선택합니다.
 배포 의도에 따라 프로젝트에 대한 플레이버 설정을 구성합니다.\
@@ -174,7 +174,7 @@ vSphere 클라우드 영역에 대해 정의된 플레이버 설정이 있으면
 
 <p align="center"><img src="images/aa-cf-23.png" width="75%" /><br/>< 플레이버 확인 ></p>
 
-## 이미지 설정
+## 5. 이미지 설정
 
 <p align="center"><img src="images/aa-cf-24.png" width="75%" /><br/>< Infrastructure > Configure > Image Mappings 메뉴 선택 ></p>
 
@@ -184,7 +184,7 @@ vSphere 클라우드 영역에 대해 정의된 플레이버 설정이 있으면
 
 <p align="center"><img src="images/aa-cf-26.png" width="75%" /><br/>< 이미지 설정 확인 ></p>
 
-## 기본 커스텀 이름 규칙
+## 6. 기본 커스텀 이름 규칙
 사용자 지정 명명 템플릿을 사용하여 배포된 리소스의 시스템 명명을 사용자가 정의한 명명 규칙으로 재정의할 수 있습니다. 이름 지정은 배포 시 적용됩니다.
 
 <p align="center"><img src="images/aa-cf-27.png" width="75%" /><br/>< Infrastructure > Configure > Custom Names 메뉴 선택 ></p>
