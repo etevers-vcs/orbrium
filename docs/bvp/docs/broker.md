@@ -1,6 +1,6 @@
 # Service Broker 설정
 
-<p align="center"><img src="images/aa-sb-01.png" width="75%" /><br/>< Service Broker 선택 </p>
+<p align="center"><img src="images/aa-sb-01.png" width="75%" /><br/>< Service Broker 선택 ></p>
 
 <p align="center"><img src="images/aa-sb-02.png" width="75%" /><br/>TEXT</p>
 
