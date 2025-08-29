@@ -29,9 +29,9 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 <p align="center"><img src="images/aa-cf-03.png" width="75%" /><br/>할당 클라우드 자원 설정</p>
 
 > [!NOTE]
-> `Manually select compute` 선택 자원 메뉴에서 설정한 클라우드 기반 컴퓨팅 자원 선택
-> VMware Aria Automation 8.3 릴리스부터는 클라우드 영역이 계산 리소스를 더 이상 공유할 수 없습니다.
-> 공유 계산 리소스를 사용하는 레거시 클라우드 영역은 계속 지원되지만 현재 표준을 준수하도록 업데이트하라는 메시지가 사용자에게 표시됩니다.
+> `Manually select compute` 선택 자원 메뉴에서 설정한 클라우드 기반 컴퓨팅 자원 선택 <br/>
+> VMware Aria Automation 8.3 릴리스부터는 클라우드 영역이 계산 리소스를 더 이상 공유할 수 없습니다.<br/>
+> 공유 계산 리소스를 사용하는 레거시 클라우드 영역은 계속 지원되지만 현재 표준을 준수하도록 업데이트하라는 메시지가 사용자에게 표시됩니다.<br/>
 > 클라우드 계정 생성 중 자동 생성된 클라우드 영역은 데이터 수집 후 기본 계산 리소스와 연결됩니다.
 
 <p align="center"><img src="images/aa-cf-04.png" width="75%" /><br/>클라우드 영역 생성 완료</p>
