@@ -71,7 +71,7 @@ Workflow에서 사용할 vCenter, NSX Endpoint 의 암호를 설정합니다.
 <p align="center"><img src="images/aa-o-15.png" width="75%" /><br/>< vCenter 접속을 위한 data 확인 ></p>
 
 > [!NOTE]
-> `hostname` 이 접속할 vCenter 의 FQDN 과 같은지 확인
+> `hostname` 이 접속할 vCenter 의 FQDN 과 같은지 확인\
 > `username` 은 `administrator@vsphere.local` 으로 입력
 
 <p align="center"><img src="images/aa-o-16.png" width="75%" /><br/>< vCenter 접속을 사용자 입력 ></p>
@@ -83,7 +83,7 @@ Workflow에서 사용할 vCenter, NSX Endpoint 의 암호를 설정합니다.
 <p align="center"><img src="images/aa-o-18.png" width="75%" /><br/>< NSX 접속을 위한 data 확인 ></p>
 
 > [!NOTE]
-> `hostname` 이 접속할 NSX 의 FQDN 과 같은지 확인
+> `hostname` 이 접속할 NSX 의 FQDN 과 같은지 확인\
 > `username` 은 `admin` 으로 입력
 
 <p align="center"><img src="images/aa-o-19.png" width="75%" /><br/>< NSX 접속을 사용자 입력 ></p>
