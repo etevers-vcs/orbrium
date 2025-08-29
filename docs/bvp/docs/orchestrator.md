@@ -62,5 +62,5 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 <p align="center"><img src="images/aa-o-20.png" width="75%" /><br/>TEXT</p>
 
 #### 5. 카탈로그 아이콘 파일 확인
-Service Broker 설정 중 카탈로그들의 아이콘 설정 부분 참조 ([카탈로그 컨텐츠 아이콘 수정](/docs/bvp/docs/broker.md#카탈로그-컨텐츠-아이콘-수정))
+카탈로그에서 사용할 아이콘 파일을 확인합니다. ([Service Broker 설정 중 카탈로그 컨텐츠 아이콘 수정 부분 참조](/docs/bvp/docs/broker.md))
 <p align="center"><img src="images/aa-o-21.png" width="75%" /><br/>< 카탈로그 아이콘 파일 확인 ></p>
