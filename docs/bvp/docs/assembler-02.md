@@ -4,7 +4,7 @@
 
 ## 컴퓨팅 설정
 
-<p align="center"><img src="images/aa-rsc-01.png" width="75%" /><br/>< `Infrastructure` > `Resources` > `Compute` 메뉴 선택 ></p>
+<p align="center"><img src="images/aa-rsc-01.png" width="75%" /><br/>< Infrastructure > Resources > Compute 메뉴 선택 ></p>
 
 <p align="center"><img src="images/aa-rsc-02.png" width="75%" /><br/>< VM 배포 공간(클러스터 또는 리소스풀) 선택 후 태그 추가 ></p>
 
@@ -17,7 +17,7 @@
 
 ### 트랜짓 네트워크 설정
 
-<p align="center"><img src="images/aa-rsc-04.png" width="75%" /><br/>< `Infrastructure` > `Resources` > `Networks` 에서 트랜짓 네트워크 검색 ></p>
+<p align="center"><img src="images/aa-rsc-04.png" width="75%" /><br/>< Infrastructure > Resources > Networks 에서 트랜짓 네트워크 검색 ></p>
 
 > [!CAUTION]
 > 반드시 모든 작업은 NSX-T 계정으로 등록된 자원을 대상으로 수행 하여야 함\
