@@ -51,6 +51,9 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 
 <p align="center"><img src="images/aa-o-11.png" width="75%" /><br/>< Add a vCenter Server instance 실행 ></p>
 
+> [!NOTE]
+> `host name` 이 접속할 vCenter 의 FQDN 과 같은지 확인
+
 <p align="center"><img src="images/aa-o-12.png" width="75%" /><br/>< vCenter 속성 정보 입력 ></p>
 
 > [!NOTE]
