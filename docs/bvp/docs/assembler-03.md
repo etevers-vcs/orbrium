@@ -50,7 +50,7 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 - 네트워크 프로파일의 주문형 네트워크 및 기타 측면을 정의하는 네트워크 정책.
 - 기존 로드 밸런서가 선택적으로 포함됩니다.
 - 기존 보안 그룹이 선택적으로 포함됩니다.
-<br/>  
+
 네트워크 프로파일을 기반으로 네트워크 IP 관리 기능을 결정합니다.
 
 <p align="center"><img src="images/aa-cf-05.png" width="75%" /><br/>< Infrastructure > Configure > Network Profiles 메뉴 선택 ></p>
