@@ -44,7 +44,7 @@ Automation Service Broker에서 카탈로그의 컨텐츠를 나타내는 아이
 ##  카탈로그 항목 배포 예
 Broadcom Value Pack 에서 제공하는 카탈로그 항목들의 배포 예는 아래와 같습니다.
 
-### 1. 카탈로그: Project 배포
+### 1. Project 배포
 
 <p align="center"><img src="images/aa-sb-09.png" width="75%" /><br/>< 카탈로그: Project ></p>
 
@@ -56,29 +56,29 @@ Broadcom Value Pack 에서 제공하는 카탈로그 항목들의 배포 예는 
 
 <p align="center"><img src="images/aa-sb-27.png" width="75%" /><br/>< Zone Restrictions 입력 예 ></p>
 
-<p align="center"><img src="images/aa-sb-12.png" width="75%" /><br/>< 카탈로그 배포 확인 ></p>
+<p align="center"><img src="images/aa-sb-12.png" width="75%" /><br/>< Project 배포 확인 ></p>
 
 신규 프로젝트로 배포된 카탈로그의 목록을 확인합니다.
 
 <p align="center"><img src="images/aa-sb-13.png" width="75%" /><br/>< 신규 프로젝트가 사용 가능한 카탈로그 목록 ></p>
 
-### 2. 카탈로그: Virtual Private Cloud 배포
+### 2. Virtual Private Cloud 배포
 
 <p align="center"><img src="images/aa-sb-14.png" width="75%" /><br/>< Basic Settings 입력 예 ></p>
 
 <p align="center"><img src="images/aa-sb-15.png" width="75%" /><br/>< Policy Settings 입력 예 ></p>
 
-<p align="center"><img src="images/aa-sb-16.png" width="75%" /><br/>< 카탈로그 배포 확인 ></p>
+<p align="center"><img src="images/aa-sb-16.png" width="75%" /><br/>< Virtual Private Cloud 배포 확인 ></p>
 
-### 3. 카탈로그: Segment 배포
+### 3. Segment 배포
 
 <p align="center"><img src="images/aa-sb-17.png" width="75%" /><br/>< Basic Settings 입력 예 ></p>
 
 <p align="center"><img src="images/aa-sb-18.png" width="75%" /><br/>< Network Settings 입력 예 ></p>
 
-<p align="center"><img src="images/aa-sb-19.png" width="75%" /><br/>< 카탈로그 배포 확인 ></p>
+<p align="center"><img src="images/aa-sb-19.png" width="75%" /><br/>< Segment 배포 확인 ></p>
 
-### 4. 카탈로그: Virtual Machine 배포
+### 4. Virtual Machine 배포
 
 <p align="center"><img src="images/aa-sb-20.png" width="75%" /><br/>< Basic Settings 입력 예 ></p>
 
