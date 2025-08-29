@@ -6,6 +6,9 @@
 
 <p align="center"><img src="images/aa-rsc-01.png" width="75%" /><br/>< Infrastructure > Resources > Compute 메뉴 선택 ></p>
 
+클라우드 템플릿에는 배포 배치를 결정하는 데 도움이 되는 제약 조건 태그가 포함되어 있습니다. <br/>
+배포 시 클라우드 템플릿 제약 조건 태그가 클라우드 영역 및 계산 리소스의 일치하는 기능 태그에 매핑되어, 가상 시스템 계산 리소스 배치에 사용할 수 있는 클라우드 영역이 결정됩니다.
+
 <p align="center"><img src="images/aa-rsc-02.png" width="75%" /><br/>< VM 배포 공간(클러스터 또는 리소스풀) 선택 후 태그 추가 ></p>
 
 > [!NOTE]
