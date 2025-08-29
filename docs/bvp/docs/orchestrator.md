@@ -2,7 +2,7 @@
 Automation Orchestrator 사용에서는 Automation Orchestrator 클라이언트의 워크플로 자동화 특성 및 기능에 대한 정보를 제공합니다.
 
 ## Automation Orchestrator 사용자 인터페이스
-Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 서비스 및 개체를 관리합니다.\
+Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 서비스 및 개체를 관리합니다.
 - 대시보드:	Automation Orchestrator 클라이언트 대시보드 및 프로파일링 기능을 사용하여 Automation Orchestrator 환경 및 워크플로에 대한 유용한 메트릭 데이터를 수집합니다.
 - 워크플로:	워크플로를 생성, 편집, 스케줄링, 실행 및 삭제합니다.
 - 작업:	작업을 생성, 편집 및 삭제합니다. 작업 편집기는 Automation Orchestrator API 탐색기에 포함된 일반 스크립트 요소에 대한 자동 완성을 지원합니다.
