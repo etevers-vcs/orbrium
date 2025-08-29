@@ -1,10 +1,10 @@
 # 클라우드 기반 자원 설정
 
-<p align="center"><img src="images/aa-ca-01.png" width="75%" /><br/>Assembler 선택</p>
+<p align="center"><img src="images/aa-ca-01.png" width="75%" /><br/>< Assembler 선택 ></p>
 
 ## 컴퓨팅 설정
 
-<p align="center"><img src="images/aa-rsc-01.png" width="75%" /><br/>Infrastructure > Resources > Compute 메뉴 선택</p>
+<p align="center"><img src="images/aa-rsc-01.png" width="75%" /><br/>Infrastructure >< Resources > Compute 메뉴 선택 ></p>
 
 <p align="center"><img src="images/aa-rsc-02.png" width="75%" /><br/>VM 배포 공간(클러스터 또는 리소스풀) 선택 후 태그 추가</p>
 
