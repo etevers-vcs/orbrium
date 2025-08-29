@@ -4,26 +4,26 @@
 
 ## 컴퓨팅 설정
 
-<p align="center"><img src="images/aa-rsc-01.png" width="75%" /><br/>Infrastructure >< Resources > Compute 메뉴 선택 ></p>
+<p align="center"><img src="images/aa-rsc-01.png" width="75%" /><br/>< `Infrastructure` > `Resources` > `Compute` 메뉴 선택 ></p>
 
-<p align="center"><img src="images/aa-rsc-02.png" width="75%" /><br/>VM 배포 공간(클러스터 또는 리소스풀) 선택 후 태그 추가</p>
+<p align="center"><img src="images/aa-rsc-02.png" width="75%" /><br/>< VM 배포 공간(클러스터 또는 리소스풀) 선택 후 태그 추가 ></p>
 
 > [!NOTE]
 > `compute:` 로 시작하는 고유 값을 입력
 
-<p align="center"><img src="images/aa-rsc-03.png" width="75%" /><br/>컴퓨팅 설정 확인</p>
+<p align="center"><img src="images/aa-rsc-03.png" width="75%" /><br/>< 컴퓨팅 설정 확인 ></p>
 
 ## 네트워크 설정
 
 ### 트랜짓 네트워크 설정
 
-<p align="center"><img src="images/aa-rsc-04.png" width="75%" /><br/>Infrastructure > Resources > Networks 에서 트랜짓 네트워크 검색</p>
+<p align="center"><img src="images/aa-rsc-04.png" width="75%" /><br/>< `Infrastructure` > `Resources` > `Networks` 에서 트랜짓 네트워크 검색 ></p>
 
 > [!CAUTION]
 > 반드시 모든 작업은 NSX-T 계정으로 등록된 자원을 대상으로 수행 하여야 함\
 > 일반적으로 CIDR 설정과 자원 상세페이지에서 게이트웨이 정보가 보이는 것이 NSX-T 계정의 자원정보임
 
-<p align="center"><img src="images/aa-rsc-05.png" width="75%" /><br/>네트워크 정보 입력</p>
+<p align="center"><img src="images/aa-rsc-05.png" width="75%" /><br/>< 네트워크 정보 입력 ></p>
 
 > [!CAUTION]
 > `Domain` 필드 설정은 반드시 하여야 함. VM 배포시 Customization Spec의 주요 설정 내용으로 동작하고 IP 설정 등에 관여함\
