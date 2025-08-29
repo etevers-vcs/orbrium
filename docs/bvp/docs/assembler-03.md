@@ -61,7 +61,7 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 
 ### 내부망 VPC 기반 네트워크 설정 (샘플)
 
-<p align="center"><img src="images/aa-cf-06.png" width="75%" /><br/>내부망 VPC 기반 네트워크 기본 설정</p>
+<p align="center"><img src="images/aa-cf-06.png" width="75%" /><br/>< 내부망 VPC 기반 네트워크 기본 설정 ></p>
 
 > [!NOTE]
 > `Description`에 BVP에서 표시할 사용자 친화적인 이름을 입력
@@ -70,13 +70,13 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 > `Capability tags`에 `vpcInfraId:` 로 시작하는 고유 태그 입력\
 > 반드시 `vpcInfraId:` 로 시작하는 태그가 있어야 BVP에서 VPC 배포시 기반 인프라 탐색을 수행 할 수 있음
 
-<p align="center"><img src="images/aa-cf-07.png" width="75%" /><br/>내부망 VPC 사전 네트워크 설정</p>
+<p align="center"><img src="images/aa-cf-07.png" width="75%" /><br/>< 내부망 VPC 사전 네트워크 설정 ></p>
 
 > [!NOTE]
 > `Add Network` 버튼을 통해 반드시 트랜짓 네트워크를 등록해야 함\
 > 클라우드 네트워크에 대한 전반적인 설정 정보를 트랜짓 네트워크로 부터 가져옴
 
-<p align="center"><img src="images/aa-cf-08.png" width="75%" /><br/>내부망 VPC 할당 네트워크 설정</p>
+<p align="center"><img src="images/aa-cf-08.png" width="75%" /><br/>< 내부망 VPC 할당 네트워크 설정 ></p>
 
 > [!NOTE]
 > `Isolation policy` 를 `On-demand network` 로 설정\
@@ -88,11 +88,11 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 > `Subnet size` 는 `CIDR` 하위 프리픽스 영역을 임의로 지정\
 > `IP range assignment` 는 `Static` 으로 설정
 
-<p align="center"><img src="images/aa-cf-09.png" width="75%" /><br/>내부망 VPC 사전 네트워크 확인</p>
+<p align="center"><img src="images/aa-cf-09.png" width="75%" /><br/>< 내부망 VPC 사전 네트워크 확인 ></p>
 
 ### 외부망 VPC 기반 네트워크 설정 (샘플)
 
-<p align="center"><img src="images/aa-cf-10.png" width="75%" /><br/>외부망 VPC 기반 네트워크 기본 설정</p>
+<p align="center"><img src="images/aa-cf-10.png" width="75%" /><br/>< 외부망 VPC 기반 네트워크 기본 설정 ></p>
 
 > [!NOTE]
 > `Description`에 BVP에서 표시할 사용자 친화적인 이름을 입력
@@ -101,13 +101,13 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 > `Capability tags`에 `vpcInfraId:` 로 시작하는 고유 태그 입력\
 > 반드시 `vpcInfraId:` 로 시작하는 태그가 있어야 BVP에서 VPC 배포시 기반 인프라 탐색을 수행 할 수 있음
 
-<p align="center"><img src="images/aa-cf-11.png" width="75%" /><br/>외부망 VPC 사전 네트워크 설정</p>
+<p align="center"><img src="images/aa-cf-11.png" width="75%" /><br/>< 외부망 VPC 사전 네트워크 설정 ></p>
 
 > [!NOTE]
 > `Add Network` 버튼을 통해 반드시 트랜짓 네트워크를 등록해야 함\
 > 클라우드 네트워크에 대한 전반적인 설정 정보를 트랜짓 네트워크로 부터 가져옴
 
-<p align="center"><img src="images/aa-cf-12.png" width="75%" /><br/>외부망 VPC 할당 네트워크 설정</p>
+<p align="center"><img src="images/aa-cf-12.png" width="75%" /><br/>< 외부망 VPC 할당 네트워크 설정 ></p>
 
 > [!NOTE]
 > `Isolation policy` 를 `On-demand network` 로 설정\
@@ -119,13 +119,19 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 > `Subnet size` 는 `CIDR` 하위 프리픽스 영역을 임의로 지정\
 > `IP range assignment` 는 `Static` 으로 설정
 
-<p align="center"><img src="images/aa-cf-13.png" width="75%" /><br/>외부망 VPC 사전 네트워크 확인</p>
+<p align="center"><img src="images/aa-cf-13.png" width="75%" /><br/>< 외부망 VPC 사전 네트워크 확인 ></p>
 
-## 스토리지 프로필 설정
+## 스토리지 프로파일 설정
+스토리지 프로파일은 클라우드별 지역에 구성됩니다. \
+클라우드 계정 하나에 여러 지역이 포함될 수 있으며, 각 지역에 스토리지 프로파일이 여러 개 포함될 수 있습니다.\
 
-<p align="center"><img src="images/aa-cf-14.png" width="75%" /><br/>Infrastructure > Configure > Storage Profiles 메뉴 선택</p>
+스토리지 프로파일에서 기능 태그를 사용하고 클라우드 템플릿에 있는 가상 시스템 속성의 스토리지 섹션에서 해당 태그를 소프트 제약 조건으로 설정할 수 있습니다. \
+이 작업을 수행하면 VM이 배포 중에 해당 스토리지 프로파일을 선호하여 배치할 수 있습니다.\
+일치하는 태그가 스토리지 프로파일에 없으면 배포 중에 해당 지역의 기본 스토리지 프로파일이 선택됩니다.
 
-<p align="center"><img src="images/aa-cf-15.png" width="75%" /><br/>클러스터에 따른 스토리지 설정</p>
+<p align="center"><img src="images/aa-cf-14.png" width="75%" /><br/>< Infrastructure > Configure > Storage Profiles 메뉴 선택 ></p>
+
+<p align="center"><img src="images/aa-cf-15.png" width="75%" /><br/>< 클러스터에 따른 스토리지 설정 ></p>
 
 > [!NOTE]
 > `Compute` 에 배포 영역 기준 설정
@@ -138,9 +144,15 @@ Automation Assembler는 vSphere 뿐만 아니라 Azure, AWS 및 GCP를 비롯하
 > [!NOTE]
 > `Manually select datastores/clusters` 선택 후 Datastore 추가
 
-<p align="center"><img src="images/aa-cf-17.png" width="75%" /><br/>스토리지 프로필 확인</p>
+<p align="center"><img src="images/aa-cf-17.png" width="75%" /><br/>스토리지 프로파일 확인</p>
 
 ## 플레이버 (기준 배포 스펙) 설정
+버전 매핑은 자연어 이름 지정 방법을 사용하여 VMware Aria Automation에서 특정 클라우드 계정/지역에 대해 대상 배포 크기 집합을 그룹화합니다.\
+버전 매핑을 사용하면 계정 지역 전체에서 유사한 버전 크기를 포함하는 이름이 지정된 매핑을 생성할 수 있습니다. \예를 들어 standard_small이라는 버전 맵에는 프로젝트의 사용 가능한 계정/지역 전체 또는 일부에 사용할 수 있는 유사한 버전 크기(예: CPU 1개, 2GB RAM)가 포함될 수 있습니다. 클라우드 템플릿을 구축할 때는 필요에 맞는 사용 가능한 버전을 선택합니다.\
+배포 의도에 따라 프로젝트에 대한 버전 매핑을 구성합니다.\
+클라우드 템플릿 생성을 간소화하기 위해, 새 클라우드 계정을 추가할 때 사전 구성 옵션을 선택할 수 있습니다. \사전 구성 옵션을 선택하면 지정된 지역에 대해 조직에서 가장 널리 사용되는 버전 매핑 및 이미지 매핑이 선택됩니다.\
+vSphere 리소스가 포함된 클라우드 템플릿의 이미지 매핑과 관련하여, vSphere 클라우드 영역에 대해 정의된 버전 매핑이 없으면 클라우드 템플릿에서 vSphere 관련 설정을 사용하여 무제한 메모리 및 CPU를 구성할 수 있습니다. \vSphere 클라우드 영역에 대해 정의된 버전 매핑이 있으면 버전 매핑은 클라우드 템플릿에서 vSphere 관련 구성에 대한 제한으로 작동합니다.\
+버전 매핑에서 소켓당 최대 vCPU 수를 지정할 수 있습니다. 이 규격은 계산 할당 중에 그리고 배포를 프로비저닝할 때 VMware Aria Automation 클라우드 템플릿의 coreCount 속성을 해결합니다.
 
 <p align="center"><img src="images/aa-cf-18.png" width="75%" /><br/>Infrastructure > Configure > Flavor Mappings 메뉴 선택</p>
 
