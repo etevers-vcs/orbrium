@@ -33,13 +33,13 @@ Automation Service Broker에서 카탈로그의 컨텐츠를 나타내는 아이
 
 <p align="center"><img src="images/aa-sb-25.png" width="75%" /><br/>< OrbriumIcons.zip 파일 Export 실행 ></p>
 
-카탈로그들의 아이콘 수정을 위한 작업으로 각 카탈로그 선택 후 `Configure Item` 메뉴를 선택한 후 수정 화면에서 `CHANGE ICON` 을 선택하여 다운로드한 아이콘 중 선택한 카탈로그와 같은 이름의 아이콘으로 선택 후 저장한다.
+카탈로그들의 아이콘 수정을 위한 작업으로 각 카탈로그 선택 후 `Configure Item` 메뉴를 선택한 후 수정 화면에서 `CHANGE ICON` 을 선택하여 다운로드한 아이콘 중 선택한 카탈로그와 같은 이름의 아이콘을 선택 후 저장한다.
 
-<p align="center"><img src="images/aa-sb-06.png" width="75%" /><br/>< 카탈로그 선택 후 Configure Item 선택 </p>
+<p align="center"><img src="images/aa-sb-06.png" width="75%" /><br/>< 카탈로그 선택 후 Configure Item 선택 ></p>
 
-<p align="center"><img src="images/aa-sb-07.png" width="75%" /><br/>< Configure Item 수정 </p>
+<p align="center"><img src="images/aa-sb-07.png" width="75%" /><br/>< Configure Item 수정 ></p>
 
-<p align="center"><img src="images/aa-sb-08.png" width="75%" /><br/>TEXT</p>
+<p align="center"><img src="images/aa-sb-08.png" width="75%" /><br/>< 모든 카탈로그 아이콘 설정 완료 ></p>
 
 <p align="center"><img src="images/aa-sb-09.png" width="75%" /><br/>TEXT</p>
 
