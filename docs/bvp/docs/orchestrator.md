@@ -26,6 +26,10 @@ Automation Orchestrator 클라이언트를 사용하여 Automation Orchestrator 
 
 <p align="center"><img src="images/aa-o-04.png" width="75%" /><br/>< 패키지 가져오기 ></p>
 
+> [!NOTE]
+> `Username` 은 `admin` 으로 입력\
+> `Admin Project` / `Prime Project` 은 `admin` / `project`으로 입력
+
 <p align="center"><img src="images/aa-o-05.png" width="75%" /><br/>< 패키지 파일 상세 내용 확인 ></p>
 
 <p align="center"><img src="images/aa-o-06.png" width="75%" /><br/>< 패키지 파일 IMPORT 선택 ></p>
