@@ -5,7 +5,7 @@
 
 <p align="center"><img src="images/aa-td-01.png" width="75%" /><br/>< Assembler 선택 ></p>
 
-<p align="center"><img src="images/aa-td-02.png" width="75%" /><br/>< Resources > Virtual Machines 선택 후 Managed 탭 이동 ></p>
+<p align="center"><img src="images/aa-td-02.png" width="75%" /><br/>< Resources > Virtual Machines `Managed` 탭 이동 후 New VM 선택 ></p>
 
 <p align="center"><img src="images/aa-td-03.png" width="75%" /><br/>TEXT</p>
 
