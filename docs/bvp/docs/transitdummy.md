@@ -28,4 +28,4 @@
 
 <p align="center"><img src="images/aa-td-08.png" width="75%" /><br/>< Virtual Machine 액션 중 Power Off 선택 ></p>
 
-<p align="center"><img src="images/aa-td-09.png" width="75%" /><br/>< Virtual Machine 액션 중 Power Off 확인 ></p>
+<p align="center"><img src="images/aa-td-09.png" width="75%" /><br/>< Virtual Machine Power Off 확인 ></p>
