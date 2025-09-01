@@ -1,7 +1,7 @@
 # 트랜짓 더미 VM 생성
 
-> Todo
-> 트랜짓 더미의 역할과 배포 이유에 대해서 설명 필요
+> VPC 별 Load Balancer 서비스를 위한 더미 VM 생성
+> Load Balancer 에 지정할 각 룰을 미리 생성하고 VPC 영역안에 생성된 Virtual Machine 에 적용하게 디자인
 
 <p align="center"><img src="images/aa-td-01.png" width="75%" /><br/>TEXT</p>
 
