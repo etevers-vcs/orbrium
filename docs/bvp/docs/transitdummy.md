@@ -17,7 +17,7 @@
 <p align="center"><img src="images/aa-td-05.png" width="75%" /><br/>< Storage 정보 입력 ></p>
 
 > [!IMPORTANT]
-> Network Adaptor 의 Network 은 TRANSIT 영역의 네트워크 선택
+> Network Adaptor 의 Network 은 TRANSIT 영역의 네트워크 선택\
 > Assignment 는 Static IP 로 선택
 
 <p align="center"><img src="images/aa-td-06.png" width="75%" /><br/>< Networking 정보 입력 ></p>
