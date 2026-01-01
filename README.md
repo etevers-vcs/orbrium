@@ -16,7 +16,7 @@
 
 ![Orbrium Logo](docs/images/vue.png)
 
-**<p align="center"><a href="docs/orb">ORB: Orbrium</a> > <a href="https://youngwoocokr-my.sharepoint.com/:u:/g/personal/hc_jang_etevers_com/ESHEWlbY8JFDpX6PNl5SkYABGWen0Je0NcG0TZZcnSXUag?e=ujP368">OVA 이미지 다운로드</a></p>**
+**<p align="center"><a href="docs/orb">ORB: Orbrium</a> > <a href="https://drive.google.com/file/d/1TMCFzlGvIbge-paMKgXX_aEabx8NSgVt/view?usp=sharing">OVA 이미지 다운로드</a></p>**
 
 **<p align="center"><a href="docs/bvp">BVP: Broadcom Value Pack</a> > <a href="https://github.com/etevers-vcs/orbrium/raw/refs/heads/main/files/broadcom-value-pack/com.bvp.package">바이너리 패키지 다운로드</a></p>**
 
@@ -33,12 +33,18 @@
 - Roadmap
   - 2025-09: 사전 기술 검증
   - 2025-10: 프로젝트 개시
-  - 2025-12: GA
+  - 2026-02: GA
 
 ### Athena
 
 > [!NOTE]
-> Latest Stable: 1A
+> Latest Stable: 1C
+
+
+#### 1C
+
+- Front-End
+  - last update (legacy ui framework)
 
 #### 1B
 
