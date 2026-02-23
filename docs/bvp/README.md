@@ -1,4 +1,4 @@
-# Broadcom Value Pack
+# Broadcom Value Pack (BVP)
 
 ## 설치 방법
 
@@ -10,6 +10,7 @@
 3. [Orchestrator 설정](docs/orchestrator.md)
 4. [트랜짓 더미 VM 생성](docs/transitdummy.md)
 5. [Service Broker 설정](docs/broker.md)
+6. [사용자 메뉴얼](docs/bvp-user-manual.md)
 
 <br/>
 <br/>
