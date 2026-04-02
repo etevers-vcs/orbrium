@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-d0d50c35-0dc7-4fe3-8121-c4ebef3c1dac" name="[HMG] VM의 Network 사용량이 평소보다 비정상적으로 높습니다." resourceKind="VirtualMachine" waitCycle="3">
+            <State severity="info">
+                <Condition key="net|usage_average" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-248235e1-2b24-4e43-9d91-12ead2b680ea" name="[HMG] 호스트의 MEM Workload가 평소보다 비정상적으로 높습니다." resourceKind="HostSystem" waitCycle="3">
+            <State severity="warning">
+                <Condition key="mem|workload" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-96776b27-5c9f-4aee-acad-e9df114a4cd4" name="[HMG] 데이터스토어에서 발생되는 전체 지연이 평소보다 비정상적으로 높습니다." resourceKind="Datastore" waitCycle="3">
+            <State severity="warning">
+                <Condition key="datastore|totalLatency_average" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-af715b21-4d22-48aa-acc3-2f227c1bc581" name="[HMG] 데이터스토어 사용량이 평소보다 비정상적으로 높습니다." resourceKind="Datastore" waitCycle="3">
+            <State severity="warning">
+                <Condition key="capacity|usedSpacePct" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-dc2e1d88-1886-42f8-a4e6-e495df442425" name="[HMG] 호스트의 Network 사용량이 평소보다 비정상적으로 높습니다." resourceKind="HostSystem" waitCycle="3">
+            <State severity="warning">
+                <Condition key="net|usage_average" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-cd57e450-ba96-4272-9ec0-d0a0b02ab1a9" name="[HMG] 호스트의 Packet Dropped 발생률이 평소보다 비정상적으로 높습니다." resourceKind="HostSystem" waitCycle="3">
+            <State severity="warning">
+                <Condition key="net:Aggregate of all instances|droppedPct" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-8889ac42-652d-4ecd-833f-9c8a6008f030" name="[HMG] VM의 Packet Dropped 발생률이 평소보다 비정상적으로 높습니다." resourceKind="VirtualMachine" waitCycle="3">
+            <State severity="info">
+                <Condition key="net:Aggregate of all instances|droppedPct" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-87beea73-4cd7-4bb9-8515-076687cfd690" name="[HMG] VM의 CPU Workload가 평소보다 비정상적으로 높습니다." resourceKind="VirtualMachine" waitCycle="3">
+            <State severity="info">
+                <Condition key="cpu|workload" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-99056a8b-7b8e-4973-a03e-723647077eb7" name="[HMG] VM의 MEM Workload가 평소보다 비정상적으로 높습니다." resourceKind="VirtualMachine" waitCycle="3">
+            <State severity="info">
+                <Condition key="mem|workload" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-51e5d840-5b92-4c27-9f4b-567111ff11ef" name="[HMG] 데이터스토어에서 처리되는 IOPS가 평소보다 비정상적으로 높습니다." resourceKind="Datastore" waitCycle="3">
+            <State severity="warning">
+                <Condition key="devices:Aggregate of all instances|commandsAveraged_average" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>

@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <AlertDefinitions>
+        <AlertDefinition adapterKind="VMWARE" cancelCycle="30" disableInBasePolicy="true" id="AlertDefinition-e135fe94-62b4-4fe9-a42a-eb7f0b915cd7" name="[HMG] VMware solution node memory usage is high" resourceKind="VirtualMachine" subType="19" type="20" waitCycle="30">
+            <State severity="info">
+                <SymptomSets operator="or">
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-e59af1e0-166e-4bb4-b0b4-9dab5bd69eec"/>
+                        <Symptom ref="SymptomDefinition-453b00ab-9b10-49f3-bea6-032181c46db6"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-c07c36dd-4dbe-475a-87f0-5aca24802cd7"/>
+                        <Symptom ref="SymptomDefinition-d4461d87-4f80-4350-b7ed-6abb4ac39b94"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-017c3812-2a05-4d39-8b23-799051332a1c"/>
+                        <Symptom ref="SymptomDefinition-d682d86d-5b29-46bd-b60e-fde2e6ccccac"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-14efeb62-5848-42ac-b895-2f040d909c64"/>
+                        <Symptom ref="SymptomDefinition-af4a45ce-04fd-48ab-a441-ed6b5dd0415e"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-4495ea2c-e9ef-486b-afc0-629f96070495"/>
+                        <Symptom ref="SymptomDefinition-32f850e6-16fc-484c-97aa-dc986fc40df1"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-425f4174-cc6b-4291-9324-2ff7f20820c6"/>
+                        <Symptom ref="SymptomDefinition-fe990dd4-f74c-47c6-8413-7c2e1fd2b814"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-ad74f796-bbd1-498e-8aa7-a4b79a43a326"/>
+                        <Symptom ref="SymptomDefinition-f30b5a6d-b76f-4469-86c9-e94c0bfb5224"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-749d6564-2c46-4ac9-95c4-7fcc0dd515d1"/>
+                        <Symptom ref="SymptomDefinition-3bc9e1f8-ff18-431c-8ba2-940bf517516f"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-de45e18d-8bb4-4b36-8329-03a96d6e8d52"/>
+                        <Symptom ref="SymptomDefinition-e6e94567-d5f2-4675-8a86-e602664a0094"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-a7b2be19-cf9d-4f7b-a700-804776c2f87a"/>
+                        <Symptom ref="SymptomDefinition-6522df11-a3ef-4633-a754-7d2ad63d8a90"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-7f3ab6ce-49f5-41f3-bd3a-75864b8d2d22"/>
+                        <Symptom ref="SymptomDefinition-bde8a535-3194-46e6-a07d-47f989265f63"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-abd7fae3-5085-4c2f-8bf3-fa5111fad440"/>
+                        <Symptom ref="SymptomDefinition-5cd6a6a6-a055-4c48-9f81-e706b362f200"/>
+                    </SymptomSet>
+                    <SymptomSet applyOn="self" operator="and">
+                        <Symptom ref="SymptomDefinition-76529833-a0a1-4220-ad36-27d49ad04924"/>
+                        <Symptom ref="SymptomDefinition-6949d95c-df26-4422-a971-b8069d838df8"/>
+                    </SymptomSet>
+                </SymptomSets>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-24cfb67b-e09f-4f72-b741-5dfd41162632" name="[HMG] NSX Edge BGP neighbor restored" resourceKind="VirtualMachine" subType="18" type="19">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-cb4600dc-50ad-4321-8687-49e69de89fd2"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="VM 디스크의 Read/Write 지연 시간" disableInBasePolicy="true" id="AlertDefinition-1322539d-ca18-4e13-bc59-2564f094c759" name="[HMG] VM Disk Read/Write latency usage is high (30ms)" resourceKind="VirtualMachine" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-f82647a8-2651-4042-92cb-5eeeb9d23d97"/>
+                    <Symptom ref="SymptomDefinition-eb193884-4f17-4a6b-924b-e65fc70184c0"/>
+                    <Symptom ref="SymptomDefinition-fb6245e4-da17-422e-83b4-6963ef8dfa6b"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-31169272-2b85-493f-b58e-5e07d4515fd8" name="[HMG] Network Rx packet dropped count is high (30)" resourceKind="VirtualMachine" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-96dccc9b-3b12-4a28-87a4-179b640b0776"/>
+                    <Symptom ref="SymptomDefinition-817ea5db-ea1b-4d74-93e0-d7b869b07cf1"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="AlertDefinition-ea4463b4-1f04-4687-8633-3030ff4f955c" name="[HMG] Certificate is about to expire for NSX" resourceKind="NSXTAdapterInstance" subType="18" type="20">
+            <State severity="critical">
+                <SymptomSets operator="or">
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-fba45ac7-98fa-4c09-bbcd-2369f0528950"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-cfa3c4a5-6d26-4032-8831-16e45c1bef74"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-629db038-e0dd-4c92-8319-9760723c4ca7"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-419a58ab-6068-4472-9c8f-208bd5247421"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-9f3651d8-2082-4230-a5d5-4339ee4d40f1"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-82abc034-c415-4634-b54f-81b5ab600f7a"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-b1227e72-c8fb-4cc4-82b1-626dc71c6e85"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-d264127c-05ec-4490-9666-3a507c0e620b"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-8e164801-a1ea-4d16-b30e-2bf2d2c41551"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-ad246222-5233-455c-ab0c-c55e1b599853"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-48120126-f69d-4de2-8189-cc64057e09f3"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-0d17d979-2e10-4036-8568-75c554c51888"/>
+                </SymptomSets>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-5b394040-ccb7-426a-b6e0-ae9b99274046" name="[HMG] Host connection failure" resourceKind="HostSystem" subType="18" type="16">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-b572d7cf-2bff-473b-9e76-65464408d038"/>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-8dea0d09-f82f-42cf-a1d3-8a80e0615263" name="[HMG] VM의 CPU Workload가 평소보다 비정상적으로 높습니다." resourceKind="VirtualMachine" subType="19" type="15">
+            <State severity="warning">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-87beea73-4cd7-4bb9-8515-076687cfd690"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="하나 이상의 VASA 제공자의 인증서 곧 만료" disableInBasePolicy="true" id="AlertDefinition-fac84a4a-5b20-4ea0-bb76-82e4b83e67f2" name="[HMG] Certificate is about to expire for vCenter VASA" resourceKind="VMwareAdapter Instance" subType="18" type="20">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-VMWARE-VasaProviderCertificatLimitReached"/>
+                <Impact key="risk" type="badge"/>
+                <Recommendations>
+                    <Recommendation priority="1" ref="Recommendation-df-VMWARE-VasaProviderCertificatLimitReachedRecommendation"/>
+                </Recommendations>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-7f2c0fcf-0745-428c-9c4e-26967fd0be2b" name="[HMG] VM의 MEM Workload가 평소보다 비정상적으로 높습니다." resourceKind="VirtualMachine" subType="19" type="15">
+            <State severity="warning">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-99056a8b-7b8e-4973-a03e-723647077eb7"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-14f0d512-a121-4525-af0b-40f3ea6bc850" name="[HMG] NSX Edge TEP physical NIC restored" resourceKind="HostSystem" subType="18" type="19">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-10ba9ea2-e88e-43ae-832a-6b07e715b9f2"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="데이터스토어의 Read/Write 지연 시간" disableInBasePolicy="true" id="AlertDefinition-cd2e6af9-b66f-45e9-bd60-8394207173e4" name="[HMG] Datastore read/write latency is high (30ms)" resourceKind="Datastore" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="and">
+                    <Symptom ref="SymptomDefinition-d0a8306f-f22b-4c95-b503-f8f70ba55f1d"/>
+                    <Symptom ref="SymptomDefinition-3f5bf639-c835-4ea2-ae83-c1debb0cef83"/>
+                    <Symptom ref="SymptomDefinition-6834f790-aac7-43e8-ae00-69e5981e1f41"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-1f49b98d-8eda-4181-a668-81c6297dcc25" name="[HMG] VM OS Rebooted" resourceKind="VirtualMachine" subType="18" type="15">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and">
+                    <Symptom ref="SymptomDefinition-3edfbb5c-6072-450b-b1d4-f2879076c85f"/>
+                    <Symptom ref="SymptomDefinition-8d0e19a2-2822-4f3d-a153-5efc5ca508b4"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="IdentityManagerAdapter" disableInBasePolicy="true" id="AlertDefinition-5f6df131-7aa8-4f87-aed6-ba90c10527eb" name="[HMG] Certificate is about to expire for Aria, IDM" resourceKind="IdentityManagerAdapterInstance" subType="18" type="20">
+            <State severity="critical">
+                <SymptomSets operator="or">
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-39caa51b-1604-4022-b1eb-d4f30ad9d57f"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-801fb21d-ec09-4659-b239-f26ceedf03c4"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-d83e1442-b50d-46c5-91ff-8887df85e616"/>
+                </SymptomSets>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-c5397f5a-cbd7-4317-b1e0-8c59772f4cbd" name="[HMG] Certificate is about to expire for ESXi host" resourceKind="HostSystem" subType="18" type="20">
+            <State severity="critical">
+                <SymptomSets operator="or">
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-254eda6d-85c2-4a11-a01f-a8c35ac2fbc5"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-6674b8b3-a10a-4533-90ae-d56c4daeb569"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-974ce772-5548-436c-9fac-bf1c9446f65c"/>
+                </SymptomSets>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="SDDCHealthAdapter" disableInBasePolicy="true" id="AlertDefinition-5e354fdf-65ce-4df3-a456-cf754dc2dda7" name="[HMG] Certificate is about to expire for vCenter Root CA" resourceKind="VCENTER" subType="18" type="20">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-63bbce45-e1ee-4322-8f0a-5b271485e974"/>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-2ab101e1-53e3-4fa3-a37e-6866cb66b311" name="[HMG] Storage device IO aborted" resourceKind="HostSystem" subType="18" type="18">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-13c11188-4c6b-40a9-b09b-4506919398cd"/>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="VM이 필요로 하는 메모리 대비 실제 사용 가능한 메모리의 백분율" disableInBasePolicy="true" id="AlertDefinition-1b73e179-6812-4d1d-8736-27b62d77fddb" name="[HMG] VM memory workload is high (95%)" resourceKind="VirtualMachine" subType="20" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-fc65fae3-16c2-4f1e-9b42-d53e599c3f8e"/>
+                    <Symptom ref="SymptomDefinition-fd5eba1c-3e7a-46dc-87b8-dcd80b0411fe"/>
+                    <Symptom ref="SymptomDefinition-186400c7-8115-43e6-8685-53adf4d7c88c"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="데이터스토어의 용량 사용률" disableInBasePolicy="true" id="AlertDefinition-ac22d020-2372-4770-bce6-fa30683ef5a3" name="[HMG] Datastore used capacity is high (90%)" resourceKind="Datastore" subType="20" type="15">
+            <State severity="info">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-b78fba77-594f-484a-acc0-3a2bb94f0738"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-8e42986b-4270-4f23-b22c-f676cd7efe72" name="[HMG] NSX Edge BGP neighbor down" resourceKind="VirtualMachine" subType="18" type="19">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-7e01b9de-0f22-442b-9a08-24104f9a4812"/>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="데이터스토어의 용량 사용률" disableInBasePolicy="true" id="AlertDefinition-4a7e0537-28aa-48c2-bec5-42cf979bf58a" name="[HMG] Datastore used capacity is high (70%)" resourceKind="Datastore" subType="20" type="15">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and">
+                    <Symptom ref="SymptomDefinition-346feb34-a1d2-4c6f-86c1-400a8c887467"/>
+                    <Symptom ref="SymptomDefinition-e062a7b0-d666-437e-a405-10bfa3e40e72"/>
+                    <Symptom ref="SymptomDefinition-5c1d4780-45e8-4463-a1c3-754c406d03b6"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="데이터스토어 Queue의 미처리 I/O 값" disableInBasePolicy="true" id="AlertDefinition-aee90c07-545b-4b19-9278-ec635ebd2d97" name="[HMG] Datastore queue OIO requests count is high (30)" resourceKind="Datastore" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-950ad8f7-bccf-41ba-abcc-378e1e5822e2"/>
+                    <Symptom ref="SymptomDefinition-0d7a2af8-fbe4-4dcf-805d-9739dc5f565e"/>
+                    <Symptom ref="SymptomDefinition-4144fbe1-7873-41a1-971a-24ea5422c0eb"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="Swap 데이터스토어의 용량 사용률" disableInBasePolicy="true" id="AlertDefinition-ccbfe2a8-61ca-419e-8c8e-4b731c526e99" name="[HMG] Swap Datastore used capacity is high (80%)" resourceKind="Datastore" subType="20" type="15">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and">
+                    <Symptom ref="SymptomDefinition-dac2e54c-452f-4b7f-b807-537300eda57b"/>
+                    <Symptom ref="SymptomDefinition-7e21375d-dcf5-44f2-87c8-65ef56ed4086"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-6bacb722-c17a-4b48-ab05-a84a62d226e1" name="[HMG] VMware solution password is about to expire" resourceKind="VMwareAdapter Instance" subType="22" type="20">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-b658cf60-beff-4e2f-a1ba-d9f0c8ad0ac1"/>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="SDDCHealthAdapter" disableInBasePolicy="true" id="AlertDefinition-981da37d-4bf4-4880-bbde-c3349bdd0699" name="[HMG] Certificate is about to expire for vCenter STS" resourceKind="VCENTER" subType="18" type="20">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-69c8aa7b-d6ed-4906-a235-3edd9d238ffa"/>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="NSXAdvancedLBAdapter" disableInBasePolicy="true" id="AlertDefinition-28f1767c-0cdd-4689-9b21-8f290bebaedf" name="[HMG] Certificate is about to expire for AVI" resourceKind="NSXAdvancedLBAdapterInstance" subType="18" type="20">
+            <State severity="critical">
+                <SymptomSets operator="or">
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-88f1d31a-b04f-4f31-8a60-aae6f87964a9"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-1666dbb2-e336-46d0-9aa6-32b36b6cc4a2"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-ac2d86f2-0f6f-4104-ae20-2114f46358af"/>
+                </SymptomSets>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="VM Disk Queue의 미처리 I/O 값" disableInBasePolicy="true" id="AlertDefinition-b731e642-493f-44a3-8aa3-1d434867fb1c" name="[HMG] VM disk queue OIO request count is high (30)" resourceKind="VirtualMachine" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-4fbfe134-eafa-4b23-95b8-3430e71ccfda"/>
+                    <Symptom ref="SymptomDefinition-2ff178a8-d6b1-45ce-9456-d675cc348423"/>
+                    <Symptom ref="SymptomDefinition-99324948-eea3-478f-a5cc-249a1b469526"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-ea6030f1-f148-4282-a6c7-b0e6ac3d16de" name="[HMG] vCenter API session limit reached" resourceKind="VirtualMachine" subType="22" type="20">
+            <State severity="info">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-ffb28c46-80c8-4275-87df-a3f065f82f37"/>
+                <Impact key="risk" type="badge"/>
+                <Recommendations>
+                    <Recommendation priority="1" ref="Recommendation-ud-72e90531-7436-49f9-9b52-a7f8214fe99b"/>
+                </Recommendations>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-dc231445-f3cc-466c-9d48-8652790d0a4c" name="[HMG] Host reconnected" resourceKind="HostSystem" subType="18" type="16">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-31919ea4-4805-4a14-a56e-9fbe9699461d"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="호스트의 물리 CPU 사용률" disableInBasePolicy="true" id="AlertDefinition-446f1fdd-8a49-40ef-9fc0-ff75d99ad0f2" name="[HMG] Host CPU usage is high (95%)" resourceKind="HostSystem" subType="20" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-a4e91305-e4bd-4ccf-9a09-21325eb0f709"/>
+                    <Symptom ref="SymptomDefinition-10e2725d-8572-4e2a-a44b-79720482efc4"/>
+                    <Symptom ref="SymptomDefinition-ed82dd1e-c6c7-40d4-bb7b-d7409ecabaea"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-de1c81d8-c447-47bc-a978-e15c5b2665d1" name="[HMG] NSX DFW rule created or modified" resourceKind="VirtualMachine" subType="22" type="19">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-44abf530-ed53-44cc-9aff-e5727b57920b"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="VM이 필요로 하는 CPU 대비 실제 사용 가능한 CPU의 백분율" disableInBasePolicy="true" id="AlertDefinition-02f5a6b5-5386-4de4-b06f-cfdd6fe39f8d" name="[HMG] VM CPU workload is high (98%)" resourceKind="VirtualMachine" subType="20" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-c97d0625-7e19-4eb9-aff4-21c941a07d3a"/>
+                    <Symptom ref="SymptomDefinition-284fcb73-8916-4a2d-a263-7deec1a6964b"/>
+                    <Symptom ref="SymptomDefinition-858bd60e-4829-4100-b03e-2b707f1490d2"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="VM의 메모리가 부족하여 경합이 발생한 시간의 백분율" disableInBasePolicy="true" id="AlertDefinition-5bcb3123-f5d7-4ce2-9b38-53767049df90" name="[HMG] VM memory contention is high (5%)" resourceKind="VirtualMachine" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-bf091282-9e60-429f-9b1c-6ceac11df6b9"/>
+                    <Symptom ref="SymptomDefinition-4bf19476-ad00-4fde-99ad-936e80b129f3"/>
+                    <Symptom ref="SymptomDefinition-822d72ce-f90d-4098-adf4-031ac2922064"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-d6d6f84b-2d0e-4a7d-9beb-b098f969b87d" name="[HMG] VM switched to read-only" resourceKind="VirtualMachine" subType="18" type="15">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-494dee18-f84d-40f7-a26b-9a20744f6c69"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-48d76772-7f3f-424b-b3cc-0103b5a4e045" name="[HMG] NSX DFW rule deleted" resourceKind="VirtualMachine" subType="22" type="19">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-dd6b93e2-81e6-4e71-baf0-d13df5d904fc"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="VM의 vCPU에 pCPU가 할당되기까지 기다리는 시간의 백분율" disableInBasePolicy="true" id="AlertDefinition-36008381-9dde-4a28-9bf1-d6f4806eaedd" name="[HMG] VM CPU ready is high (10%)" resourceKind="VirtualMachine" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-9f25e10c-0887-461c-8008-4f83acc6762a"/>
+                    <Symptom ref="SymptomDefinition-8083546b-a775-414b-8ea8-c131e46d0abc"/>
+                    <Symptom ref="SymptomDefinition-8ee0c2b8-ac8b-4985-b7ba-e0065839f9ab"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="Path redundancy to storage device degraded" disableInBasePolicy="true" id="AlertDefinition-48a62863-02e4-44dd-baef-1f6b671bad7d" name="[HMG] Path redundancy to storage device degraded" resourceKind="HostSystem" subType="18" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-VMWARE-StoragePathWentDown"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-ecf24e43-a7b0-4535-9205-e068f4545be2" name="[HMG] Datastore inaccessible" resourceKind="HostSystem" subType="18" type="16">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-091b40d6-01f2-4491-b40c-1ff529ec77d5"/>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="VM에서 전송하는 패킷 중 손실된 패킷 수" disableInBasePolicy="true" id="AlertDefinition-974c590a-fd66-4b21-911d-3dfd3ac02a8f" name="[HMG] Network Tx packet dropped count is high (30)" resourceKind="VirtualMachine" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-19e3830d-8944-4094-9538-eb807c1ea8cb"/>
+                    <Symptom ref="SymptomDefinition-b885fca9-3a17-4689-b33e-4013dd539b1f"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="호스트가 필요로 하는 CPU 대비 실제 사용 가능한 CPU의 백분율" disableInBasePolicy="true" id="AlertDefinition-9d8b3869-0dbd-45de-9cdd-3c4f174382dc" name="[HMG] Host CPU workload is high (98%)" resourceKind="HostSystem" subType="20" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-55146431-28b6-4ce6-b50c-90576ee0d9f3"/>
+                    <Symptom ref="SymptomDefinition-bf89c600-0644-4516-8e1c-714c4395f81f"/>
+                    <Symptom ref="SymptomDefinition-4ae38845-e3fb-4550-8df1-5ffbd8abad56"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-235120c7-1349-4a65-9e8c-10844fed586e" name="[HMG] VM CPU co-scheduling is high (3%)" resourceKind="VirtualMachine" subType="19" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="or">
+                    <Symptom ref="SymptomDefinition-af346af1-a03f-43c4-95d7-dd47986ddfb7"/>
+                    <Symptom ref="SymptomDefinition-d81cd629-b2a7-403b-a715-4f22ad80648b"/>
+                    <Symptom ref="SymptomDefinition-35aa3563-e31d-433b-a533-7048f8b723d0"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="데이터스토어의 용량 사용률" disableInBasePolicy="true" id="AlertDefinition-9e3216f9-81a1-4c09-97c6-836dedcaed75" name="[HMG] Datastore used capacity is high (80%)" resourceKind="Datastore" subType="20" type="15">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and">
+                    <Symptom ref="SymptomDefinition-b903f3fe-61b8-43b0-9d8a-b0be30930abf"/>
+                    <Symptom ref="SymptomDefinition-0c3d5a02-a001-40be-89de-6c43d6b48e39"/>
+                    <Symptom ref="SymptomDefinition-121a2609-b3be-45ca-8d8d-dd5526fb4a9e"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" cancelCycle="3" description="VM의 vCPU 사용률" disableInBasePolicy="true" id="AlertDefinition-37309254-7ed5-46e7-be92-1bc0f333e9d2" name="[HMG] VM CPU usage is high (90%)" resourceKind="VirtualMachine" subType="20" type="15" waitCycle="3">
+            <State severity="info">
+                <SymptomSet applyOn="self" operator="and">
+                    <Symptom ref="SymptomDefinition-b746644c-405e-407c-830c-181d875b3f72"/>
+                    <Symptom ref="SymptomDefinition-d123103a-4b4b-4bfb-af17-37c5c4ec676b"/>
+                </SymptomSet>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="VM Gues OS 내부 파티션 용량 사용률" disableInBasePolicy="true" id="AlertDefinition-8a687b75-82ac-414b-8c9e-6b2731b85da7" name="[HMG] VM Guest OS /root partitions usage is high (90%)" resourceKind="VirtualMachine" subType="20" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-9698e1ce-9b2c-4386-9ab4-ec6d99342d6a"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-da830d38-1e88-4a33-a682-f9c3b831e07a" name="[HMG] NSX Edge T1 cluster failover" resourceKind="VirtualMachine" subType="18" type="19">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-b0ac3e74-815b-45c7-8c25-5ca3e32ef953"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-79170922-18d3-40ad-a7c2-c1f9fc7e711c" name="[HMG] Certificate is about to expire for vCenter SSL" resourceKind="VMwareAdapter Instance" subType="18" type="20">
+            <State severity="critical">
+                <SymptomSets operator="or">
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-2903ed90-be4e-4453-a555-d75c8709ced4"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-c7ade05f-3bfe-4301-87b7-29038f59fc2c"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-dc694940-e6de-405d-a3b5-f7fb9f50aede"/>
+                </SymptomSets>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="NSXTAdapter" description="인증서가 곧 만료됩니다." disableInBasePolicy="true" id="AlertDefinition-c4b9dfaf-f1ba-4700-ab3c-9fc80d3036f8" name="[HMG] Certificate is about to expire for NSX service" resourceKind="NSXTAdapterInstance" subType="18" type="20">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-CertificateIsAboutToExpire"/>
+                <Impact key="risk" type="badge"/>
+                <Recommendations>
+                    <Recommendation priority="1" ref="Recommendation-df-RecommendationForCertificateIsAboutToExpire"/>
+                </Recommendations>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="NSXAdvancedLBAdapter" disableInBasePolicy="true" id="AlertDefinition-13a88454-b551-4f1e-9878-5ee7e184e5f1" name="[HMG] Certificate is about to expire for AVI Root CA" resourceKind="NSXAdvancedLBAdapterInstance" subType="18" type="20">
+            <State severity="critical">
+                <SymptomSets operator="or">
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-cfde9c5b-1054-4aab-a9c8-063c2c84b127"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-f1494408-24d3-4571-97a0-e9cab57609b3"/>
+                    <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-796a97a3-bace-47a8-b9b9-0613d4475152"/>
+                </SymptomSets>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" description="데이터스토어의 용량 사용률" disableInBasePolicy="true" id="AlertDefinition-16c759f2-ae91-46c9-927e-c32822961b54" name="[HMG] Datastore used capacity is high (99%)" resourceKind="Datastore" subType="20" type="15">
+            <State severity="automatic">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-c92b753a-d334-43fa-8220-ed2baba396e4"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-0f6bcf71-e843-4b47-9af6-928ee29e78a7" name="[HMG] Datastore access restored" resourceKind="HostSystem" subType="18" type="16">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-718e6484-3a86-4189-b082-d16707a1024f"/>
+                <Impact key="health" type="badge"/>
+            </State>
+        </AlertDefinition>
+        <AlertDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="AlertDefinition-9608a57f-21d0-40c9-a84d-9b36fff07862" name="[HMG] NSX Edge TEP physical NIC down" resourceKind="HostSystem" subType="18" type="19">
+            <State severity="critical">
+                <SymptomSet applyOn="self" operator="and" ref="SymptomDefinition-1d1735dc-c5af-49ec-a789-d5641c3ce87e"/>
+                <Impact key="risk" type="badge"/>
+            </State>
+        </AlertDefinition>
+    </AlertDefinitions>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-cb4600dc-50ad-4321-8687-49e69de89fd2" name="[HMG] NSX Edge BGP neighbor restored" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] NSX Edge BGP neighbor restored" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="SDDCHealthAdapter" disableInBasePolicy="true" id="SymptomDefinition-69c8aa7b-d6ed-4906-a235-3edd9d238ffa" name="Condition_7f5a5fe4-00a4-4f94-847d-b01b91a3aa76" resourceKind="VCENTER" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Certificate Summary|vCenter Root Certificate|No. of days to expire" operator="&lt;=" thresholdType="static" type="property" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-7f3ab6ce-49f5-41f3-bd3a-75864b8d2d22" name="Condition_3d3af9dc-c4d7-4daa-8a54-6bfd8815136b" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="95.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-e59af1e0-166e-4bb4-b0b4-9dab5bd69eec" name="Condition_dcdccbe6-dd0f-4a1c-af8c-7253f8f5353d" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-31919ea4-4805-4a14-a56e-9fbe9699461d" name="[HMG] Host reconnected" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] Host reconnected" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-9f25e10c-0887-461c-8008-4f83acc6762a" name="Condition_cd18e78c-53d7-482e-9d29-e17a1cd5e644" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="cpu|readyPct" operator="&gt;=" thresholdType="static" type="metric" value="5.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-dac2e54c-452f-4b7f-b807-537300eda57b" name="Condition_4c1a3cd2-e953-4869-af3a-a327156bd397" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="capacity|usedSpacePct" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-f30b5a6d-b76f-4469-86c9-e94c0bfb5224" name="Condition_45a91dea-8406-48bd-a16b-681728e53585" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="vmridm" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-5cd6a6a6-a055-4c48-9f81-e706b362f200" name="Condition_209f407d-a219-441e-98f1-9e919b3862c2" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="vmrorc" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-13c11188-4c6b-40a9-b09b-4506919398cd" name="[HMG] Storage device IO aborted" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] Storage device IO aborted" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-d81cd629-b2a7-403b-a715-4f22ad80648b" name="Condition_3e0736fd-e32f-4438-af10-5bb71aa8755e" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="cpu|costopPct" operator="&gt;=" thresholdType="static" type="metric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-c97d0625-7e19-4eb9-aff4-21c941a07d3a" name="Condition_ae29b4ca-fb03-4213-b9b9-2e1801d2e9cb" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="cpu|workload" operator="&gt;=" thresholdType="static" type="metric" value="95.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-425f4174-cc6b-4291-9324-2ff7f20820c6" name="Condition_c2863a95-653f-4104-95e3-d16979ce8574" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXAdvancedLBAdapter" disableInBasePolicy="true" id="SymptomDefinition-1666dbb2-e336-46d0-9aa6-32b36b6cc4a2" name="Condition_fba5fe29-50f6-4cae-b1ec-752ba9bd54c7" resourceKind="NSXAdvancedLBAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-9698e1ce-9b2c-4386-9ab4-ec6d99342d6a" name="Condition_db1bfd3c-bdbf-40db-80e8-b1d94565ee99" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="guestfilesystem:/|percentage" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-817ea5db-ea1b-4d74-93e0-d7b869b07cf1" name="Condition_01d57b06-a9a1-4aaf-ade9-f963a593499b" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="net:4000|droppedRx_summation_sum" operator="&gt;=" thresholdType="static" type="metric" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-fc65fae3-16c2-4f1e-9b42-d53e599c3f8e" name="Condition_5f226c8e-82d3-4fa1-8999-65597ad4d7e8" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|workload" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-99324948-eea3-478f-a5cc-249a1b469526" name="Condition_29f20f5f-de4d-419f-8f2c-cc23243b1162" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="virtualDisk:Aggregate of all instances|vDiskOIO" operator="&gt;=" thresholdType="static" type="metric" value="10.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-bde8a535-3194-46e6-a07d-47f989265f63" name="Condition_caa73b90-b345-4678-80fb-00141f3cc9fd" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="avictl" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-af346af1-a03f-43c4-95d7-dd47986ddfb7" name="Condition_a112ac1d-90e8-44d9-b774-ce434cd82bca" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="cpu|costopPct" operator="&gt;=" thresholdType="static" type="metric" value="0.5" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-de45e18d-8bb4-4b36-8329-03a96d6e8d52" name="Condition_865b5036-a86f-4748-9e30-0efb804c6c9a" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-b658cf60-beff-4e2f-a1ba-d9f0c8ad0ac1" name="[HMG] VMware solution password is about to expire" resourceKind="VMwareAdapter Instance">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] VMware solution password is about to expire" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-b903f3fe-61b8-43b0-9d8a-b0be30930abf" name="Condition_6881c7d9-561a-4809-8825-bdbf35273a2c" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="capacity|total_capacity" operator="&gt;=" thresholdType="static" type="metric" value="10000.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-1d1735dc-c5af-49ec-a789-d5641c3ce87e" name="[HMG] NSX Edge TEP physical NIC down" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] NSX Edge TEP physical NIC down" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-629db038-e0dd-4c92-8319-9760723c4ca7" name="Condition_320aead6-9af8-40dc-bf24-acc4a9ba4b74" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:hinsxmgrd02|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="60.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-346feb34-a1d2-4c6f-86c1-400a8c887467" name="Condition_bb8538b8-3f6f-47a3-93d5-f0b13e070bfa" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="capacity|total_capacity" operator="&lt;" thresholdType="static" type="metric" value="10000.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXAdvancedLBAdapter" disableInBasePolicy="true" id="SymptomDefinition-88f1d31a-b04f-4f31-8a60-aae6f87964a9" name="Condition_b8f69719-6a3c-4c0c-a72c-8963f0612543" resourceKind="NSXAdvancedLBAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="60.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-822d72ce-f90d-4098-adf4-031ac2922064" name="Condition_84e5cc7f-8335-478c-a709-18da9494d629" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="mem|host_contentionPct" operator="&gt;=" thresholdType="static" type="metric" value="3.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-3edfbb5c-6072-450b-b1d4-f2879076c85f" name="Condition_8c583a69-b221-406c-ba2e-95cd953d0ea7" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="sys|osUptime_latest" operator="&lt;=" thresholdType="static" type="metric" value="300.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-99056a8b-7b8e-4973-a03e-723647077eb7" name="[HMG] VM의 MEM Workload가 평소보다 비정상적으로 높습니다." resourceKind="VirtualMachine" waitCycle="3">
+            <State severity="info">
+                <Condition key="mem|workload" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-fba45ac7-98fa-4c09-bbcd-2369f0528950" name="Condition_196f3bb4-41c5-4d7f-88c6-5cfa0adff264" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="60.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-d123103a-4b4b-4bfb-af17-37c5c4ec676b" name="Condition_1b563426-27af-4bdf-8e79-c3a1670e345b" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="endswith" thresholdType="static" type="property" value="infra.io" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-dd6b93e2-81e6-4e71-baf0-d13df5d904fc" name="[HMG] NSX DFW rule deleted" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] NSX DFW rule deleted" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-ad246222-5233-455c-ab0c-c55e1b599853" name="Condition_965ef56e-3fd0-4398-85c7-61afa134e4d2" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:hinsxmgrd02|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="7.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-b746644c-405e-407c-830c-181d875b3f72" name="Condition_840b9e5d-2551-4ec0-85f9-703bfcbff0e4" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="cpu|usage_average" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-419a58ab-6068-4472-9c8f-208bd5247421" name="Condition_48db7792-cea1-4bac-b7a9-99c9770dbfc5" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:hinsxmgrd03|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="60.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXAdvancedLBAdapter" disableInBasePolicy="true" id="SymptomDefinition-ac2d86f2-0f6f-4104-ae20-2114f46358af" name="Condition_e8672bc5-1699-468f-8afe-3848e83a3548" resourceKind="NSXAdvancedLBAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="7.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-6522df11-a3ef-4633-a754-7d2ad63d8a90" name="Condition_20eff5a4-47c1-4170-bdf4-f00c7330500f" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="startswith" thresholdType="static" type="property" value="avi" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="IdentityManagerAdapter" disableInBasePolicy="true" id="SymptomDefinition-801fb21d-ec09-4659-b239-f26ceedf03c4" name="Condition_c713a7df-0a07-41b8-a9bb-07aaab3ee87c" resourceKind="IdentityManagerAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-186400c7-8115-43e6-8685-53adf4d7c88c" name="Condition_64d27ce9-a4c0-4cbf-9c43-ed70ad21a4cd" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="mem|workload" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-a7b2be19-cf9d-4f7b-a700-804776c2f87a" name="Condition_cc774d69-48f1-4c4e-9071-a464f14f588d" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-cfa3c4a5-6d26-4032-8831-16e45c1bef74" name="Condition_980b7f1c-f00e-4099-8c68-6a13576dbfc5" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:hinsxmgrd01|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="60.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-6674b8b3-a10a-4533-90ae-d56c4daeb569" name="Condition_3b7de8c1-ff8e-47f7-bce3-c8c02d88e971" resourceKind="HostSystem" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Certificate Summary|ESXi Host Certificate|No. of days to expire" operator="=" thresholdType="static" type="property" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-4144fbe1-7873-41a1-971a-24ea5422c0eb" name="Condition_a8b623b4-8df4-47d0-a162-a31ae58ba60c" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="datastore|demand_oio" operator="&gt;=" thresholdType="static" type="metric" value="20.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-3bc9e1f8-ff18-431c-8ba2-940bf517516f" name="Condition_e0c61507-fa2c-4b90-a16b-520a2df9c544" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="vmrnrc" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-fe990dd4-f74c-47c6-8413-7c2e1fd2b814" name="Condition_e03a541f-71d7-45e1-9f74-8585a34476bf" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="nsxmgr" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" id="SymptomDefinition-VMWARE-VasaProviderCertificatLimitReached" name="Certificate for VASA provider will expire soon" resourceKind="VMwareAdapter Instance">
+            <State severity="automatic">
+                <Condition eventMsg="Certificate for storage provider .* will expire soon." eventSubType="5" eventType="11" operator="regex" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-718e6484-3a86-4189-b082-d16707a1024f" name="[HMG] Datastore access restored" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] Datastore access restored" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-d682d86d-5b29-46bd-b60e-fde2e6ccccac" name="Condition_1838e72f-a7eb-4fc6-8a2c-72009fc98135" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="vmraut" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-44abf530-ed53-44cc-9aff-e5727b57920b" name="[HMG] NSX DFW rule created or modified" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] NSX DFW rule created or modified" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-32f850e6-16fc-484c-97aa-dc986fc40df1" name="Condition_67aa5383-b041-4eff-ac60-db5081071b2b" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="vmrnis" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" id="SymptomDefinition-CertificateIsAboutToExpire" name="A certificate is about to expire." resourceKind="NSXTAdapterInstance">
+            <State severity="immediate">
+                <Condition eventMsg="Certificate (?s).* is about to expire.(?s).*" eventSubType="5" eventType="11" operator="regex" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-121a2609-b3be-45ca-8d8d-dd5526fb4a9e" name="Condition_5dcf8614-e799-4806-b292-9e2018a09468" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="config|name" operator="notcontain" thresholdType="static" type="property" value="swap" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-4bf19476-ad00-4fde-99ad-936e80b129f3" name="Condition_89e8f03b-af49-4f16-8816-753fc02ec0d6" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="mem|host_contentionPct" operator="&gt;=" thresholdType="static" type="metric" value="5.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-0c3d5a02-a001-40be-89de-6c43d6b48e39" name="Condition_00a27c24-afbc-45d8-aee0-222520661a63" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="capacity|usedSpacePct" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-e6e94567-d5f2-4675-8a86-e602664a0094" name="Condition_3753dfb9-faf9-4764-86cf-f2683f9aa05b" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="vmwvcs" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-974ce772-5548-436c-9fac-bf1c9446f65c" name="Condition_2395df9f-d11f-4c62-ab74-e10ae0158d79" resourceKind="HostSystem" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Certificate Summary|ESXi Host Certificate|No. of days to expire" operator="=" thresholdType="static" type="property" value="7.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-ffb28c46-80c8-4275-87df-a3f065f82f37" name="[HMG] vCenter API session limit reached" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] vCenter API session limit reached" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-017c3812-2a05-4d39-8b23-799051332a1c" name="Condition_04b3e9a5-bf29-45ea-ba57-f3ef9b7a53a6" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-7e01b9de-0f22-442b-9a08-24104f9a4812" name="[HMG] NSX Edge BGP neighbor down" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] NSX Edge BGP neighbor down" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-10ba9ea2-e88e-43ae-832a-6b07e715b9f2" name="[HMG] NSX Edge TEP physical NIC restored" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] NSX Edge TEP physical NIC restored" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXAdvancedLBAdapter" disableInBasePolicy="true" id="SymptomDefinition-796a97a3-bace-47a8-b9b9-0613d4475152" name="Condition_f0e04d21-d666-4b4e-a7c0-34174feb6a38" resourceKind="NSXAdvancedLBAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="7.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-950ad8f7-bccf-41ba-abcc-378e1e5822e2" name="Condition_e41d4b03-b505-4dfd-83aa-0d01d40fb740" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="datastore|demand_oio" operator="&gt;=" thresholdType="static" type="metric" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-ad74f796-bbd1-498e-8aa7-a4b79a43a326" name="Condition_4bb1ff93-150c-4dd1-9893-5b7660ec3096" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="95.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" cancelCycle="3" disableInBasePolicy="true" id="SymptomDefinition-87beea73-4cd7-4bb9-8515-076687cfd690" name="[HMG] VM의 CPU Workload가 평소보다 비정상적으로 높습니다." resourceKind="VirtualMachine" waitCycle="3">
+            <State severity="info">
+                <Condition key="cpu|workload" operator="above" type="dtmetric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="IdentityManagerAdapter" disableInBasePolicy="true" id="SymptomDefinition-39caa51b-1604-4022-b1eb-d4f30ad9d57f" name="Condition_69bd907c-fe9f-4be3-8d83-c685eb3ea26e" resourceKind="IdentityManagerAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="60.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-f82647a8-2651-4042-92cb-5eeeb9d23d97" name="Condition_9532eff7-669c-46f1-94e7-9fe55875e7d0" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="virtualDisk:Aggregate of all instances|totalLatency" operator="&gt;=" thresholdType="static" type="metric" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-96dccc9b-3b12-4a28-87a4-179b640b0776" name="Condition_610c229d-1de1-461a-b581-2f695e15fbde" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="net:4000|droppedRx_summation_sum" operator="&gt;=" thresholdType="static" type="metric" value="15.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-19e3830d-8944-4094-9538-eb807c1ea8cb" name="Condition_396907cb-cfb7-40ba-afb2-793b2285f3d2" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="net|droppedTx_summation_sum" operator="&gt;=" thresholdType="static" type="metric" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-48120126-f69d-4de2-8189-cc64057e09f3" name="Condition_15a5ea5a-a724-4bf9-9495-f6f8f1fda22e" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:hinsxmgrd03|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-82abc034-c415-4634-b54f-81b5ab600f7a" name="Condition_1283fb8b-2391-4c77-b3b2-a37ed2871ff3" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="7.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="IdentityManagerAdapter" disableInBasePolicy="true" id="SymptomDefinition-d83e1442-b50d-46c5-91ff-8887df85e616" name="Condition_a6c581fe-f87d-456e-bbca-16740a8f5fef" resourceKind="IdentityManagerAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="7.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-0d7a2af8-fbe4-4dcf-805d-9739dc5f565e" name="Condition_a20cbaf0-8579-470c-855c-032fe101499c" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="datastore|demand_oio" operator="&gt;=" thresholdType="static" type="metric" value="10.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-494dee18-f84d-40f7-a26b-9a20744f6c69" name="[HMG] VM switched to read-only" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] VM switched to read-only" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-254eda6d-85c2-4a11-a01f-a8c35ac2fbc5" name="Condition_34cd31b3-162a-49fe-b574-bafbe54d5c34" resourceKind="HostSystem" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Certificate Summary|ESXi Host Certificate|No. of days to expire" operator="=" thresholdType="static" type="property" value="60.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-b1227e72-c8fb-4cc4-82b1-626dc71c6e85" name="Condition_ef4d3b03-d38a-403a-ab30-3129b69b8205" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:hinsxmgrd01|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-091b40d6-01f2-4491-b40c-1ff529ec77d5" name="[HMG] Datastore inaccessible" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] Datastore inaccessible" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-e062a7b0-d666-437e-a405-10bfa3e40e72" name="Condition_cbda6f24-2b3a-470a-b080-c99fce8de883" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="capacity|usedSpacePct" operator="&gt;=" thresholdType="static" type="metric" value="70.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-858bd60e-4829-4100-b03e-2b707f1490d2" name="Condition_90669237-9f18-416e-8b61-d7b5fd078f15" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="cpu|workload" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-76529833-a0a1-4220-ad36-27d49ad04924" name="Condition_1045599c-5105-4fea-ae6b-66e5afb63548" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-4ae38845-e3fb-4550-8df1-5ffbd8abad56" name="Condition_9ee68c5d-ed42-498c-8ead-7471670876bd" resourceKind="HostSystem" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="cpu|workload" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-9f3651d8-2082-4230-a5d5-4339ee4d40f1" name="Condition_de4f918c-2606-40ed-8b88-e6639ac42d80" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="SDDCHealthAdapter" disableInBasePolicy="true" id="SymptomDefinition-63bbce45-e1ee-4322-8f0a-5b271485e974" name="Condition_7f5a5fe4-00a4-4f94-847d-b01b91a3aa76" resourceKind="VCENTER" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="Certificate Summary|vCenter Root Certificate|No. of days to expire" operator="&lt;=" thresholdType="static" type="property" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-284fcb73-8916-4a2d-a263-7deec1a6964b" name="Condition_6c1176e1-6c46-4a34-8af9-36d7730df970" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="cpu|workload" operator="&gt;=" thresholdType="static" type="metric" value="98.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-8d0e19a2-2822-4f3d-a153-5efc5ca508b4" name="Condition_42545d67-253c-4c7d-9ea1-f7cc0969ac30" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="notcontain" thresholdType="static" type="property" value="vCLS-" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-6949d95c-df26-4422-a971-b8069d838df8" name="Condition_600a7902-048e-44d8-8841-7f28b990e1b4" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="vmwdns" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-bf89c600-0644-4516-8e1c-714c4395f81f" name="Condition_d9dd885d-257a-45bf-8258-dd4ff479d8e8" resourceKind="HostSystem" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="cpu|workload" operator="&gt;=" thresholdType="static" type="metric" value="95.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-dc694940-e6de-405d-a3b5-f7fb9f50aede" name="Condition_bae0e822-992a-40e0-9913-b0f9216d12de" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="7.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-3f5bf639-c835-4ea2-ae83-c1debb0cef83" name="Condition_21ed4ff1-a38e-4859-a1ca-d6214fb0429c" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="datastore|totalLatency_average" operator="&gt;=" thresholdType="static" type="metric" value="25.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-5c1d4780-45e8-4463-a1c3-754c406d03b6" name="Condition_dcee0eb1-02e3-4759-a2f4-3071eb179851" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="config|name" operator="notcontain" thresholdType="static" type="property" value="swap" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-bf091282-9e60-429f-9b1c-6ceac11df6b9" name="Condition_0601c88a-97ad-4ca0-b62c-ae6ad223a3ea" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|host_contentionPct" operator="&gt;=" thresholdType="static" type="metric" value="1.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-fd5eba1c-3e7a-46dc-87b8-dcd80b0411fe" name="Condition_2f7c9f1c-6cfb-4a39-9672-13eb966ed67e" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="immediate">
+                <Condition key="mem|workload" operator="&gt;=" thresholdType="static" type="metric" value="95.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-453b00ab-9b10-49f3-bea6-032181c46db6" name="Condition_a44d9cc9-e8dd-4b15-9cab-2ea07da37ce0" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="nsxit" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-8ee0c2b8-ac8b-4985-b7ba-e0065839f9ab" name="Condition_7fc5b908-9bcf-4427-903e-6661f50ac86b" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="cpu|readyPct" operator="&gt;=" thresholdType="static" type="metric" value="10.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXAdvancedLBAdapter" disableInBasePolicy="true" id="SymptomDefinition-f1494408-24d3-4571-97a0-e9cab57609b3" name="Condition_985805fe-15b9-47b4-86db-0c3f7cfb9c7e" resourceKind="NSXAdvancedLBAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-abd7fae3-5085-4c2f-8bf3-fa5111fad440" name="Condition_cc283fbe-d518-4f5d-92cb-35e280fc3e16" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-ed82dd1e-c6c7-40d4-bb7b-d7409ecabaea" name="Condition_31cd6f63-cd69-4f37-ab26-70e6b45d1241" resourceKind="HostSystem" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="cpu|usage_average" operator="&gt;=" thresholdType="static" type="metric" value="80.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-749d6564-2c46-4ac9-95c4-7fcc0dd515d1" name="Condition_2746c240-9c25-41a0-bd5b-45b187990ee5" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-6834f790-aac7-43e8-ae00-69e5981e1f41" name="Condition_7107ec26-6005-4c45-9675-bd0e541cb54c" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="datastore|totalLatency_average" operator="&gt;=" thresholdType="static" type="metric" value="15.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-2ff178a8-d6b1-45ce-9456-d675cc348423" name="Condition_19bdb4a7-8192-4cd8-bf97-ad38e639bba2" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="virtualDisk:Aggregate of all instances|vDiskOIO" operator="&gt;=" thresholdType="static" type="metric" value="20.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-8083546b-a775-414b-8ea8-c131e46d0abc" name="Condition_f92aac6c-9d3f-489b-bb3b-1be15ac1b445" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="cpu|readyPct" operator="&gt;=" thresholdType="static" type="metric" value="2.5" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-10e2725d-8572-4e2a-a44b-79720482efc4" name="Condition_fedf5fab-966d-48c4-a4aa-be900a8cd91a" resourceKind="HostSystem" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="cpu|usage_average" operator="&gt;=" thresholdType="static" type="metric" value="95.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-b885fca9-3a17-4689-b33e-4013dd539b1f" name="Condition_e23f3863-6002-4ae7-93ba-cdf9ca264a63" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="net|droppedTx_summation_sum" operator="&gt;=" thresholdType="static" type="metric" value="15.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-b0ac3e74-815b-45c7-8c25-5ca3e32ef953" name="[HMG] NSX Edge T1 cluster failover" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] NSX Edge T1 cluster failover" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-4495ea2c-e9ef-486b-afc0-629f96070495" name="Condition_42d19663-de2e-49c2-b9d6-57edf41f36cc" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-c92b753a-d334-43fa-8220-ed2baba396e4" name="Condition_30b26158-b27a-41a2-a225-761b8e5e8b70" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="capacity|usedSpacePct" operator="&gt;=" thresholdType="static" type="metric" value="99.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-c07c36dd-4dbe-475a-87f0-5aca24802cd7" name="Condition_5273b2b3-030b-43bb-acdc-c937c2fd5f3e" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-c7ade05f-3bfe-4301-87b7-29038f59fc2c" name="Condition_564c1fbe-7ab9-4dce-bbbc-eb3907d58ca5" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-eb193884-4f17-4a6b-924b-e65fc70184c0" name="Condition_426c2b89-aee3-4497-af89-df116bb553dc" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="virtualDisk:Aggregate of all instances|totalLatency" operator="&gt;=" thresholdType="static" type="metric" value="25.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-2903ed90-be4e-4453-a555-d75c8709ced4" name="Condition_4ae3fce9-e293-481d-ba90-e32315b72d37" resourceKind="VMwareAdapter Instance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="60.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" id="SymptomDefinition-VMWARE-StoragePathWentDown" name="A path to storage device went down" resourceKind="HostSystem">
+            <State severity="warning">
+                <Condition eventMsg="Path redundancy to storage device.*Path .* is down\..*" eventSubType="5" eventType="11" operator="regex" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-b572d7cf-2bff-473b-9e76-65464408d038" name="[HMG] Host connection failure" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="[DEV] Host connection failure" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-4fbfe134-eafa-4b23-95b8-3430e71ccfda" name="Condition_441d5936-8d3e-4870-8cf4-bfd3f9d2fc87" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="virtualDisk:Aggregate of all instances|vDiskOIO" operator="&gt;=" thresholdType="static" type="metric" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-d4461d87-4f80-4350-b7ed-6abb4ac39b94" name="Condition_06ef87ce-069e-4a93-886e-83567c75aed3" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="nsxpt" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-8e164801-a1ea-4d16-b30e-2bf2d2c41551" name="Condition_c3dc723c-d1d1-40f7-90cb-ccf71a1cab25" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:hinsxmgrd02|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-35aa3563-e31d-433b-a533-7048f8b723d0" name="Condition_9e8fd420-ad36-4945-a12e-91eddbcbd469" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="cpu|costopPct" operator="&gt;=" thresholdType="static" type="metric" value="3.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-fb6245e4-da17-422e-83b4-6963ef8dfa6b" name="Condition_8bf1531d-648a-4dbd-9f5b-3b02c95e2b4d" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="virtualDisk:Aggregate of all instances|totalLatency" operator="&gt;=" thresholdType="static" type="metric" value="15.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-af4a45ce-04fd-48ab-a441-ed6b5dd0415e" name="Condition_45033810-0a75-49ce-843b-d394fddbc963" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="vmrlcm" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-55146431-28b6-4ce6-b50c-90576ee0d9f3" name="Condition_74a0e2e9-5a21-4498-ae06-7ca1f3a66238" resourceKind="HostSystem" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="cpu|workload" operator="&gt;=" thresholdType="static" type="metric" value="98.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-d0a8306f-f22b-4c95-b503-f8f70ba55f1d" name="Condition_7b93c33f-4062-40a9-a789-6174fb36aa1c" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="datastore|totalLatency_average" operator="&gt;=" thresholdType="static" type="metric" value="30.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-d264127c-05ec-4490-9666-3a507c0e620b" name="Condition_04a40169-3de7-47a6-be9b-343fe87ac070" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:hinsxmgrd01|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="7.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-b78fba77-594f-484a-acc0-3a2bb94f0738" name="Condition_30b26158-b27a-41a2-a225-761b8e5e8b70" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="capacity|usedSpacePct" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXTAdapter" disableInBasePolicy="true" id="SymptomDefinition-0d17d979-2e10-4036-8568-75c554c51888" name="Condition_afdeab65-b988-43d5-9990-59ea90208404" resourceKind="NSXTAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:hinsxmgrd03|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="7.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-7e21375d-dcf5-44f2-87c8-65ef56ed4086" name="Condition_fe93d68b-85af-4bdc-b8c5-c73cfc85cf52" resourceKind="Datastore" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="config|name" operator="contains" thresholdType="static" type="property" value="swap" valueType="string"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-a4e91305-e4bd-4ccf-9a09-21325eb0f709" name="Condition_fe86bf66-75e3-4c25-9f0c-128d65808f12" resourceKind="HostSystem" symptomDefType="condition_self">
+            <State severity="warning">
+                <Condition key="cpu|usage_average" operator="&gt;=" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="NSXAdvancedLBAdapter" disableInBasePolicy="true" id="SymptomDefinition-cfde9c5b-1054-4aab-a9c8-063c2c84b127" name="Condition_b8f69719-6a3c-4c0c-a72c-8963f0612543" resourceKind="NSXAdvancedLBAdapterInstance" symptomDefType="condition_self">
+            <State severity="critical">
+                <Condition key="CertificateSummaryPropGroup:Primary|NumberOfDaysToExpire" operator="=" thresholdType="static" type="property" value="60.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-14efeb62-5848-42ac-b895-2f040d909c64" name="Condition_c416a340-3f36-4216-afb3-69348399b417" resourceKind="VirtualMachine" symptomDefType="condition_self">
+            <State severity="info">
+                <Condition key="mem|usage_average" operator="&gt;" thresholdType="static" type="metric" value="90.0" valueType="numeric"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+    <Recommendations>
+        <Recommendation key="Recommendation-df-RecommendationForCertificateIsAboutToExpire">
+            <Description>Ensure services that are currently using the certificate are updated to use a new, non-expiring certificate. Once the expiring certificate is no longer in use, it should be deleted by invoking the DELETE /api/v1/trust-management/certificates/&lt;certificate-id&gt; or /policy/api/v1/trust-management/certificates/&lt;certificate-id&gt; NSX API.</Description>
+        </Recommendation>
+        <Recommendation key="Recommendation-ud-72e90531-7436-49f9-9b52-a7f8214fe99b">
+            <Description>&lt;font color="#565656" face="Metropolis, arial, sans-serif"&gt;&lt;span style="font-size: 13px;"&gt;vCenter VAMI 접속하여 vapi endpoint 서비스 재시작&lt;/span&gt;&lt;/font&gt;</Description>
+        </Recommendation>
+        <Recommendation key="Recommendation-df-VMWARE-VasaProviderCertificatLimitReachedRecommendation">
+            <Description>Please contact the hardware vendor for further support.</Description>
+        </Recommendation>
+    </Recommendations>
+</alertContent>

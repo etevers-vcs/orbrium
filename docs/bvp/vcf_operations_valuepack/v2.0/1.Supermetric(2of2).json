@@ -1,0 +1,72 @@
+{
+   "ee0fd8a3-fb4a-4d02-a1f2-37f12ad270dc": {
+      "resourceKinds": [{
+         "resourceKindKey": "HostSystem",
+         "adapterKindKey": "VMWARE"
+      }],
+      "modificationTime": 1758691812952,
+      "name": "[HMG] Capacity - Remaining GB of Mem - Host",
+      "formula": "(${this, metric=mem|host_provisioned}*0.9)-${this, metric=mem|memory_allocated_on_all_powered_on_vms}",
+      "description": "",
+      "unitId": "kb",
+      "modifiedBy": "c0f64c7d-9d97-4d16-9804-9f8d9064aeba"
+   },
+   "f1f9e919-28fb-4880-873e-3da8dea6d0a4": {
+      "resourceKinds": [
+         {
+            "resourceKindKey": "HostSystem",
+            "adapterKindKey": "VMWARE"
+         },
+         {
+            "resourceKindKey": "ClusterComputeResource",
+            "adapterKindKey": "VMWARE"
+         }
+      ],
+      "modificationTime": 1758691812944,
+      "name": "[HMG] Performance - Num of VMs /w Disk Latency gt 20ms",
+      "formula": "count(${adaptertype=VMWARE, objecttype=VirtualMachine, metric=virtualDisk:Aggregate of all instances|totalLatency, depth=5, where=($value >= 20 && $value < 30)})",
+      "description": "",
+      "unitId": "",
+      "modifiedBy": "c0f64c7d-9d97-4d16-9804-9f8d9064aeba"
+   },
+   "eda0601a-c863-49e1-b299-52f3bc6ddbb4": {
+      "resourceKinds": [
+         {
+            "resourceKindKey": "HostSystem",
+            "adapterKindKey": "VMWARE"
+         },
+         {
+            "resourceKindKey": "ClusterComputeResource",
+            "adapterKindKey": "VMWARE"
+         },
+         {
+            "resourceKindKey": "VMwareAdapter Instance",
+            "adapterKindKey": "VMWARE"
+         }
+      ],
+      "modificationTime": 1758691812927,
+      "name": "[HMG] Capacity - Total Datastore Capacity - vCenter/Cluster/Host",
+      "formula": "sum(${adaptertype=VMWARE, objecttype=Datastore, metric=capacity|total_capacity, depth=5,where=\"summary|isLocal equals false\"})",
+      "description": "",
+      "unitId": "",
+      "modifiedBy": "c0f64c7d-9d97-4d16-9804-9f8d9064aeba"
+   },
+   "ebf8da52-c5ec-4ec5-94c8-ec44fccb0e66": {
+      "resourceKinds": [
+         {
+            "resourceKindKey": "HostSystem",
+            "adapterKindKey": "VMWARE"
+         },
+         {
+            "resourceKindKey": "ClusterComputeResource",
+            "adapterKindKey": "VMWARE"
+         }
+      ],
+      "modificationTime": 1758691812950,
+      "name": "[HMG] Capacity - Num of Oversized VM - Cluster/Host",
+      "formula": "sum(${adaptertype=VMWARE, objecttype=VirtualMachine, metric=summary|oversized, depth=3})",
+      "description": "",
+      "unitId": "",
+      "modifiedBy": "c0f64c7d-9d97-4d16-9804-9f8d9064aeba"
+   }
+}
