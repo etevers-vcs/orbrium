@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><alertContent>
+    <SymptomDefinitions>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-cb4600dc-50ad-4321-8687-49e69de89fd2" name="NSX Edge BGP neighbor restored" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="NSX Edge BGP neighbor restored" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-7e01b9de-0f22-442b-9a08-24104f9a4812" name="NSX Edge BGP neighbor down" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="NSX Edge BGP neighbor down" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-ffb28c46-80c8-4275-87df-a3f065f82f37" name="vCenter API session limit reached" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="vCenter API session limit reached" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-10ba9ea2-e88e-43ae-832a-6b07e715b9f2" name="NSX Edge TEP physical NIC restored" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="NSX Edge TEP physical NIC restored" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-b0ac3e74-815b-45c7-8c25-5ca3e32ef953" name="NSX Edge T1 cluster failover" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="NSX Edge T1 cluster failover" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-31919ea4-4805-4a14-a56e-9fbe9699461d" name="Host reconnected" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="Host reconnected" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-718e6484-3a86-4189-b082-d16707a1024f" name="Datastore access restored" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="Datastore access restored" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-dd6b93e2-81e6-4e71-baf0-d13df5d904fc" name="NSX DFW rule deleted" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="NSX DFW rule deleted" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-494dee18-f84d-40f7-a26b-9a20744f6c69" name="VM switched to read-only" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="VM switched to read-only" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-b572d7cf-2bff-473b-9e76-65464408d038" name="Host connection failure" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="Host connection failure" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-b658cf60-beff-4e2f-a1ba-d9f0c8ad0ac1" name="VMware solution password is about to expire" resourceKind="VMwareAdapter Instance">
+            <State severity="critical">
+                <Condition eventMsg="VMware solution password is about to expire" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-44abf530-ed53-44cc-9aff-e5727b57920b" name="NSX DFW rule created or modified" resourceKind="VirtualMachine">
+            <State severity="critical">
+                <Condition eventMsg="NSX DFW rule created or modified" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-13c11188-4c6b-40a9-b09b-4506919398cd" name="Storage device IO aborted" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="Storage device IO aborted" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-091b40d6-01f2-4491-b40c-1ff529ec77d5" name="Datastore inaccessible" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="Datastore inaccessible" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+        <SymptomDefinition adapterKind="VMWARE" disableInBasePolicy="true" id="SymptomDefinition-1d1735dc-c5af-49ec-a789-d5641c3ce87e" name="NSX Edge TEP physical NIC down" resourceKind="HostSystem">
+            <State severity="critical">
+                <Condition eventMsg="NSX Edge TEP physical NIC down" eventSubType="5" eventType="11" operator="contains" type="msg_event"/>
+            </State>
+        </SymptomDefinition>
+    </SymptomDefinitions>
+</alertContent>
